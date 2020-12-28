@@ -33,10 +33,11 @@ bin/scrape:
       "cause": "<outage cause, such as Under Investigation, Damage to Equipment, High Winds>",
       "cluster": true|false, # whether this entry represents a number of outages or not
       "cust_a": { # customer affected info
+        "masked": true|false, # when true, map UI would show "fewer than <val + 1> affected customers"
         "val": 5 # number of customers affected
       },
       "n_out": 3, # for cluster=true, how many outages this cluster covers
-      "etr": "2020-12-26T22:15:00-0400", # estimated time of recovery,
+      "etr": "2020-12-26T22:15:00-0400", # estimated time of recovery
       "start": "2020-12-26T14:07:00-0400" # start of outage
     },
     "geom": { # affected area, "p" for point(s) or "a" for area(s)
