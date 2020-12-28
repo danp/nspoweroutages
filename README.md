@@ -40,11 +40,11 @@ bin/scrape:
       "etr": "2020-12-26T22:15:00-0400", # estimated time of recovery
       "start": "2020-12-26T14:07:00-0400" # start of outage
     },
-    "geom": { # affected area, "p" for point(s) or "a" for area(s)
-      "a": [
+    "geom": { # affected areas and/or points
+      "a": [ # affected area(s)
         "en`nG~nbrKqp@qIoxBe{AoG}FaLs^nzDtpAbDr{@" # polyline encoding
       ],
-      "p": [ # specific point(s)
+      "p": [ # affected point(s)
         "gowuGjud~J" # polyline encoding
       ]
     },
