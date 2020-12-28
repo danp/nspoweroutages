@@ -14,7 +14,7 @@ And more!
 
 ## How it works
 
-Every [10 minutes or so](.github/workflows/scheduled.yml#L9), GitHub Actions runs [bin/scrape](bin/scrape).
+Every [10 minutes or so](.github/workflows/scheduled.yml#L9), GitHub Actions runs [bin/scrape.sh](bin/scrape.sh).
 
 bin/scrape:
 
