@@ -16,7 +16,7 @@ And more!
 
 Every [10 minutes or so](.github/workflows/scheduled.yml#L9), GitHub Actions runs [bin/scrape.sh](bin/scrape.sh).
 
-bin/scrape:
+bin/scrape.sh:
 
 1. fetches and combines outage data using [cmd/scrape](cmd/scrape), saving it to [data/outages.json](data/outages.json)
 2. fetches the service area summary data, saving it to [data/report_servicearea.json](data/report_servicearea.json)
