@@ -24,6 +24,8 @@ func main() {
 	enc.Encode(data)
 }
 
+const defaultBaseURL = "http://outagemap.nspower.ca/resources/data/external/interval_generation_data"
+
 type fetcher struct {
 	baseURL string
 }
@@ -37,15 +39,11 @@ func (f *fetcher) fetch() ([]json.RawMessage, error) {
 	data := make(map[string][]json.RawMessage)
 
 	// These are the top level tile (?) ids fetched when the map is in the full view.
+	const basePathLen = 6 // len of initial ids below
 	ids := []string{"030231", "030233", "030320", "030321", "030322", "030323"}
-	var paths [][]string
-	for _, id := range ids {
-		paths = append(paths, []string{id})
-	}
-	for len(paths) > 0 {
-		p := paths[0]
-		paths = paths[1:]
-		id := p[len(p)-1]
+	for len(ids) > 0 {
+		id := ids[0]
+		ids = ids[1:]
 
 		of, err := f.fetchOutageFile(curl, "outages/"+id)
 		if err != nil {
@@ -57,8 +55,8 @@ func (f *fetcher) fetch() ([]json.RawMessage, error) {
 		}
 
 		// Deeper data is preferred so delete anything captured a level above.
-		if len(p) > 1 {
-			delete(data, p[len(p)-2])
+		if len(id) > basePathLen {
+			delete(data, id[:len(id)-1])
 		}
 
 		anycluster := false
@@ -72,10 +70,7 @@ func (f *fetcher) fetch() ([]json.RawMessage, error) {
 
 		if anycluster {
 			for i := 0; i < 4; i++ {
-				newp := make([]string, len(p)+1)
-				copy(newp, p)
-				newp[len(newp)-1] = id + strconv.Itoa(i)
-				paths = append(paths, newp)
+				ids = append(ids, id+strconv.Itoa(i))
 			}
 		}
 
@@ -94,7 +89,7 @@ func (f *fetcher) fetch() ([]json.RawMessage, error) {
 func (f *fetcher) fetchOutageFile(curl, path string) (outageFile, error) {
 	var of outageFile
 
-	fd, err := f.fetchFile(curl, path)
+	fd, err := fetch(curl + "/" + path + ".json")
 	if err != nil {
 		return of, nil
 	}
@@ -121,13 +116,42 @@ func (f *fetcher) fetchOutageFile(curl, path string) (outageFile, error) {
 	return of, nil
 }
 
-func (f *fetcher) fetchFile(curl, path string) ([]byte, error) {
-	resp, err := http.Get(curl + "/" + path + ".json")
+func (f *fetcher) currentURL() (string, error) {
+	baseURL := f.baseURL
+	if baseURL == "" {
+		baseURL = defaultBaseURL
+	}
+
+	mdb, err := fetch(baseURL + "/metadata.json")
+	if err != nil {
+		return "", fmt.Errorf("fetching medatata: %w", err)
+	}
+
+	var r struct {
+		Directory string
+	}
+	if err := json.Unmarshal(mdb, &r); err != nil {
+		return "", fmt.Errorf("decoding metadata: %w", err)
+	}
+
+	return baseURL + "/" + r.Directory, nil
+}
+
+// fetches URL u, returns error from http.Get or
+// if status not 200 or 404. On 404, returned data
+// will be nil.
+func fetch(u string) ([]byte, error) {
+	resp, err := http.Get(u)
 	if err != nil {
 		return nil, err
 	}
 
 	defer resp.Body.Close()
+
+	b, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
 
 	if resp.StatusCode == 404 {
 		return nil, nil
@@ -137,38 +161,7 @@ func (f *fetcher) fetchFile(curl, path string) ([]byte, error) {
 		return nil, fmt.Errorf("bad status %d", resp.StatusCode)
 	}
 
-	b, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, err
-	}
-
 	return b, nil
-}
-
-func (f *fetcher) currentURL() (string, error) {
-	baseURL := f.baseURL
-	if baseURL == "" {
-		baseURL = "http://outagemap.nspower.ca/resources/data/external/interval_generation_data"
-	}
-
-	resp, err := http.Get(baseURL + "/metadata.json")
-	if err != nil {
-		return "", err
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != 200 {
-		return "", fmt.Errorf("bad status %d", resp.StatusCode)
-	}
-
-	var r struct {
-		Directory string
-	}
-	if err := json.NewDecoder(resp.Body).Decode(&r); err != nil {
-		return "", err
-	}
-
-	return baseURL + "/" + r.Directory, nil
 }
 
 type outageFileData struct {
