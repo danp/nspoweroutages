@@ -131,3 +131,36 @@ func TestFetch(t *testing.T) {
 		t.Errorf("fetch mismatch (-want +got):\n%s", d)
 	}
 }
+
+func TestFetchNoOutages(t *testing.T) {
+	mux := http.NewServeMux()
+	mux.HandleFunc("/metadata.json", func(w http.ResponseWriter, r *http.Request) {
+		var resp struct {
+			Directory string `json:"directory"`
+		}
+		resp.Directory = "current-directory"
+		if err := json.NewEncoder(w).Encode(&resp); err != nil {
+			t.Error(err)
+		}
+	})
+	// All data files 404.
+
+	srv := httptest.NewServer(mux)
+	defer srv.Close()
+
+	var f fetcher
+	f.baseURL = srv.URL
+
+	data, err := f.fetch()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	if len(data) != 0 {
+		t.Errorf("wanted empty data")
+	}
+
+	if data == nil {
+		t.Errorf("wanted non-nil data")
+	}
+}

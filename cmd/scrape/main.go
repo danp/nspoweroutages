@@ -76,13 +76,14 @@ func (f *fetcher) fetch() ([]json.RawMessage, error) {
 
 	}
 
-	var out []json.RawMessage
+	// Explicitly making an empty slice so it will
+	// marshal as [].
+	out := make([]json.RawMessage, 0)
 	for _, fds := range data {
 		for _, fd := range fds {
 			out = append(out, fd)
 		}
 	}
-
 	return out, nil
 }
 
