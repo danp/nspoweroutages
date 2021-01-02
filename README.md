@@ -37,6 +37,9 @@ bin/scrape.sh:
         "val": 5 # number of customers affected
       },
       "n_out": 3, # for cluster=true, how many outages this cluster covers
+      "outages": [ # for cluster=true, individual outages in this cluster
+        { "cause": "...", ... } # same structure as under `desc` here
+      ],
       "etr": "2020-12-26T22:15:00-0400", # estimated time of recovery
       "start": "2020-12-26T14:07:00-0400" # start of outage
     },
@@ -83,5 +86,6 @@ cmd/scrape zooms in to the areas covered by the initial six files by appending `
 It continues to zoom in until either a deeper level returns a 404 (no data) or there only outages (and no clusters) in the returned data.
 
 Finally, it combines all the data from the deepest possible levels into the single `outages.json`.
+The resulting file may still have clusters in it if the deepest-found level contained them (example [here](https://github.com/danp/nspoweroutages/blob/d0cbdac3e322e22cc2b9f8b4ab213f10edff6e98/data/outages.json#L25-L30)).
 
 (This is all based on observing what happens in the [Firefox Network Monitor](https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor))
