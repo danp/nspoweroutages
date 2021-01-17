@@ -14,13 +14,15 @@ And more!
 
 ## How it works
 
-Every [10 minutes or so](.github/workflows/scheduled.yml#L9), GitHub Actions runs [bin/scrape.sh](bin/scrape.sh).
+Every 10 minutes, a system of mine runs [bin/scrape.sh](bin/scrape.sh).
 
 bin/scrape.sh:
 
 1. fetches and combines outage data using [cmd/scrape](cmd/scrape), saving it to [data/outages.json](data/outages.json)
 2. fetches the service area summary data, saving it to [data/report_servicearea.json](data/report_servicearea.json)
-3. commits and pushes any changes, like [this](https://github.com/danp/nspoweroutages/commit/c274f7c18f4c797aabede5c8a7fbdcfa24dcf136)
+
+If there any changes from the current data, they're committed and pushed, like
+[this](https://github.com/danp/nspoweroutages/commit/8183bda3b32f572e541caa6cd839b0d60b36bfba).
 
 ## Data format
 
