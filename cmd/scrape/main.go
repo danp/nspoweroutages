@@ -80,9 +80,7 @@ func (f *fetcher) fetch() ([]json.RawMessage, error) {
 	// marshal as [].
 	out := make([]json.RawMessage, 0)
 	for _, fds := range data {
-		for _, fd := range fds {
-			out = append(out, fd)
-		}
+		out = append(out, fds...)
 	}
 	return out, nil
 }
