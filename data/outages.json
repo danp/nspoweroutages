@@ -1,24 +1,39 @@
 [
   {
     "desc": {
-      "cause": "Planned Maintenance",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "val": 70
+        "val": 252
       },
-      "etr": "2021-03-13T10:30:00-0400",
-      "start": "2021-03-13T07:04:38-0400"
-    },
-    "geom": {
-      "a": [
-        "o}loGv{_cKCEEMBDDL"
-      ],
-      "p": [
-        "s}loGl{_cK"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 182
+          },
+          "etr": "2021-03-13T10:30:00-0400",
+          "start": "2021-03-13T08:24:57-0400"
+        },
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 70
+          },
+          "etr": "2021-03-13T10:30:00-0400",
+          "start": "2021-03-13T07:04:38-0400"
+        }
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
+    "geom": {
+      "p": [
+        "{{loG|z_cK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -55,7 +70,7 @@
         "mxyqG~zkiK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -74,7 +89,7 @@
         "}}_nGrapiK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   }
 ]
