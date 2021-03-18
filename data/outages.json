@@ -1,24 +1,40 @@
 [
   {
     "desc": {
-      "cause": "Under Investigation",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "val": 13
       },
-      "etr": "2021-03-18T16:30:00-0300",
-      "start": "2021-03-18T13:25:55-0300"
-    },
-    "geom": {
-      "a": [
-        "ieqnGpl{bKsKxOeBwDhEgJnHD"
-      ],
-      "p": [
-        "gnqnGds{bK"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Under Investigation",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-03-18T16:30:00-0300",
+          "start": "2021-03-18T13:35:00-0300"
+        },
+        {
+          "cause": "Under Investigation",
+          "cluster": false,
+          "cust_a": {
+            "val": 12
+          },
+          "etr": "2021-03-18T16:30:00-0300",
+          "start": "2021-03-18T13:25:55-0300"
+        }
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
+    "geom": {
+      "p": [
+        "opqnGdw{bK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -36,7 +52,7 @@
         "ktgqGp_ufK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -55,7 +71,7 @@
         "y~rqGxlpfK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -74,7 +90,7 @@
         "e~|qGd~qdK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -95,7 +111,7 @@
         "ghjpGpztcK"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -112,25 +128,6 @@
     "geom": {
       "p": [
         "}xlpGj}ucK"
-      ]
-    },
-    "id": "6",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Under Investigation",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-03-18T16:15:00-0300",
-      "start": "2021-03-18T12:46:00-0300"
-    },
-    "geom": {
-      "p": [
-        "cjsoGzuscK"
       ]
     },
     "id": "7",
