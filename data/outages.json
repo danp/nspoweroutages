@@ -7,128 +7,15 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2021-06-04T14:00:00-0300",
-      "start": "2021-06-04T09:49:00-0300"
+      "etr": "2021-06-04T15:00:00-0300",
+      "start": "2021-06-04T10:32:37-0300"
     },
     "geom": {
       "p": [
-        "}a|xGbd|lJ"
+        "{`bpG`yl~J"
       ]
     },
     "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Trees On Line",
-      "cluster": false,
-      "cust_a": {
-        "val": 14
-      },
-      "etr": "2021-06-04T14:00:00-0300",
-      "start": "2021-06-04T10:04:49-0300"
-    },
-    "geom": {
-      "p": [
-        "afysG|dfaK"
-      ]
-    },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-06-04T14:15:00-0300",
-      "start": "2021-06-04T10:06:52-0300"
-    },
-    "geom": {
-      "p": [
-        "anroGbk~bK"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-06-04T13:30:00-0300",
-      "start": "2021-06-04T09:46:51-0300"
-    },
-    "geom": {
-      "p": [
-        "kqovGjswaK"
-      ]
-    },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-06-04T14:00:00-0300",
-      "start": "2021-06-04T08:48:52-0300"
-    },
-    "geom": {
-      "p": [
-        "mz~uGdhgrJ"
-      ]
-    },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-06-04T12:00:00-0300",
-      "start": "2021-06-03T18:40:00-0300"
-    },
-    "geom": {
-      "p": [
-        "qa|rGrimyJ"
-      ]
-    },
-    "id": "6",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Partial Power",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-06-04T11:15:00-0300",
-      "start": "2021-06-04T07:37:40-0300"
-    },
-    "geom": {
-      "p": [
-        "khetGp}pyJ"
-      ]
-    },
-    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -147,7 +34,158 @@
         "maipGzcrcK"
       ]
     },
+    "id": "10",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 15
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-06-04T13:30:00-0300",
+          "start": "2021-06-04T10:31:00-0300"
+        },
+        {
+          "cause": "Trees On Line",
+          "cluster": false,
+          "cust_a": {
+            "val": 14
+          },
+          "etr": "2021-06-04T14:00:00-0300",
+          "start": "2021-06-04T10:04:49-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "ugysG~dfaK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-06-04T14:00:00-0300",
+      "start": "2021-06-04T09:49:00-0300"
+    },
+    "geom": {
+      "p": [
+        "}a|xGbd|lJ"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-06-04T14:15:00-0300",
+      "start": "2021-06-04T10:06:52-0300"
+    },
+    "geom": {
+      "p": [
+        "anroGbk~bK"
+      ]
+    },
+    "id": "5",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-06-04T13:30:00-0300",
+      "start": "2021-06-04T09:46:51-0300"
+    },
+    "geom": {
+      "p": [
+        "kqovGjswaK"
+      ]
+    },
+    "id": "6",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-06-04T14:00:00-0300",
+      "start": "2021-06-04T08:48:52-0300"
+    },
+    "geom": {
+      "p": [
+        "mz~uGdhgrJ"
+      ]
+    },
+    "id": "7",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-06-04T12:00:00-0300",
+      "start": "2021-06-03T18:40:00-0300"
+    },
+    "geom": {
+      "p": [
+        "qa|rGrimyJ"
+      ]
+    },
     "id": "8",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Partial Power",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-06-04T11:15:00-0300",
+      "start": "2021-06-04T07:37:40-0300"
+    },
+    "geom": {
+      "p": [
+        "khetGp}pyJ"
+      ]
+    },
+    "id": "9",
     "title": "Outage Information"
   }
 ]
