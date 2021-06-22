@@ -1,6 +1,25 @@
 [
   {
     "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-06-22T17:00:00-0300",
+      "start": "2021-06-22T12:36:50-0300"
+    },
+    "geom": {
+      "p": [
+        "}lhpGlc|_K"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Damage to Overhead Equipment",
       "cluster": false,
       "cust_a": {
@@ -17,64 +36,8 @@
         "w`avGdk}pJ"
       ]
     },
-    "id": "1",
+    "id": "2",
     "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Trees On Line",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-06-22T19:00:00-0300",
-      "start": "2021-06-20T19:37:11-0300"
-    },
-    "geom": {
-      "p": [
-        "w}qxGdt~pJ"
-      ]
-    },
-    "id": "11",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 39
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Planned Maintenance",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2021-06-22T18:00:00-0300",
-          "start": "2021-06-22T09:11:58-0300"
-        },
-        {
-          "cause": "Planned Maintenance",
-          "cluster": false,
-          "cust_a": {
-            "val": 38
-          },
-          "etr": "2021-06-22T18:00:00-0300",
-          "start": "2021-06-22T09:12:14-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "qj{sGvhgaK"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
   },
   {
     "desc": {
@@ -92,7 +55,7 @@
         "y~mtGhf_cK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -111,7 +74,7 @@
         "wtjoG|pbcK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -130,7 +93,7 @@
         "wdusGhfojK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -147,25 +110,6 @@
     "geom": {
       "p": [
         "}axsGvlhaK"
-      ]
-    },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-06-22T17:00:00-0300",
-      "start": "2021-06-22T12:36:50-0300"
-    },
-    "geom": {
-      "p": [
-        "}lhpGlc|_K"
       ]
     },
     "id": "6",
@@ -207,6 +151,25 @@
       ]
     },
     "id": "8",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Trees On Line",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-06-22T19:00:00-0300",
+      "start": "2021-06-20T19:37:11-0300"
+    },
+    "geom": {
+      "p": [
+        "w}qxGdt~pJ"
+      ]
+    },
+    "id": "9",
     "title": "Outage Information"
   }
 ]
