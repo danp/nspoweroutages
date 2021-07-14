@@ -1,122 +1,6 @@
 [
   {
     "desc": {
-      "cause": "Transmission Interruption",
-      "cluster": false,
-      "cust_a": {
-        "val": 1703
-      },
-      "etr": "2021-07-14T21:45:00-0300",
-      "start": "2021-07-14T15:40:51-0300"
-    },
-    "geom": {
-      "a": [
-        "cvovG|vmtJojMdrMawVtfAicD}qD|L{cwA`b@nD`qH~w@pxApmA`bT|_YdNr^`zDznTdCfSvx@djV"
-      ],
-      "p": [
-        "qthwGzwtsJ"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-07-14T21:00:00-0300",
-      "start": "2021-07-14T14:46:00-0300"
-    },
-    "geom": {
-      "p": [
-        "qelwGbg~pJ"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-07-14T21:00:00-0300",
-      "start": "2021-07-14T14:54:00-0300"
-    },
-    "geom": {
-      "p": [
-        "ailwG`x~pJ"
-      ]
-    },
-    "id": "11",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-07-14T18:30:00-0300",
-      "start": "2021-07-14T13:58:54-0300"
-    },
-    "geom": {
-      "p": [
-        "ej}mGp{bsK"
-      ]
-    },
-    "id": "12",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-07-14T17:45:00-0300",
-      "start": "2021-07-14T12:09:00-0300"
-    },
-    "geom": {
-      "p": [
-        "mcanGdxxqK"
-      ]
-    },
-    "id": "13",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Overhead Equipment",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-07-14T19:00:00-0300",
-      "start": "2021-07-14T13:20:44-0300"
-    },
-    "geom": {
-      "p": [
-        "weatGziodK"
-      ]
-    },
-    "id": "14",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -131,7 +15,7 @@
         "a|avGvcbvJ"
       ]
     },
-    "id": "16",
+    "id": "11",
     "title": "Outage Information"
   },
   {
@@ -150,26 +34,7 @@
         "wqpvGjvysJ"
       ]
     },
-    "id": "17",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Partial Power",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "",
-      "start": "2021-07-14T10:54:00-0300"
-    },
-    "geom": {
-      "p": [
-        "_enrGtczhK"
-      ]
-    },
-    "id": "18",
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -188,29 +53,47 @@
         "uvy}GnxcpJ"
       ]
     },
-    "id": "19",
+    "id": "14",
     "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "Transmission Interruption",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "val": 1657
+        "masked": true,
+        "val": 4
       },
-      "etr": "2021-07-14T21:45:00-0300",
-      "start": "2021-07-14T15:40:51-0300"
-    },
-    "geom": {
-      "a": [
-        "_}lwGhtnuJiM|nAelChoIyfKlwT__CeqAesN}pJei@ibAypK{sWyBcGcmAglGnxB_fXlGqI`dImrE~qTsjCbeJrlFvaDba]pa@zxL"
-      ],
-      "p": [
-        "ogfxGflbuJ"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-07-14T22:15:00-0300",
+          "start": "2021-07-14T15:59:00-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-07-14T21:00:00-0300",
+          "start": "2021-07-14T14:54:00-0300"
+        }
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
+    "geom": {
+      "p": [
+        "aclwGpv~pJ"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -228,7 +111,7 @@
         "w_|xGnmzuJ"
       ]
     },
-    "id": "20",
+    "id": "15",
     "title": "Outage Information"
   },
   {
@@ -247,28 +130,7 @@
         "i|{tGfratJ"
       ]
     },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Transmission Interruption",
-      "cluster": false,
-      "cust_a": {
-        "val": 2959
-      },
-      "etr": "2021-07-14T21:45:00-0300",
-      "start": "2021-07-14T15:41:04-0300"
-    },
-    "geom": {
-      "a": [
-        "uzqxG|{vrJwaJv{`BuGbGku|@geaA||Gk}]nEIh{~@gc@`@hC"
-      ],
-      "p": [
-        "e{qyG~_{sJ"
-      ]
-    },
-    "id": "4",
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -289,70 +151,7 @@
         "qfywGpyxrJ"
       ]
     },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Transmission Interruption",
-      "cluster": false,
-      "cust_a": {
-        "val": 1825
-      },
-      "etr": "2021-07-15T03:45:00-0300",
-      "start": "2021-07-14T15:41:04-0300"
-    },
-    "geom": {
-      "a": [
-        "uc{zGtrvsJmAtEq|A_FgqNe`Bys@c_@{wEiiCizAukIsHq{@hdBm}AdQqB|fLhlB`tKnjOjOj}B"
-      ],
-      "p": [
-        "ykk{GjeksJ"
-      ]
-    },
-    "id": "6",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Transmission Interruption",
-      "cluster": false,
-      "cust_a": {
-        "val": 1293
-      },
-      "etr": "2021-07-14T17:45:00-0300",
-      "start": "2021-07-14T15:41:04-0300"
-    },
-    "geom": {
-      "a": [
-        "c{wuG~hv}JmC`d@uCbXqM`e@aEzM}Sra@y^rp@}_@yOsq@quD~gA}oAjw@va@xZtTzGnW"
-      ],
-      "p": [
-        "ylzuGfzw}J"
-      ]
-    },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Transmission Interruption",
-      "cluster": false,
-      "cust_a": {
-        "val": 4175
-      },
-      "etr": "2021-07-14T21:45:00-0300",
-      "start": "2021-07-14T15:41:04-0300"
-    },
-    "geom": {
-      "a": [
-        "ssduGtlq~JqsFt~Xk{CfsJqBfGym\\lsAo@yFoDc_@k@sR?kHXslEj@ayA`rDsc|@`aH{tFjG}E~IdAvPdE~lAtb@zoTdzSdj@`i@`OtyDbTlpI"
-      ],
-      "p": [
-        "gh{uGllt~J"
-      ]
-    },
-    "id": "8",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -371,6 +170,82 @@
       ],
       "p": [
         "o}{qG`myjK"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-07-14T21:00:00-0300",
+      "start": "2021-07-14T14:46:00-0300"
+    },
+    "geom": {
+      "p": [
+        "qelwGbg~pJ"
+      ]
+    },
+    "id": "5",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-07-14T18:30:00-0300",
+      "start": "2021-07-14T13:58:54-0300"
+    },
+    "geom": {
+      "p": [
+        "ej}mGp{bsK"
+      ]
+    },
+    "id": "7",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-07-14T17:45:00-0300",
+      "start": "2021-07-14T12:09:00-0300"
+    },
+    "geom": {
+      "p": [
+        "mcanGdxxqK"
+      ]
+    },
+    "id": "8",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Damage to Overhead Equipment",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-07-14T19:00:00-0300",
+      "start": "2021-07-14T13:20:44-0300"
+    },
+    "geom": {
+      "p": [
+        "weatGziodK"
       ]
     },
     "id": "9",
