@@ -1,6 +1,65 @@
 [
   {
     "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-07-21T20:30:00-0300",
+      "start": "2021-07-21T16:35:30-0300"
+    },
+    "geom": {
+      "p": [
+        "ypnqGvxjkK"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "val": 112
+      },
+      "etr": "2021-07-21T20:45:00-0300",
+      "start": "2021-07-21T16:30:29-0300"
+    },
+    "geom": {
+      "a": [
+        "upnoGboecKmGhC{@\\aC~@}B|@yBx@bU_J"
+      ],
+      "p": [
+        "c|noGztecK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-07-21T22:45:00-0300",
+      "start": "2021-07-21T16:32:04-0300"
+    },
+    "geom": {
+      "p": [
+        "ionoGlmecK"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Damage to Overhead Equipment",
       "cluster": false,
       "cust_a": {
@@ -15,47 +74,8 @@
         "uvsvGf_nqJ"
       ]
     },
-    "id": "1",
+    "id": "4",
     "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2021-07-21T21:00:00-0300",
-          "start": "2021-07-21T14:53:30-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2021-07-21T21:00:00-0300",
-          "start": "2021-07-21T14:57:27-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "gfv{GxpdsJ"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
   },
   {
     "desc": {
@@ -73,7 +93,7 @@
         "{en{Gr~roJ"
       ]
     },
-    "id": "2",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -94,7 +114,7 @@
         "e_ftGlho`K"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -113,7 +133,7 @@
         "kb~vGjgivJ"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   }
 ]
