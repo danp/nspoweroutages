@@ -20,6 +20,45 @@
   },
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-07-24T01:00:00-0300",
+          "start": "2021-07-23T20:23:59-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-07-23T23:30:00-0300",
+          "start": "2021-07-23T18:49:54-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "a}gmG|kfiK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -36,7 +75,7 @@
         "aclrGpmkyJ"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -55,7 +94,7 @@
         "qvnoGft_cK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -72,25 +111,6 @@
     "geom": {
       "p": [
         "gqfoGlq{hK"
-      ]
-    },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-07-23T23:30:00-0300",
-      "start": "2021-07-23T18:49:54-0300"
-    },
-    "geom": {
-      "p": [
-        "qbhmGfifiK"
       ]
     },
     "id": "5",
@@ -112,7 +132,7 @@
         "qosrGxfhhK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -129,25 +149,6 @@
     "geom": {
       "p": [
         "gsbvGvrfhK"
-      ]
-    },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-07-23T21:30:00-0300",
-      "start": "2021-07-23T16:44:00-0300"
-    },
-    "geom": {
-      "p": [
-        "catkGhsgqK"
       ]
     },
     "id": "8",
