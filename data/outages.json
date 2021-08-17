@@ -4,15 +4,17 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 76
       },
-      "etr": "2021-08-17T22:00:00-0300",
-      "start": "2021-08-17T18:19:14-0300"
+      "etr": "2021-08-17T20:00:00-0300",
+      "start": "2021-08-17T14:17:38-0300"
     },
     "geom": {
+      "a": [
+        "cvovG|vmtJ{xMt|Ln{EwuTj|F`xF"
+      ],
       "p": [
-        "aj~rGzfr_K"
+        "ohwvGlxotJ"
       ]
     },
     "id": "1",
@@ -20,22 +22,42 @@
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2021-08-17T22:00:00-0300",
-      "start": "2021-08-17T18:15:39-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-08-17T22:00:00-0300",
+          "start": "2021-08-17T18:15:39-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-08-17T22:00:00-0300",
+          "start": "2021-08-17T18:19:14-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "ch~rG|uq_K"
+        "sh~rGv`r_K"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -53,7 +75,7 @@
         "apyqG|ukyJ"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -64,33 +86,12 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2021-08-17T18:30:00-0300",
+      "etr": "",
       "start": "2021-08-17T10:48:50-0300"
     },
     "geom": {
       "p": [
         "ollvG`wyaK"
-      ]
-    },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 76
-      },
-      "etr": "2021-08-17T18:45:00-0300",
-      "start": "2021-08-17T14:17:38-0300"
-    },
-    "geom": {
-      "a": [
-        "cvovG|vmtJ{xMt|Ln{EwuTj|F`xF"
-      ],
-      "p": [
-        "ohwvGlxotJ"
       ]
     },
     "id": "6",
