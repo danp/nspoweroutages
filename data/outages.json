@@ -1,6 +1,66 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-09-06T18:00:00-0300",
+          "start": "2021-09-06T14:26:35-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-09-06T15:15:00-0300",
+          "start": "2021-09-06T13:07:56-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "q{ivGvgk~J"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Trees On Line",
+      "cluster": false,
+      "cust_a": {
+        "val": 115
+      },
+      "etr": "2021-09-06T15:30:00-0300",
+      "start": "2021-09-06T14:24:13-0300"
+    },
+    "geom": {
+      "a": [
+        "qcnjG`}zkK{@ddAi@lJ{ChR}{@huCs`@pl@mc@uRrFm_BlUolA~kBeeB"
+      ],
+      "p": [
+        "klpjGbw_lK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -15,26 +75,7 @@
         "_g~uGfso~J"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-09-06T15:15:00-0300",
-      "start": "2021-09-06T13:07:56-0300"
-    },
-    "geom": {
-      "p": [
-        "_zivG`nk~J"
-      ]
-    },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -53,7 +94,7 @@
         "uwouGnfipJ"
       ]
     },
-    "id": "3",
+    "id": "5",
     "title": "Outage Information"
   }
 ]
