@@ -18,7 +18,7 @@ Every 10 minutes, a system of mine runs [bin/scrape.sh](bin/scrape.sh).
 
 bin/scrape.sh:
 
-1. fetches and combines outage data using [cmd/scrape](cmd/scrape), saving it to [data/outages.json](data/outages.json)
+1. fetches and combines outage data using [cmd/scrape-outages](cmd/scrape-outages), saving it to [data/outages.json](data/outages.json)
 2. fetches the service area summary data, saving it to [data/report_servicearea.json](data/report_servicearea.json)
 
 If there any changes from the current data, they're committed and pushed, like
@@ -66,7 +66,7 @@ Unfortunately, `id` is not maintained across updates. This means when going from
 
 ## How data fetching works
 
-cmd/scrape starts by fetching [metadata.json](http://outagemap.nspower.ca/resources/data/external/interval_generation_data/metadata.json) which contains a single `directory` key pointing to the current data directory. At the time of this writing, it looks like this:
+cmd/scrape-outages starts by fetching [metadata.json](http://outagemap.nspower.ca/resources/data/external/interval_generation_data/metadata.json) which contains a single `directory` key pointing to the current data directory. At the time of this writing, it looks like this:
 
 ```json
 { "directory": "2020_12_27_19_18_00" }
@@ -74,11 +74,11 @@ cmd/scrape starts by fetching [metadata.json](http://outagemap.nspower.ca/resour
 
 This means the current data can be found under http://outagemap.nspower.ca/resources/data/external/interval_generation_data/2020_12_27_19_18_00/.
 
-cmd/scrape then fetches what I assume are the six data files for the map tiles visible when all of Nova Scotia is visible in the outage map, eg `2020_12_27_19_23_00/outages/030322.json` which contains data near HRM. Files are named based on their zoom level, the longer the filename the more zoomed in the data is.
+cmd/scrape-outages then fetches what I assume are the six data files for the map tiles visible when all of Nova Scotia is visible in the outage map, eg `2020_12_27_19_23_00/outages/030322.json` which contains data near HRM. Files are named based on their zoom level, the longer the filename the more zoomed in the data is.
 
 These files have mostly the same format as the combined `outages.json` describe above.
 
-cmd/scrape zooms in to the areas covered by the initial six files by appending `0`, `1`, `2`, and `3` to the filename, then fetching that. For example, `030322.json` would zoom in to:
+cmd/scrape-outages zooms in to the areas covered by the initial six files by appending `0`, `1`, `2`, and `3` to the filename, then fetching that. For example, `030322.json` would zoom in to:
 
 * `0303220.json`
 * `0303221.json`

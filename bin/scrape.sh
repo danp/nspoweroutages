@@ -4,7 +4,7 @@ set -eo pipefail
 
 mkdir -p data
 
-go run ./cmd/scrape | jq -S 'sort_by(.id)' > data/outages.json
+go run ./cmd/scrape-outages | jq -S 'sort_by(.id)' > data/outages.json
 
 dir="$(curl --silent --fail http://outagemap.nspower.ca/resources/data/external/interval_generation_data/metadata.json | jq -r .directory)"
 durl="http://outagemap.nspower.ca/resources/data/external/interval_generation_data/$dir"
