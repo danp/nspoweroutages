@@ -1,22 +1,40 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 71
       },
-      "etr": "2021-10-18T13:30:00-0300",
-      "start": "2021-10-18T10:15:00-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-10-18T14:15:00-0300",
+          "start": "2021-10-18T11:23:00-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 70
+          },
+          "etr": "2021-10-18T14:15:00-0300",
+          "start": "2021-10-18T11:21:08-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "ueunGrwedK"
+        "aizsGhgdaK"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -39,6 +57,25 @@
   },
   {
     "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-10-18T13:30:00-0300",
+      "start": "2021-10-18T10:15:00-0300"
+    },
+    "geom": {
+      "p": [
+        "ueunGrwedK"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Planned Maintenance",
       "cluster": false,
       "cust_a": {
@@ -55,7 +92,7 @@
         "qcanGbhamK"
       ]
     },
-    "id": "3",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -74,7 +111,7 @@
         "{kfyGfqzmJ"
       ]
     },
-    "id": "4",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -93,7 +130,7 @@
         "}wrxGz~pnJ"
       ]
     },
-    "id": "5",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -112,7 +149,7 @@
         "cn`vGrj{aK"
       ]
     },
-    "id": "6",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -131,7 +168,7 @@
         "_huvGzovdK"
       ]
     },
-    "id": "7",
+    "id": "9",
     "title": "Outage Information"
   }
 ]
