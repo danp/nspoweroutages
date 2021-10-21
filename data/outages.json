@@ -3,11 +3,19 @@
     "desc": {
       "cluster": true,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 8
       },
       "n_out": 2,
       "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 6
+          },
+          "etr": "2021-10-21T11:15:00-0300",
+          "start": "2021-10-21T07:09:55-0300"
+        },
         {
           "cause": "Cause Being Investigated",
           "cluster": false,
@@ -17,22 +25,12 @@
           },
           "etr": "2021-10-21T11:00:00-0300",
           "start": "2021-10-21T07:21:00-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2021-10-21T10:45:00-0300",
-          "start": "2021-10-21T07:09:55-0300"
         }
       ]
     },
     "geom": {
       "p": [
-        "azkuGtlm}J"
+        "azkuGzmm}J"
       ]
     },
     "id": "14-1",
