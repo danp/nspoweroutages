@@ -20,43 +20,6 @@
   },
   {
     "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 9
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Lightning",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2021-10-22T23:45:00-0300",
-          "start": "2021-10-22T19:12:32-0300"
-        },
-        {
-          "cause": "Lightning",
-          "cluster": false,
-          "cust_a": {
-            "val": 8
-          },
-          "etr": "2021-10-22T23:30:00-0300",
-          "start": "2021-10-22T18:49:00-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "e`gjGrkpmK"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -82,25 +45,6 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2021-10-22T23:59:00-0300",
-      "start": "2021-10-22T20:02:02-0300"
-    },
-    "geom": {
-      "p": [
-        "edfjG`ypmK"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Lightning",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
       "etr": "2021-10-23T00:15:00-0300",
       "start": "2021-10-22T19:31:00-0300"
     },
@@ -109,26 +53,7 @@
         "qeejGhormK"
       ]
     },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Lightning",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-10-23T00:15:00-0300",
-      "start": "2021-10-22T19:06:33-0300"
-    },
-    "geom": {
-      "p": [
-        "yxgjGd~omK"
-      ]
-    },
-    "id": "5",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -147,7 +72,7 @@
         "ylhjGreomK"
       ]
     },
-    "id": "7",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -155,18 +80,17 @@
       "cause": "Lightning",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 8
       },
       "etr": "2021-10-22T23:30:00-0300",
-      "start": "2021-10-22T18:52:13-0300"
+      "start": "2021-10-22T18:49:00-0300"
     },
     "geom": {
       "p": [
-        "wvfjGn|pmK"
+        "cdgjGvhpmK"
       ]
     },
-    "id": "8",
+    "id": "5",
     "title": "Outage Information"
   }
 ]
