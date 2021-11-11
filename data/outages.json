@@ -3,10 +3,20 @@
     "desc": {
       "cluster": true,
       "cust_a": {
-        "val": 14
+        "val": 15
       },
-      "n_out": 2,
+      "n_out": 3,
       "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-11-12T00:30:00-0400",
+          "start": "2021-11-11T18:23:57-0400"
+        },
         {
           "cause": "Damage to Overhead Equipment",
           "cluster": false,
@@ -30,7 +40,7 @@
     },
     "geom": {
       "p": [
-        "ocqoGhxccK"
+        "icqoGbxccK"
       ]
     },
     "id": "14-1",
@@ -54,7 +64,7 @@
         "o|axGprfvJ"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -73,7 +83,7 @@
         "i`}nGxx|cK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -92,7 +102,7 @@
         "kuhyGjxzpJ"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   }
 ]
