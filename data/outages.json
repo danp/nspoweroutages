@@ -1,28 +1,10 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
-      },
-      "etr": "2021-11-15T16:00:00-0400",
-      "start": "2021-11-15T12:04:00-0400"
-    },
-    "geom": {
-      "p": [
-        "_jymG|ythK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 9
       },
       "n_out": 2,
       "outages": [
@@ -30,10 +12,11 @@
           "cause": "Cause Being Investigated",
           "cluster": false,
           "cust_a": {
-            "val": 8
+            "masked": true,
+            "val": 4
           },
-          "etr": "2021-11-15T16:00:00-0400",
-          "start": "2021-11-15T11:20:00-0400"
+          "etr": "2021-11-15T16:30:00-0400",
+          "start": "2021-11-15T12:29:00-0400"
         },
         {
           "cause": "Cause Being Investigated",
@@ -49,49 +32,11 @@
     },
     "geom": {
       "p": [
-        "}axkGjv}iK"
+        "g|wkGfl}iK"
       ]
     },
     "id": "14-1",
     "title": "Area Outage"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-11-15T16:30:00-0400",
-      "start": "2021-11-15T11:45:00-0400"
-    },
-    "geom": {
-      "p": [
-        "qfzmGda_kK"
-      ]
-    },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-11-15T16:30:00-0400",
-      "start": "2021-11-15T11:48:00-0400"
-    },
-    "geom": {
-      "p": [
-        "ec`rGpddiK"
-      ]
-    },
-    "id": "5",
-    "title": "Outage Information"
   },
   {
     "desc": {
@@ -109,7 +54,82 @@
         "}{noGntxbK"
       ]
     },
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-11-15T15:15:00-0400",
+      "start": "2021-11-15T11:24:00-0400"
+    },
+    "geom": {
+      "p": [
+        "}ihrGr`fhK"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-11-15T16:00:00-0400",
+      "start": "2021-11-15T12:04:00-0400"
+    },
+    "geom": {
+      "p": [
+        "_jymG|ythK"
+      ]
+    },
     "id": "6",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-11-15T16:30:00-0400",
+      "start": "2021-11-15T11:45:00-0400"
+    },
+    "geom": {
+      "p": [
+        "qfzmGda_kK"
+      ]
+    },
+    "id": "7",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "val": 8
+      },
+      "etr": "2021-11-15T16:00:00-0400",
+      "start": "2021-11-15T11:20:00-0400"
+    },
+    "geom": {
+      "p": [
+        "gexkG~{}iK"
+      ]
+    },
+    "id": "8",
     "title": "Outage Information"
   }
 ]
