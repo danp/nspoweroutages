@@ -1,42 +1,22 @@
 [
   {
     "desc": {
-      "cluster": true,
+      "cause": "Cause Being Investigated",
+      "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2021-11-17T02:45:00-0400",
-          "start": "2021-11-16T18:56:55-0400"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2021-11-16T22:30:00-0400",
-          "start": "2021-11-16T16:32:00-0400"
-        }
-      ]
+      "etr": "2021-11-17T02:45:00-0400",
+      "start": "2021-11-16T16:32:00-0400"
     },
     "geom": {
       "p": [
-        "ktlyGvcmoJ"
+        "ovlyGzdmoJ"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "1",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -168,7 +148,7 @@
         "y}npGhh`nK"
       ]
     },
-    "id": "9",
+    "id": "8",
     "title": "Outage Information"
   }
 ]
