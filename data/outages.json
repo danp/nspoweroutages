@@ -1,21 +1,77 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 21
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "High Winds",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-11-23T02:30:00-0400",
+          "start": "2021-11-22T18:14:09-0400"
+        },
+        {
+          "cause": "High Winds",
+          "cluster": false,
+          "cust_a": {
+            "val": 20
+          },
+          "etr": "2021-11-23T02:15:00-0400",
+          "start": "2021-11-22T18:08:56-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "izysGvkgaK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "High Winds",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2021-11-23T02:15:00-0400",
-      "start": "2021-11-22T18:08:56-0400"
+      "etr": "2021-11-23T02:30:00-0400",
+      "start": "2021-11-22T18:17:40-0400"
     },
     "geom": {
       "p": [
-        "uyysGdlgaK"
+        "_h|qGzrudK"
       ]
     },
-    "id": "1",
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2021-11-23T02:30:00-0400",
+      "start": "2021-11-22T18:18:01-0400"
+    },
+    "geom": {
+      "p": [
+        "uzpqGrqxdK"
+      ]
+    },
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -34,28 +90,7 @@
         "wozxGdn~nJ"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds",
-      "cluster": false,
-      "cust_a": {
-        "val": 1145
-      },
-      "etr": "2021-11-22T22:00:00-0400",
-      "start": "2021-11-22T17:29:10-0400"
-    },
-    "geom": {
-      "a": [
-        "cq|pGjxzdKinGnwJisG~aH_BdAuYiHgwLa|XdkByrBjpEpg@roKhgCjjHrjB"
-      ],
-      "p": [
-        "iimqGls~dK"
-      ]
-    },
-    "id": "3",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -74,7 +109,7 @@
         "ur~xGtasuJ"
       ]
     },
-    "id": "4",
+    "id": "6",
     "title": "Outage Information"
   }
 ]
