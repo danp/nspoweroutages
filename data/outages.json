@@ -22,10 +22,19 @@
     "desc": {
       "cluster": true,
       "cust_a": {
-        "val": 11
+        "val": 17
       },
       "n_out": 2,
       "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 7
+          },
+          "etr": "2021-12-05T19:00:00-0400",
+          "start": "2021-12-05T12:39:08-0400"
+        },
         {
           "cause": "Cause Being Investigated",
           "cluster": false,
@@ -34,26 +43,37 @@
           },
           "etr": "2021-12-05T18:45:00-0400",
           "start": "2021-12-05T12:35:38-0400"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2021-12-05T18:45:00-0400",
-          "start": "2021-12-05T12:39:08-0400"
         }
       ]
     },
     "geom": {
       "p": [
-        "yeluGzwnuJ"
+        "ueluGtxnuJ"
       ]
     },
     "id": "14-1",
     "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "val": 58
+      },
+      "etr": "2021-12-05T15:45:00-0400",
+      "start": "2021-12-05T12:52:47-0400"
+    },
+    "geom": {
+      "a": [
+        "wtcrGx_phK{@bF{RhElCmLtCy@rKx@"
+      ],
+      "p": [
+        "y_drGtdphK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -69,27 +89,6 @@
     "geom": {
       "p": [
         "w|shGpanoK"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 58
-      },
-      "etr": "2021-12-05T15:45:00-0400",
-      "start": "2021-12-05T12:30:39-0400"
-    },
-    "geom": {
-      "a": [
-        "wtcrGx_phK{@bF{RhElCmLtCy@rKx@"
-      ],
-      "p": [
-        "y_drGtdphK"
       ]
     },
     "id": "4",
