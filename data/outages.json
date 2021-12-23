@@ -1,23 +1,21 @@
 [
   {
     "desc": {
-      "cause": "Damage to Overhead Equipment",
+      "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 233
+        "masked": true,
+        "val": 4
       },
-      "etr": "2021-12-23T18:00:00-0400",
-      "start": "2021-12-23T10:03:28-0400"
+      "etr": "2021-12-23T20:30:00-0400",
+      "start": "2021-12-23T15:45:16-0400"
     },
     "geom": {
-      "a": [
-        "wopvGb_zsJolNywIePunAqg@uyIt}BieEvTs_@fcD~qCdNr^jzE~dX~BnP"
-      ],
       "p": [
-        "iczvGzwisJ"
+        "avjlGjukqK"
       ]
     },
-    "id": "1",
+    "id": "10",
     "title": "Outage Information"
   },
   {
@@ -36,7 +34,7 @@
         "{mmqGp_ikK"
       ]
     },
-    "id": "10",
+    "id": "11",
     "title": "Outage Information"
   },
   {
@@ -55,7 +53,7 @@
         "{d`pGpv__K"
       ]
     },
-    "id": "11",
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -74,7 +72,7 @@
         "ihxuGvvxaK"
       ]
     },
-    "id": "12",
+    "id": "13",
     "title": "Outage Information"
   },
   {
@@ -93,27 +91,45 @@
         "_n~xGrypmJ"
       ]
     },
-    "id": "13",
+    "id": "14",
     "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "High Winds",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 12
       },
-      "etr": "2021-12-23T20:45:00-0400",
-      "start": "2021-12-23T12:34:26-0400"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 11
+          },
+          "etr": "2021-12-23T20:45:00-0400",
+          "start": "2021-12-23T17:46:00-0400"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2021-12-23T21:00:00-0400",
+          "start": "2021-12-23T17:47:10-0400"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "am_yGfx`mJ"
+        "adgoGxghcK"
       ]
     },
-    "id": "14",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -149,8 +165,29 @@
         "g|dqGfxq|J"
       ]
     },
-    "id": "14-1",
+    "id": "14-2",
     "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Damage to Overhead Equipment",
+      "cluster": false,
+      "cust_a": {
+        "val": 233
+      },
+      "etr": "2021-12-23T18:00:00-0400",
+      "start": "2021-12-23T10:03:28-0400"
+    },
+    "geom": {
+      "a": [
+        "wopvGb_zsJolNywIePunAqg@uyIt}BieEvTs_@fcD~qCdNr^jzE~dX~BnP"
+      ],
+      "p": [
+        "iczvGzwisJ"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -168,28 +205,7 @@
         "ivyrGddmuJ"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Emergency Repair of Lines",
-      "cluster": false,
-      "cust_a": {
-        "val": 85
-      },
-      "etr": "2021-12-24T01:15:00-0400",
-      "start": "2021-12-23T17:30:11-0400"
-    },
-    "geom": {
-      "a": [
-        "oixvGpzatJen@dqBokHypFyQca@gG{ThlC}kJvDoC`~Aa]vlBtqIzUlsF"
-      ],
-      "p": [
-        "sq}vGvszsJ"
-      ]
-    },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -207,7 +223,7 @@
         "md{xG|b~lJ"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -226,7 +242,7 @@
         "{wuzG|mxsJ"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -247,26 +263,7 @@
         "mleqGjtp|J"
       ]
     },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2021-12-23T20:30:00-0400",
-      "start": "2021-12-23T15:45:16-0400"
-    },
-    "geom": {
-      "p": [
-        "avjlGjukqK"
-      ]
-    },
-    "id": "9",
+    "id": "8",
     "title": "Outage Information"
   }
 ]
