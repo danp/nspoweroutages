@@ -1,6 +1,45 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-01-31T17:45:00-0400",
+          "start": "2022-01-31T09:37:23-0400"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-01-31T14:45:00-0400",
+          "start": "2022-01-31T06:30:25-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "ci{sG~{haK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -15,7 +54,7 @@
         "ir}xG~e~lJ"
       ]
     },
-    "id": "1",
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -33,7 +72,7 @@
         "}bjoGdkacK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -52,7 +91,7 @@
         "}xmtGfoe`K"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -71,7 +110,7 @@
         "q~tkGzj`jK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -90,7 +129,7 @@
         "g_oxG`orqJ"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -109,7 +148,7 @@
         "q|stGraqvJ"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -126,25 +165,6 @@
     "geom": {
       "p": [
         "wmewGdigmJ"
-      ]
-    },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-01-31T14:45:00-0400",
-      "start": "2022-01-31T06:30:25-0400"
-    },
-    "geom": {
-      "p": [
-        "{g{sG~yhaK"
       ]
     },
     "id": "8",
