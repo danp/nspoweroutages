@@ -1,6 +1,43 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 16
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-02-24T13:15:00-0400",
+          "start": "2022-02-24T07:13:48-0400"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 15
+          },
+          "etr": "2022-02-24T12:45:00-0400",
+          "start": "2022-02-24T08:52:00-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "{oiyGl~xmJ"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -15,25 +52,7 @@
         "{xexGvayrJ"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 16
-      },
-      "etr": "2022-02-24T12:45:00-0400",
-      "start": "2022-02-24T07:13:48-0400"
-    },
-    "geom": {
-      "p": [
-        "uriyGdaymJ"
-      ]
-    },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -54,7 +73,7 @@
         "_us|G~xlpJ"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -73,7 +92,7 @@
         "}qykG`c`jK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -92,7 +111,7 @@
         "ovloG|stcK"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -111,7 +130,7 @@
         "_hqnGxxfrK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -130,7 +149,7 @@
         "oe_pGjxmdK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   }
 ]
