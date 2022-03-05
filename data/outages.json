@@ -1,37 +1,57 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-03-05T22:00:00-0400",
+          "start": "2022-03-05T17:21:47-0400"
+        },
+        {
+          "cause": "Damage to Overhead Equipment",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-03-05T20:00:00-0400",
+          "start": "2022-03-05T15:26:07-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "ezarGb`eiK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2022-03-05T17:30:00-0400",
+      "etr": "",
       "start": "2022-03-05T09:50:40-0400"
     },
     "geom": {
       "p": [
         "mh{sGhgbaK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Overhead Equipment",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-03-05T20:00:00-0400",
-      "start": "2022-03-05T15:26:07-0400"
-    },
-    "geom": {
-      "p": [
-        "m}arGxbeiK"
       ]
     },
     "id": "2",
@@ -53,7 +73,7 @@
         "}jroGfwccK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -72,7 +92,7 @@
         "az_rGfgaiK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -91,7 +111,7 @@
         "o{toGt|mbK"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -110,7 +130,7 @@
         "oripGrvrcK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   }
 ]
