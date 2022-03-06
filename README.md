@@ -2,6 +2,8 @@
 
 [Git scraping](https://simonwillison.net/2020/Oct/9/git-scraping/) of the data behind the [Nova Scotia Power Outage Map](http://outagemap.nspower.ca/).
 
+Mainly viewable at https://nsp.datasette.danp.net/ by way of https://github.com/danp/outages-to-sqlite.
+
 ## Why?
 
 The outage map shows what's happening _right now_ but gives no way to see information about past outages, what has changed, etc. Regularly fetching the data that powers it and saving it in this way will let us see changes over time. That could let us answer questions like:
