@@ -1,6 +1,45 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-04-15T18:00:00-0300",
+          "start": "2022-04-15T07:23:52-0300"
+        },
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-04-15T18:00:00-0300",
+          "start": "2022-04-15T07:26:05-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "{svoGz||bK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Trees On Line",
       "cluster": false,
       "cust_a": {
@@ -15,7 +54,7 @@
         "kigyGdtxoJ"
       ]
     },
-    "id": "1",
+    "id": "3",
     "title": "Outage Information"
   }
 ]
