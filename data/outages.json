@@ -4,6 +4,25 @@
       "cause": "High Winds",
       "cluster": false,
       "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-04-19T21:00:00-0300",
+      "start": "2022-04-19T08:46:00-0300"
+    },
+    "geom": {
+      "p": [
+        "maqoGl|qeK"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds",
+      "cluster": false,
+      "cust_a": {
         "val": 234
       },
       "etr": "2022-04-19T11:15:00-0300",
@@ -17,26 +36,7 @@
         "s~giGpwsnK"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Trees On Line",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-04-19T18:15:00-0300",
-      "start": "2022-04-16T13:51:24-0300"
-    },
-    "geom": {
-      "p": [
-        "wfinGphmgK"
-      ]
-    },
-    "id": "10",
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -53,27 +53,6 @@
     "geom": {
       "p": [
         "kidiGxv}nK"
-      ]
-    },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Planned Maintenance",
-      "cluster": false,
-      "cust_a": {
-        "val": 56
-      },
-      "etr": "2022-04-19T10:00:00-0300",
-      "start": "2022-04-19T09:07:15-0300"
-    },
-    "geom": {
-      "a": [
-        "_ubiGneqpKqx@|]kRnGy\\zBph@{j@d\\kB~b@|B"
-      ],
-      "p": [
-        "mmdiG|uqpK"
       ]
     },
     "id": "3",
@@ -100,25 +79,6 @@
   },
   {
     "desc": {
-      "cause": "High Winds",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-04-19T21:00:00-0300",
-      "start": "2022-04-19T08:46:00-0300"
-    },
-    "geom": {
-      "p": [
-        "maqoGl|qeK"
-      ]
-    },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -133,45 +93,7 @@
         "mo{nGzqigK"
       ]
     },
-    "id": "6",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-04-19T17:45:00-0300",
-      "start": "2022-04-19T07:29:00-0300"
-    },
-    "geom": {
-      "p": [
-        "_d|oGtt{cK"
-      ]
-    },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-04-19T20:00:00-0300",
-      "start": "2022-04-19T07:59:19-0300"
-    },
-    "geom": {
-      "p": [
-        "{tljGjchqK"
-      ]
-    },
-    "id": "8",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -190,7 +112,26 @@
         "kigyGdtxoJ"
       ]
     },
-    "id": "9",
+    "id": "6",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Trees On Line",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-04-19T18:15:00-0300",
+      "start": "2022-04-16T13:51:24-0300"
+    },
+    "geom": {
+      "p": [
+        "wfinGphmgK"
+      ]
+    },
+    "id": "7",
     "title": "Outage Information"
   }
 ]
