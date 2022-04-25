@@ -1,6 +1,42 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 50
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 25
+          },
+          "etr": "2022-04-25T13:00:00-0300",
+          "start": "2022-04-25T10:38:46-0300"
+        },
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 25
+          },
+          "etr": "2022-04-25T13:00:00-0300",
+          "start": "2022-04-25T10:38:35-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "u~eoGvffcK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -13,24 +49,6 @@
     "geom": {
       "p": [
         "}yzvGhjtcK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Planned Maintenance",
-      "cluster": false,
-      "cust_a": {
-        "val": 25
-      },
-      "etr": "2022-04-25T13:00:00-0300",
-      "start": "2022-04-25T10:38:35-0300"
-    },
-    "geom": {
-      "p": [
-        "m~eoGjffcK"
       ]
     },
     "id": "2",
@@ -52,7 +70,7 @@
         "ayhvGpld`K"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -71,7 +89,7 @@
         "y}boGrdlnK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -90,7 +108,7 @@
         "uhquGx||vJ"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -109,7 +127,7 @@
         "o|xpG~nldK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   }
 ]
