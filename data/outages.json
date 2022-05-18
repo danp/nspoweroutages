@@ -8,6 +8,16 @@
       "n_out": 2,
       "outages": [
         {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-05-18T21:00:00-0300",
+          "start": "2022-05-18T12:56:04-0300"
+        },
+        {
           "cause": "Emergency Repair of Lines",
           "cluster": false,
           "cust_a": {
@@ -15,16 +25,6 @@
           },
           "etr": "2022-05-18T20:30:00-0300",
           "start": "2022-05-18T18:25:48-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2022-05-18T20:15:00-0300",
-          "start": "2022-05-18T12:56:04-0300"
         }
       ]
     },
@@ -52,7 +52,7 @@
         "{vfvG`py`K"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   }
 ]
