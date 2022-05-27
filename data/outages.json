@@ -1,6 +1,64 @@
 [
   {
     "desc": {
+      "cause": "Damage to Overhead Equipment",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-05-27T20:00:00-0300",
+      "start": "2022-05-19T11:00:00-0300"
+    },
+    "geom": {
+      "p": [
+        "ge|uGtlc{J"
+      ]
+    },
+    "id": "10",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-05-27T15:15:00-0300",
+          "start": "2022-05-27T09:05:00-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-05-27T14:15:00-0300",
+          "start": "2022-05-27T08:12:48-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "erooGfjecK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -15,7 +73,7 @@
         "u`{sGr`haK"
       ]
     },
-    "id": "1",
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -32,25 +90,6 @@
     "geom": {
       "p": [
         "icmqGnfcfK"
-      ]
-    },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-05-27T14:15:00-0300",
-      "start": "2022-05-27T08:12:48-0300"
-    },
-    "geom": {
-      "p": [
-        "urooGziecK"
       ]
     },
     "id": "3",
@@ -72,7 +111,7 @@
         "wmbvGhk`gK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -91,7 +130,7 @@
         "cuzrGju~`K"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -112,7 +151,7 @@
         "gapvG~qbeK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -131,7 +170,7 @@
         "e{voGjhecK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -148,25 +187,6 @@
     "geom": {
       "p": [
         "sc_yGvgwnJ"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Overhead Equipment",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-05-27T20:00:00-0300",
-      "start": "2022-05-19T11:00:00-0300"
-    },
-    "geom": {
-      "p": [
-        "ge|uGtlc{J"
       ]
     },
     "id": "9",
