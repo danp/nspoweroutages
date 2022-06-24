@@ -4,27 +4,6 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 67
-      },
-      "etr": "2022-06-25T00:00:00-0300",
-      "start": "2022-06-24T19:48:59-0300"
-    },
-    "geom": {
-      "a": [
-        "ex{xGzi{lJiAzB}M`As@}@fDwVrLvR"
-      ],
-      "p": [
-        "sb|xGdf{lJ"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
         "masked": true,
         "val": 4
       },
@@ -79,6 +58,42 @@
   },
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 804
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 737
+          },
+          "etr": "2022-06-24T23:45:00-0300",
+          "start": "2022-06-24T20:04:40-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 67
+          },
+          "etr": "2022-06-25T00:00:00-0300",
+          "start": "2022-06-24T19:48:59-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "o`|xG~d{lJ"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -93,7 +108,7 @@
         "{j_nG`hygK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -112,7 +127,7 @@
         "cigyGhzaoJ"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -129,25 +144,6 @@
     "geom": {
       "p": [
         "{ymxG~{xtJ"
-      ]
-    },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-06-24T23:30:00-0300",
-      "start": "2022-06-24T16:12:56-0300"
-    },
-    "geom": {
-      "p": [
-        "grlnGxw`cK"
       ]
     },
     "id": "5",
