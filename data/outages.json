@@ -1,54 +1,55 @@
 [
   {
     "desc": {
-      "cluster": true,
+      "cause": "Cause Being Investigated",
+      "cluster": false,
       "cust_a": {
-        "val": 21
+        "masked": true,
+        "val": 4
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2022-07-03T15:15:00-0300",
-          "start": "2022-07-03T11:49:52-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "val": 20
-          },
-          "etr": "2022-07-03T14:15:00-0300",
-          "start": "2022-07-03T11:49:39-0300"
-        }
-      ]
+      "etr": "2022-07-03T16:45:00-0300",
+      "start": "2022-07-03T11:59:39-0300"
     },
     "geom": {
       "p": [
-        "wgjpG`hucK"
+        "eylrGdamhK"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "1",
+    "title": "Outage Information"
   },
   {
     "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 5
+        "masked": true,
+        "val": 4
       },
-      "etr": "2022-07-03T14:15:00-0300",
-      "start": "2022-07-03T09:49:17-0300"
+      "etr": "2022-07-03T15:15:00-0300",
+      "start": "2022-07-03T11:55:29-0300"
     },
     "geom": {
       "p": [
-        "agsoG`hybK"
+        "awsoGd`qbK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "val": 20
+      },
+      "etr": "2022-07-03T14:15:00-0300",
+      "start": "2022-07-03T11:49:39-0300"
+    },
+    "geom": {
+      "p": [
+        "ejjpGdgucK"
       ]
     },
     "id": "3",
