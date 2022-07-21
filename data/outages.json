@@ -1,58 +1,79 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-07-21T10:00:00-0300",
+          "start": "2022-07-21T05:44:32-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-07-21T09:15:00-0300",
+          "start": "2022-07-21T05:11:54-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "qdhyGrzumJ"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Vehicle Accident",
+      "cluster": false,
+      "cust_a": {
+        "val": 7
+      },
+      "etr": "2022-07-21T09:00:00-0300",
+      "start": "2022-07-21T01:40:50-0300"
+    },
+    "geom": {
+      "p": [
+        "_rzsGppgaK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2022-07-21T09:15:00-0300",
-      "start": "2022-07-21T05:11:54-0300"
+      "etr": "2022-07-21T08:45:00-0300",
+      "start": "2022-07-21T05:38:28-0300"
     },
     "geom": {
       "p": [
-        "_ehyG|yumJ"
+        "gxqsGtb|cK"
       ]
     },
-    "id": "1",
+    "id": "3",
     "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 465
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Vehicle Accident",
-          "cluster": false,
-          "cust_a": {
-            "val": 7
-          },
-          "etr": "2022-07-21T09:00:00-0300",
-          "start": "2022-07-21T01:40:50-0300"
-        },
-        {
-          "cause": "Vehicle Accident",
-          "cluster": false,
-          "cust_a": {
-            "val": 458
-          },
-          "etr": "2022-07-21T09:00:00-0300",
-          "start": "2022-07-21T03:36:12-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "ouzsGxkgaK"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
   },
   {
     "desc": {
@@ -70,7 +91,7 @@
         "}bxqGnexaK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -89,7 +110,7 @@
         "qxnoGfxpbK"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -108,7 +129,7 @@
         "q`wnGnudgK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -127,7 +148,7 @@
         "{amnG`smfK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   }
 ]
