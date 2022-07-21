@@ -1,6 +1,42 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 465
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Vehicle Accident",
+          "cluster": false,
+          "cust_a": {
+            "val": 7
+          },
+          "etr": "2022-07-21T09:00:00-0300",
+          "start": "2022-07-21T01:40:50-0300"
+        },
+        {
+          "cause": "Vehicle Accident",
+          "cluster": false,
+          "cust_a": {
+            "val": 458
+          },
+          "etr": "2022-07-21T09:00:00-0300",
+          "start": "2022-07-21T03:36:12-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "ouzsGxkgaK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Fire",
       "cluster": false,
       "cust_a": {
@@ -13,27 +49,6 @@
     "geom": {
       "p": [
         "}bxqGnexaK"
-      ]
-    },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 3692
-      },
-      "etr": "2022-07-21T04:30:00-0300",
-      "start": "2022-07-21T01:34:18-0300"
-    },
-    "geom": {
-      "a": [
-        "sqtsG~ja`KkfDfnf@{u@bpCkHnFsA_CsD}JslCc}RaBeOcGgvOtfCs`ErTcCjjFsK"
-      ],
-      "p": [
-        "wj{sGjds`K"
       ]
     },
     "id": "3",
