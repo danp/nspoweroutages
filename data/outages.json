@@ -1,56 +1,57 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 20
       },
-      "etr": "2022-07-29T10:45:00-0300",
-      "start": "2022-07-29T07:38:24-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 19
+          },
+          "etr": "2022-07-29T12:00:00-0300",
+          "start": "2022-07-29T07:30:29-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-07-29T13:45:00-0300",
+          "start": "2022-07-29T07:36:00-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "ihxsGvudaK"
+        "onloG|sfcK"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 430
       },
-      "etr": "",
-      "start": "2022-07-28T14:38:00-0300"
-    },
-    "geom": {
-      "p": [
-        "{uerGdjuhK"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-07-29T10:45:00-0300",
+      "etr": "2022-07-29T10:00:00-0300",
       "start": "2022-07-29T07:36:56-0300"
     },
     "geom": {
+      "a": [
+        "s~rsG`scaKeSbLmCr@osCnp@wP`AqC}DrR_`BfIiApdD|e@"
+      ],
       "p": [
-        "{jxsGzeeaK"
+        "owvsGb~caK"
       ]
     },
     "id": "2",
@@ -64,15 +65,15 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2022-07-29T13:45:00-0300",
-      "start": "2022-07-29T07:30:29-0300"
+      "etr": "2022-07-29T12:45:00-0300",
+      "start": "2022-07-29T07:39:51-0300"
     },
     "geom": {
       "p": [
-        "isloG`vfcK"
+        "{{nyGjtitJ"
       ]
     },
-    "id": "4",
+    "id": "3",
     "title": "Outage Information"
   },
   {
