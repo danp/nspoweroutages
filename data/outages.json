@@ -7,12 +7,12 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2022-08-02T22:45:00-0300",
-      "start": "2022-08-02T18:04:07-0300"
+      "etr": "2022-08-02T21:30:00-0300",
+      "start": "2022-08-02T18:16:00-0300"
     },
     "geom": {
       "p": [
-        "yzlnGh`nfK"
+        "wiavGpx_~J"
       ]
     },
     "id": "1",
@@ -45,25 +45,6 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2022-08-02T18:30:00-0300",
-      "start": "2022-08-02T13:50:00-0300"
-    },
-    "geom": {
-      "p": [
-        "_|rkG`ftrK"
-      ]
-    },
-    "id": "11",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
       "etr": "2022-08-02T19:45:00-0300",
       "start": "2022-08-02T15:13:00-0300"
     },
@@ -72,7 +53,7 @@
         "amgpGtun`K"
       ]
     },
-    "id": "12",
+    "id": "11",
     "title": "Outage Information"
   },
   {
@@ -91,7 +72,7 @@
         "cktoGphbcK"
       ]
     },
-    "id": "13",
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -110,27 +91,46 @@
         "qxnoGfxpbK"
       ]
     },
-    "id": "14",
+    "id": "13",
     "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 5
       },
-      "etr": "",
-      "start": "2022-06-24T08:50:00-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-08-02T22:45:00-0300",
+          "start": "2022-08-02T18:04:07-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "",
+          "start": "2022-06-24T08:50:00-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "{amnG`smfK"
+        "u_mnGnxmfK"
       ]
     },
-    "id": "15",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -148,7 +148,26 @@
         "mbvpGdpgmK"
       ]
     },
-    "id": "16",
+    "id": "15",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-08-02T20:30:00-0300",
+      "start": "2022-08-02T13:50:00-0300"
+    },
+    "geom": {
+      "p": [
+        "_|rkG`ftrK"
+      ]
+    },
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -167,26 +186,7 @@
         "{nmnG`zlfK"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-08-02T21:00:00-0300",
-      "start": "2022-08-02T17:39:40-0300"
-    },
-    "geom": {
-      "p": [
-        "_}noGpejbK"
-      ]
-    },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -205,7 +205,7 @@
         "kk}uG`l`vJ"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -224,7 +224,7 @@
         "_r~vGbrybK"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -241,25 +241,6 @@
     "geom": {
       "p": [
         "q_vrGzbqhK"
-      ]
-    },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-08-02T19:30:00-0300",
-      "start": "2022-08-02T12:14:00-0300"
-    },
-    "geom": {
-      "p": [
-        "awruGxvwuJ"
       ]
     },
     "id": "8",
