@@ -1,21 +1,21 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
+      "cause": "Damage to Underground Equipment",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "",
-      "start": "2022-08-26T14:35:43-0300"
+      "etr": "2022-08-31T22:00:00-0300",
+      "start": "2022-08-21T13:13:36-0300"
     },
     "geom": {
       "p": [
-        "g|goG~fmbK"
+        "i|kiGzgarK"
       ]
     },
-    "id": "1",
+    "id": "10",
     "title": "Outage Information"
   },
   {
@@ -34,8 +34,45 @@
         "qxnoGfxpbK"
       ]
     },
-    "id": "10",
+    "id": "11",
     "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 25
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-08-27T03:00:00-0300",
+          "start": "2022-08-26T20:50:20-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 24
+          },
+          "etr": "2022-08-26T23:45:00-0300",
+          "start": "2022-08-26T19:38:55-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "wnpoGbzgcK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -45,12 +82,12 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2022-08-26T21:00:00-0300",
-      "start": "2022-08-26T16:15:58-0300"
+      "etr": "",
+      "start": "2022-08-26T14:35:43-0300"
     },
     "geom": {
       "p": [
-        "kfquGfq_fK"
+        "g|goG~fmbK"
       ]
     },
     "id": "2",
@@ -61,14 +98,15 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 24
+        "masked": true,
+        "val": 4
       },
-      "etr": "2022-08-26T23:45:00-0300",
-      "start": "2022-08-26T19:38:55-0300"
+      "etr": "",
+      "start": "2022-08-26T16:15:58-0300"
     },
     "geom": {
       "p": [
-        "ujpoG`xgcK"
+        "kfquGfq_fK"
       ]
     },
     "id": "3",
@@ -90,7 +128,7 @@
         "_vroGhhocK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -109,7 +147,7 @@
         "_kjoGtmicK"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -120,7 +158,7 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2022-08-26T21:00:00-0300",
+      "etr": "",
       "start": "2022-08-26T17:34:00-0300"
     },
     "geom": {
@@ -128,7 +166,7 @@
         "e_uoGbrndK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -147,7 +185,7 @@
         "_`lnGfuhdK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -164,25 +202,6 @@
     "geom": {
       "p": [
         "ylkiGt|crK"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Underground Equipment",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-08-31T22:00:00-0300",
-      "start": "2022-08-21T13:13:36-0300"
-    },
-    "geom": {
-      "p": [
-        "i|kiGzgarK"
       ]
     },
     "id": "9",
