@@ -1,39 +1,21 @@
 [
   {
     "desc": {
-      "cluster": true,
+      "cause": "Damage to Overhead Equipment",
+      "cluster": false,
       "cust_a": {
-        "val": 19
+        "val": 10
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "val": 10
-          },
-          "etr": "2022-08-31T04:45:00-0300",
-          "start": "2022-08-30T23:35:52-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "val": 9
-          },
-          "etr": "2022-08-31T05:15:00-0300",
-          "start": "2022-08-30T23:52:37-0300"
-        }
-      ]
+      "etr": "2022-08-31T04:45:00-0300",
+      "start": "2022-08-30T23:35:52-0300"
     },
     "geom": {
       "p": [
-        "gaxtG|rhsJ"
+        "o_xtG|lhsJ"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "1",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -51,7 +33,7 @@
         "a~`uGxheuJ"
       ]
     },
-    "id": "3",
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -70,7 +52,7 @@
         "i|kiGzgarK"
       ]
     },
-    "id": "4",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -89,7 +71,7 @@
         "qxnoGfxpbK"
       ]
     },
-    "id": "5",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -108,7 +90,7 @@
         "ylkiGt|crK"
       ]
     },
-    "id": "6",
+    "id": "5",
     "title": "Outage Information"
   }
 ]
