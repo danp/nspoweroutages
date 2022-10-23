@@ -1,21 +1,42 @@
 [
   {
     "desc": {
+      "cause": "Emergency outage for public safety",
+      "cluster": false,
+      "cust_a": {
+        "val": 39
+      },
+      "etr": "2022-10-24T07:15:00-0300",
+      "start": "2022-10-23T20:13:27-0300"
+    },
+    "geom": {
+      "a": [
+        "kp~sGxq}bKEdCqA|LwKx`AcH`[aQkmBn\\sTdL~R"
+      ],
+      "p": [
+        "qe_tGtr~bK"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2022-10-24T20:30:00-0300",
-      "start": "2022-10-23T20:04:00-0300"
+      "etr": "2022-10-23T20:30:00-0300",
+      "start": "2022-10-23T17:13:34-0300"
     },
     "geom": {
       "p": [
-        "alluGl__`K"
+        "ojkrG`trbK"
       ]
     },
-    "id": "1",
+    "id": "10",
     "title": "Outage Information"
   },
   {
@@ -34,7 +55,7 @@
         "k{dsG~wscK"
       ]
     },
-    "id": "10",
+    "id": "11",
     "title": "Outage Information"
   },
   {
@@ -53,7 +74,7 @@
         "mm{tGdqv`K"
       ]
     },
-    "id": "11",
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -72,7 +93,7 @@
         "ub`vGl~igK"
       ]
     },
-    "id": "12",
+    "id": "13",
     "title": "Outage Information"
   },
   {
@@ -91,8 +112,45 @@
         "a`isGfc|~J"
       ]
     },
-    "id": "13",
+    "id": "14",
     "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 6
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 5
+          },
+          "etr": "2022-10-24T08:15:00-0300",
+          "start": "2022-10-23T20:02:00-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-10-24T20:00:00-0300",
+          "start": "2022-10-23T19:58:46-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "{agvG`w|_K"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -110,7 +168,7 @@
         "cxquGfjr`K"
       ]
     },
-    "id": "14",
+    "id": "15",
     "title": "Outage Information"
   },
   {
@@ -129,7 +187,7 @@
         "edhvG|`u`K"
       ]
     },
-    "id": "15",
+    "id": "16",
     "title": "Outage Information"
   },
   {
@@ -140,31 +198,12 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2022-10-24T20:15:00-0300",
-      "start": "2022-10-23T20:02:00-0300"
+      "etr": "2022-10-24T20:30:00-0300",
+      "start": "2022-10-23T20:04:00-0300"
     },
     "geom": {
       "p": [
-        "megvGjc}_K"
-      ]
-    },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-10-24T20:00:00-0300",
-      "start": "2022-10-23T19:58:46-0300"
-    },
-    "geom": {
-      "p": [
-        "}_gvGzs|_K"
+        "alluGl__`K"
       ]
     },
     "id": "3",
@@ -186,7 +225,7 @@
         "in`vGnrq`K"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -205,7 +244,7 @@
         "mbpvGldkaK"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -224,7 +263,7 @@
         "a}gvGvwc`K"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -245,7 +284,7 @@
         "ml`vG`{hgK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -262,25 +301,6 @@
     "geom": {
       "p": [
         "uh{vGdp`bK"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-10-23T20:30:00-0300",
-      "start": "2022-10-23T17:13:34-0300"
-    },
-    "geom": {
-      "p": [
-        "ojkrG`trbK"
       ]
     },
     "id": "9",
