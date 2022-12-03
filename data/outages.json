@@ -7,15 +7,57 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2022-12-03T14:01:00-0400",
-      "start": "2022-12-02T20:52:39-0400"
+      "etr": "2022-12-03T20:01:00-0400",
+      "start": "2022-12-03T07:46:04-0400"
     },
     "geom": {
       "p": [
-        "oqnuGxsk}J"
+        "{dloG~dhcK"
       ]
     },
     "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Emergency outage for public safety",
+      "cluster": false,
+      "cust_a": {
+        "val": 1413
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-03T05:33:28-0400"
+    },
+    "geom": {
+      "a": [
+        "op{sGh_`bKss@z_VcCvHumBkJidQatFf@{gCboRuhYjn@ke@dAo@tErHtT`eBll@p_L"
+      ],
+      "p": [
+        "_tdtGvqfbK"
+      ]
+    },
+    "id": "10",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Emergency outage for public safety",
+      "cluster": false,
+      "cust_a": {
+        "val": 2695
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-03T05:33:28-0400"
+    },
+    "geom": {
+      "a": [
+        "w}}sGbo{bKk}@`yZqk@bkQ_\\p}AuKl@w_Co[kzb@kxJqlQ{zSu_D}dLhDwHbcRqpStk\\e{Kh|C{`AvZ_@btAfD|t@bRhHtBl|@d_@`Vne@|eEbh]"
+      ],
+      "p": [
+        "_gztGlaccK"
+      ]
+    },
+    "id": "11",
     "title": "Outage Information"
   },
   {
@@ -27,14 +69,14 @@
         "val": 4
       },
       "etr": "2022-12-03T14:01:00-0400",
-      "start": "2022-12-02T19:28:38-0400"
+      "start": "2022-12-02T15:19:37-0400"
     },
     "geom": {
       "p": [
-        "i_jsGp_raK"
+        "koqoGboqiK"
       ]
     },
-    "id": "10",
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -46,34 +88,54 @@
         "val": 4
       },
       "etr": "2022-12-03T14:01:00-0400",
-      "start": "2022-12-01T17:46:02-0400"
+      "start": "2022-12-01T08:03:15-0400"
     },
     "geom": {
       "p": [
-        "{visGvlv}J"
+        "ye_uGx|m}J"
       ]
     },
-    "id": "12",
+    "id": "13",
     "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2022-12-03T14:01:00-0400",
-      "start": "2022-12-02T22:57:58-0400"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "High Winds and Rain",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-12-03T14:01:00-0400",
+          "start": "2022-12-01T06:10:32-0400"
+        },
+        {
+          "cause": "High Winds and Rain",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-12-03T14:01:00-0400",
+          "start": "2022-12-02T15:49:22-0400"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "qchtGdac}J"
+        "{ahuGvbg}J"
       ]
     },
-    "id": "14",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -84,6 +146,16 @@
       },
       "n_out": 3,
       "outages": [
+        {
+          "cause": "High Winds and Rain",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-12-03T14:01:00-0400",
+          "start": "2022-12-02T08:36:53-0400"
+        },
         {
           "cause": "High Winds and Rain",
           "cluster": false,
@@ -103,61 +175,12 @@
           },
           "etr": "2022-12-03T14:01:00-0400",
           "start": "2022-12-01T10:24:30-0400"
-        },
-        {
-          "cause": "High Winds and Rain",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2022-12-03T14:00:00-0400",
-          "start": "2022-12-02T08:36:53-0400"
         }
       ]
     },
     "geom": {
       "p": [
         "gfmtGfwe}J"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "High Winds and Rain",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2022-12-03T14:01:00-0400",
-          "start": "2022-12-02T15:49:22-0400"
-        },
-        {
-          "cause": "High Winds and Rain",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2022-12-03T14:00:00-0400",
-          "start": "2022-12-01T06:10:32-0400"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "{ahuGvbg}J"
       ]
     },
     "id": "14-2",
@@ -180,7 +203,7 @@
             "val": 4
           },
           "etr": "2022-12-03T14:01:00-0400",
-          "start": "2022-12-02T18:33:23-0400"
+          "start": "2022-12-02T18:48:00-0400"
         },
         {
           "cause": "Cause Being Investigated",
@@ -189,8 +212,8 @@
             "masked": true,
             "val": 4
           },
-          "etr": "2022-12-03T14:00:00-0400",
-          "start": "2022-12-02T18:48:00-0400"
+          "etr": "2022-12-03T14:01:00-0400",
+          "start": "2022-12-02T18:33:23-0400"
         }
       ]
     },
@@ -209,7 +232,7 @@
         "masked": true,
         "val": 4
       },
-      "n_out": 3,
+      "n_out": 2,
       "outages": [
         {
           "cause": "High Winds and Rain",
@@ -219,16 +242,6 @@
             "val": 4
           },
           "etr": "2022-12-03T14:01:00-0400",
-          "start": "2022-12-01T08:10:15-0400"
-        },
-        {
-          "cause": "High Winds and Rain",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2022-12-03T14:00:00-0400",
           "start": "2022-12-01T15:17:39-0400"
         },
         {
@@ -238,18 +251,286 @@
             "masked": true,
             "val": 4
           },
-          "etr": "2022-12-03T14:00:00-0400",
-          "start": "2022-12-02T12:05:00-0400"
+          "etr": "2022-12-03T14:01:00-0400",
+          "start": "2022-12-01T08:10:15-0400"
         }
       ]
     },
     "geom": {
       "p": [
-        "}|hsGxxv}J"
+        "{`isGfwv}J"
       ]
     },
     "id": "14-4",
     "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "High Winds and Rain",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-01T11:34:03-0400"
+    },
+    "geom": {
+      "p": [
+        "_xjtGphy}J"
+      ]
+    },
+    "id": "15",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds and Rain",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-02T12:05:00-0400"
+    },
+    "geom": {
+      "p": [
+        "euhsGz{v}J"
+      ]
+    },
+    "id": "17",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds and Rain",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-01T09:21:35-0400"
+    },
+    "geom": {
+      "p": [
+        "gllsGplm}J"
+      ]
+    },
+    "id": "18",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-02T20:52:39-0400"
+    },
+    "geom": {
+      "p": [
+        "oqnuGxsk}J"
+      ]
+    },
+    "id": "19",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T21:31:00-0400",
+      "start": "2022-12-03T09:13:40-0400"
+    },
+    "geom": {
+      "p": [
+        "yj_oGlqceK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-03T09:15:40-0400"
+    },
+    "geom": {
+      "p": [
+        "aipvGju}`K"
+      ]
+    },
+    "id": "21",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T22:00:00-0400",
+      "start": "2022-12-03T09:45:59-0400"
+    },
+    "geom": {
+      "p": [
+        "gfjrGr~tbK"
+      ]
+    },
+    "id": "22",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds and Rain",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-01T09:35:45-0400"
+    },
+    "geom": {
+      "p": [
+        "grguGlsi}J"
+      ]
+    },
+    "id": "23",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-02T20:55:49-0400"
+    },
+    "geom": {
+      "p": [
+        "caquGrcm`K"
+      ]
+    },
+    "id": "25",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T12:31:00-0400",
+      "start": "2022-12-03T00:17:00-0400"
+    },
+    "geom": {
+      "p": [
+        "{llnGxofcK"
+      ]
+    },
+    "id": "27",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-02T19:28:38-0400"
+    },
+    "geom": {
+      "p": [
+        "i_jsGp_raK"
+      ]
+    },
+    "id": "28",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Trees On Line",
+      "cluster": false,
+      "cust_a": {
+        "val": 17
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-02T18:08:39-0400"
+    },
+    "geom": {
+      "a": [
+        "s}ivGhvr~JsKeXi@gL|Ekv@|DlY`@jbA"
+      ],
+      "p": [
+        "ucjvGziq~J"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds and Rain",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-01T17:46:02-0400"
+    },
+    "geom": {
+      "p": [
+        "{visGvlv}J"
+      ]
+    },
+    "id": "30",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-02T22:57:58-0400"
+    },
+    "geom": {
+      "p": [
+        "qchtGdac}J"
+      ]
+    },
+    "id": "32",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -267,7 +548,7 @@
         "c~_uGxcbsJ"
       ]
     },
-    "id": "15",
+    "id": "33",
     "title": "Outage Information"
   },
   {
@@ -286,7 +567,7 @@
         "ayztG|~tcK"
       ]
     },
-    "id": "16",
+    "id": "34",
     "title": "Outage Information"
   },
   {
@@ -305,7 +586,7 @@
         "qahuGtwh}J"
       ]
     },
-    "id": "17",
+    "id": "35",
     "title": "Outage Information"
   },
   {
@@ -326,7 +607,7 @@
         "mjuuGxyy|J"
       ]
     },
-    "id": "18",
+    "id": "36",
     "title": "Outage Information"
   },
   {
@@ -345,7 +626,7 @@
         "mjktG|z}~J"
       ]
     },
-    "id": "19",
+    "id": "37",
     "title": "Outage Information"
   },
   {
@@ -364,7 +645,7 @@
         "wgfuGxti}J"
       ]
     },
-    "id": "20",
+    "id": "38",
     "title": "Outage Information"
   },
   {
@@ -383,7 +664,26 @@
         "mtetGxd~|J"
       ]
     },
-    "id": "21",
+    "id": "39",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2022-12-03T20:31:00-0400",
+      "start": "2022-12-03T08:24:50-0400"
+    },
+    "geom": {
+      "p": [
+        "}khxGnxtnJ"
+      ]
+    },
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -402,165 +702,7 @@
         "}k`uGrar}J"
       ]
     },
-    "id": "22",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T21:30:00-0400",
-      "start": "2022-12-03T09:13:40-0400"
-    },
-    "geom": {
-      "p": [
-        "yj_oGlqceK"
-      ]
-    },
-    "id": "23",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T20:00:00-0400",
-      "start": "2022-12-03T07:46:04-0400"
-    },
-    "geom": {
-      "p": [
-        "{dloG~dhcK"
-      ]
-    },
-    "id": "24",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T20:30:00-0400",
-      "start": "2022-12-03T08:24:50-0400"
-    },
-    "geom": {
-      "p": [
-        "}khxGnxtnJ"
-      ]
-    },
-    "id": "25",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T20:30:00-0400",
-      "start": "2022-12-03T07:05:40-0400"
-    },
-    "geom": {
-      "p": [
-        "s_dpGjeoaK"
-      ]
-    },
-    "id": "28",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds and Rain",
-      "cluster": false,
-      "cust_a": {
-        "val": 17
-      },
-      "etr": "2022-12-03T14:00:00-0400",
-      "start": "2022-12-02T18:08:39-0400"
-    },
-    "geom": {
-      "a": [
-        "s}ivGhvr~JsKeXi@gL|Ekv@|DlY`@jbA"
-      ],
-      "p": [
-        "ucjvGziq~J"
-      ]
-    },
-    "id": "29",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T14:01:00-0400",
-      "start": "2022-12-03T09:15:40-0400"
-    },
-    "geom": {
-      "p": [
-        "aipvGju}`K"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Emergency outage for public safety",
-      "cluster": false,
-      "cust_a": {
-        "val": 1413
-      },
-      "etr": "2022-12-03T14:00:00-0400",
-      "start": "2022-12-03T05:33:28-0400"
-    },
-    "geom": {
-      "a": [
-        "op{sGh_`bKss@z_VcCvHumBkJidQatFf@{gCboRuhYjn@ke@dAo@tErHtT`eBll@p_L"
-      ],
-      "p": [
-        "_tdtGvqfbK"
-      ]
-    },
-    "id": "30",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Emergency outage for public safety",
-      "cluster": false,
-      "cust_a": {
-        "val": 2695
-      },
-      "etr": "2022-12-03T14:00:00-0400",
-      "start": "2022-12-03T05:33:28-0400"
-    },
-    "geom": {
-      "a": [
-        "w}}sGbo{bKk}@`yZqk@bkQ_\\p}AuKl@w_Co[kzb@kxJqlQ{zSu_D}dLhDwHbcRqpStk\\e{Kh|C{`AvZ_@btAfD|t@bRhHtBl|@d_@`Vne@|eEbh]"
-      ],
-      "p": [
-        "_gztGlaccK"
-      ]
-    },
-    "id": "31",
+    "id": "40",
     "title": "Outage Information"
   },
   {
@@ -579,64 +721,7 @@
         "idfuGzwnyJ"
       ]
     },
-    "id": "32",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T14:00:00-0400",
-      "start": "2022-12-02T15:19:37-0400"
-    },
-    "geom": {
-      "p": [
-        "koqoGboqiK"
-      ]
-    },
-    "id": "33",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds and Rain",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T14:00:00-0400",
-      "start": "2022-12-02T09:26:56-0400"
-    },
-    "geom": {
-      "p": [
-        "yv|uGx~m`K"
-      ]
-    },
-    "id": "35",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds and Rain",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T14:00:00-0400",
-      "start": "2022-12-01T08:03:15-0400"
-    },
-    "geom": {
-      "p": [
-        "ye_uGx|m}J"
-      ]
-    },
-    "id": "36",
+    "id": "41",
     "title": "Outage Information"
   },
   {
@@ -653,82 +738,6 @@
     "geom": {
       "p": [
         "_fouGj|j}J"
-      ]
-    },
-    "id": "37",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds and Rain",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T14:00:00-0400",
-      "start": "2022-12-01T11:34:03-0400"
-    },
-    "geom": {
-      "p": [
-        "_xjtGphy}J"
-      ]
-    },
-    "id": "39",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T22:00:00-0400",
-      "start": "2022-12-03T09:45:59-0400"
-    },
-    "geom": {
-      "p": [
-        "gfjrGr~tbK"
-      ]
-    },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds and Rain",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T14:00:00-0400",
-      "start": "2022-12-01T09:21:35-0400"
-    },
-    "geom": {
-      "p": [
-        "gllsGplm}J"
-      ]
-    },
-    "id": "41",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds and Rain",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-03T14:00:00-0400",
-      "start": "2022-12-01T07:48:38-0400"
-    },
-    "geom": {
-      "p": [
-        "a~gsGzfv}J"
       ]
     },
     "id": "42",
@@ -757,18 +766,18 @@
   },
   {
     "desc": {
-      "cause": "High Winds and Rain",
+      "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2022-12-03T14:01:00-0400",
-      "start": "2022-12-01T09:35:45-0400"
+      "etr": "2022-12-03T20:31:00-0400",
+      "start": "2022-12-03T07:05:40-0400"
     },
     "geom": {
       "p": [
-        "grguGlsi}J"
+        "s_dpGjeoaK"
       ]
     },
     "id": "5",
@@ -776,18 +785,18 @@
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
+      "cause": "High Winds and Rain",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
       "etr": "2022-12-03T14:01:00-0400",
-      "start": "2022-12-02T20:55:49-0400"
+      "start": "2022-12-01T07:48:38-0400"
     },
     "geom": {
       "p": [
-        "caquGrcm`K"
+        "a~gsGzfv}J"
       ]
     },
     "id": "7",
@@ -795,18 +804,18 @@
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
+      "cause": "High Winds and Rain",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2022-12-03T12:31:00-0400",
-      "start": "2022-12-03T00:17:00-0400"
+      "etr": "2022-12-03T14:01:00-0400",
+      "start": "2022-12-02T09:26:56-0400"
     },
     "geom": {
       "p": [
-        "{llnGxofcK"
+        "yv|uGx~m`K"
       ]
     },
     "id": "9",
