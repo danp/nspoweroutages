@@ -7,44 +7,6 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2022-12-09T14:45:00-0400",
-      "start": "2022-12-09T11:41:06-0400"
-    },
-    "geom": {
-      "p": [
-        "w~zsGbxeaK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Partial Power",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-10T20:30:00-0400",
-      "start": "2022-12-08T10:25:00-0400"
-    },
-    "geom": {
-      "p": [
-        "ugmuGjrgrJ"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
       "etr": "2022-12-09T14:00:00-0400",
       "start": "2022-12-03T14:31:09-0400"
     },
@@ -53,8 +15,47 @@
         "olrvGhghuJ"
       ]
     },
-    "id": "11",
+    "id": "10",
     "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-12-09T14:45:00-0400",
+          "start": "2022-12-09T11:41:06-0400"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2022-12-09T15:00:00-0400",
+          "start": "2022-12-09T11:50:00-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "i~zsGfweaK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -90,7 +91,7 @@
         "uqhoG`cigK"
       ]
     },
-    "id": "14-1",
+    "id": "14-2",
     "title": "Area Outage"
   },
   {
@@ -107,25 +108,6 @@
     "geom": {
       "p": [
         "kpcqGjdhdK"
-      ]
-    },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2022-12-09T14:00:00-0400",
-      "start": "2022-12-09T10:45:00-0400"
-    },
-    "geom": {
-      "p": [
-        "_{ypGtxybK"
       ]
     },
     "id": "3",
@@ -190,18 +172,18 @@
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
+      "cause": "Partial Power",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2022-12-09T12:30:00-0400",
-      "start": "2022-12-09T08:19:00-0400"
+      "etr": "2022-12-10T20:30:00-0400",
+      "start": "2022-12-08T10:25:00-0400"
     },
     "geom": {
       "p": [
-        "k`dyGd`rnJ"
+        "ugmuGjrgrJ"
       ]
     },
     "id": "9",
