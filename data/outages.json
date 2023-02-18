@@ -1,24 +1,40 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "val": 129
+        "val": 130
       },
-      "etr": "2023-02-18T19:00:00-0400",
-      "start": "2023-02-18T06:54:15-0400"
-    },
-    "geom": {
-      "a": [
-        "usduGtlq~J{lIsu@{FmD~o@mqDraBoOjz@sDveCrcG"
-      ],
-      "p": [
-        "qkjuGlnm~J"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-02-18T21:30:00-0400",
+          "start": "2023-02-18T09:27:58-0400"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 129
+          },
+          "etr": "2023-02-18T19:00:00-0400",
+          "start": "2023-02-18T06:54:15-0400"
+        }
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
+    "geom": {
+      "p": [
+        "yfjuGnjm~J"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -36,7 +52,7 @@
         "a_kjGpl}qK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -55,7 +71,7 @@
         "ob}mGno{qK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -74,7 +90,7 @@
         "i`ruGfvi~J"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -93,7 +109,7 @@
         "ukxwG`qelJ"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -112,7 +128,7 @@
         "qk`tGzubeK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -131,7 +147,7 @@
         "is}oG`{rcK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -150,7 +166,7 @@
         "citpGl|wfK"
       ]
     },
-    "id": "8",
+    "id": "9",
     "title": "Outage Information"
   }
 ]
