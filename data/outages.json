@@ -1,6 +1,81 @@
 [
   {
     "desc": {
+      "cause": "Damage to Overhead Equipment",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-05-13T16:45:00-0300",
+      "start": "2023-05-12T13:34:34-0300"
+    },
+    "geom": {
+      "p": [
+        "ixrwGvbymJ"
+      ]
+    },
+    "id": "10",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Trees On Line",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-05-13T16:45:00-0300",
+      "start": "2023-05-11T14:36:37-0300"
+    },
+    "geom": {
+      "p": [
+        "alrwGdvxmJ"
+      ]
+    },
+    "id": "11",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 11
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-05-12T22:15:00-0300",
+          "start": "2023-05-12T17:36:01-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 10
+          },
+          "etr": "2023-05-12T22:15:00-0300",
+          "start": "2023-05-12T17:32:23-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "srrrG~ufhK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -15,7 +90,7 @@
         "auzsG|knaK"
       ]
     },
-    "id": "1",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -34,7 +109,7 @@
         "syxuGffc}J"
       ]
     },
-    "id": "2",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -53,7 +128,7 @@
         "aidtGxpcfK"
       ]
     },
-    "id": "3",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -72,7 +147,7 @@
         "ialvG|tbyJ"
       ]
     },
-    "id": "4",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -91,7 +166,7 @@
         "}glvGrgcyJ"
       ]
     },
-    "id": "5",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -110,7 +185,7 @@
         "}j}xGph|lJ"
       ]
     },
-    "id": "6",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -127,44 +202,6 @@
     "geom": {
       "p": [
         "kg_xGdbgmJ"
-      ]
-    },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Overhead Equipment",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-05-13T16:45:00-0300",
-      "start": "2023-05-12T13:34:34-0300"
-    },
-    "geom": {
-      "p": [
-        "ixrwGvbymJ"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Trees On Line",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-05-13T16:45:00-0300",
-      "start": "2023-05-11T14:36:37-0300"
-    },
-    "geom": {
-      "p": [
-        "alrwGdvxmJ"
       ]
     },
     "id": "9",
