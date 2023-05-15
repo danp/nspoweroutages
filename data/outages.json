@@ -1,6 +1,42 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 12
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 6
+          },
+          "etr": "2023-05-15T09:30:00-0300",
+          "start": "2023-05-15T07:44:31-0300"
+        },
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 6
+          },
+          "etr": "2023-05-15T09:30:00-0300",
+          "start": "2023-05-15T07:44:43-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "_}iuGz_i}J"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -14,7 +50,7 @@
         "cgrmGbkfhK"
       ]
     },
-    "id": "1",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -35,7 +71,7 @@
         "kywiG|o|kK"
       ]
     },
-    "id": "2",
+    "id": "4",
     "title": "Outage Information"
   }
 ]
