@@ -1,25 +1,6 @@
 [
   {
     "desc": {
-      "cause": "Emergency Repair of Lines",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-05-16T16:30:00-0300",
-      "start": "2023-05-16T11:21:00-0300"
-    },
-    "geom": {
-      "p": [
-        "k}gwG~r_mJ"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -73,7 +54,7 @@
         "i_ktGzy_yJ"
       ]
     },
-    "id": "13",
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -92,8 +73,44 @@
         "kjtvGva}fK"
       ]
     },
-    "id": "14",
+    "id": "13",
     "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 25
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 8
+          },
+          "etr": "2023-05-16T16:00:00-0300",
+          "start": "2023-05-16T13:58:16-0300"
+        },
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 17
+          },
+          "etr": "2023-05-16T16:30:00-0300",
+          "start": "2023-05-16T13:58:04-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "_hiuGzki}J"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -110,7 +127,7 @@
             "masked": true,
             "val": 4
           },
-          "etr": "2023-05-16T14:30:00-0300",
+          "etr": "2023-05-16T16:30:00-0300",
           "start": "2023-05-16T10:13:17-0300"
         },
         {
@@ -119,7 +136,7 @@
           "cust_a": {
             "val": 8
           },
-          "etr": "2023-05-16T14:30:00-0300",
+          "etr": "2023-05-16T16:30:00-0300",
           "start": "2023-05-16T10:07:20-0300"
         }
       ]
@@ -129,7 +146,7 @@
         "_hfpGxs~`K"
       ]
     },
-    "id": "14-1",
+    "id": "14-2",
     "title": "Area Outage"
   },
   {
@@ -148,7 +165,26 @@
         "mnzrGzd_hK"
       ]
     },
-    "id": "2",
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Emergency Repair of Lines",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-05-16T16:30:00-0300",
+      "start": "2023-05-16T11:21:00-0300"
+    },
+    "geom": {
+      "p": [
+        "k}gwG~r_mJ"
+      ]
+    },
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -167,7 +203,7 @@
         "u|_yGh`emJ"
       ]
     },
-    "id": "3",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -186,45 +222,7 @@
         "wamwGnypvJ"
       ]
     },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-05-16T15:00:00-0300",
-      "start": "2023-05-16T11:57:09-0300"
-    },
-    "geom": {
-      "p": [
-        "qyiuGdii}J"
-      ]
-    },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-05-16T14:30:00-0300",
-      "start": "2023-05-16T11:16:00-0300"
-    },
-    "geom": {
-      "p": [
-        "_bzoGvcwdK"
-      ]
-    },
-    "id": "6",
+    "id": "8",
     "title": "Outage Information"
   },
   {
