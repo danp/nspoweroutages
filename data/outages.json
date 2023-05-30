@@ -1,45 +1,61 @@
 [
   {
     "desc": {
-      "cause": "Damage to Overhead Equipment",
+      "cause": "Fire",
       "cluster": false,
       "cust_a": {
-        "val": 1426
+        "val": 1203
       },
-      "etr": "2023-05-30T09:45:00-0300",
-      "start": "2023-05-30T07:09:52-0300"
+      "etr": "2023-05-30T20:00:00-0300",
+      "start": "2023-05-28T16:45:17-0300"
     },
     "geom": {
       "a": [
-        "_gunGlhoiKaqFf~K}nCbaAopa@nuEyzEpe@nOyy@nFwRv_KwqWxkPwwBzrDN~kLpLnmBjsD~Wvq@j@lE"
+        "_hehGvirnK{}Af{BixSpxH{b\\iu@iLqCeC{@yEmKk[ewAdpIq|P|oA_aB`eOuaMj~Drt@toIvuJnwGl`L"
       ],
       "p": [
-        "wgooG|luiK"
+        "kf`iGjdonK"
       ]
     },
-    "id": "1",
+    "id": "10",
     "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "Planned Maintenance",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "val": 32
+        "val": 33
       },
-      "etr": "2023-05-30T11:00:00-0300",
-      "start": "2023-05-30T07:37:17-0300"
-    },
-    "geom": {
-      "a": [
-        "e}vkGr_~iKiCzDeFdCjC}BbFcE"
-      ],
-      "p": [
-        "obwkG|d~iK"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-05-30T12:30:00-0300",
+          "start": "2023-05-30T08:31:25-0300"
+        },
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 32
+          },
+          "etr": "2023-05-30T11:00:00-0300",
+          "start": "2023-05-30T07:37:17-0300"
+        }
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
+    "geom": {
+      "p": [
+        "wawkGpc~iK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -55,6 +71,27 @@
     "geom": {
       "p": [
         "g|myG~eloJ"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Damage to Overhead Equipment",
+      "cluster": false,
+      "cust_a": {
+        "val": 1426
+      },
+      "etr": "2023-05-30T09:45:00-0300",
+      "start": "2023-05-30T07:09:52-0300"
+    },
+    "geom": {
+      "a": [
+        "_gunGlhoiKaqFf~K}nCbaAopa@nuEyzEpe@nOyy@nFwRv_KwqWxkPwwBzrDN~kLpLnmBjsD~Wvq@j@lE"
+      ],
+      "p": [
+        "wgooG|luiK"
       ]
     },
     "id": "3",
@@ -76,7 +113,7 @@
         "kfbrG|ygdK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -97,7 +134,7 @@
         "_q}oGxnhdK"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -118,7 +155,7 @@
         "czzoGrhwdK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -139,7 +176,7 @@
         "e}}oGvhrdK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -158,27 +195,6 @@
       ],
       "p": [
         "csepGdymdK"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Fire",
-      "cluster": false,
-      "cust_a": {
-        "val": 1203
-      },
-      "etr": "2023-05-30T20:00:00-0300",
-      "start": "2023-05-28T16:45:17-0300"
-    },
-    "geom": {
-      "a": [
-        "_hehGvirnK{}Af{BixSpxH{b\\iu@iLqCeC{@yEmKk[ewAdpIq|P|oA_aB`eOuaMj~Drt@toIvuJnwGl`L"
-      ],
-      "p": [
-        "kf`iGjdonK"
       ]
     },
     "id": "9",
