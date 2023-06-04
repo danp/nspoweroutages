@@ -1,23 +1,81 @@
 [
   {
     "desc": {
-      "cause": "Fire",
+      "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 1203
+        "masked": true,
+        "val": 4
       },
-      "etr": "2023-06-06T17:00:00-0300",
-      "start": "2023-05-28T16:45:17-0300"
+      "etr": "2023-06-04T22:15:00-0300",
+      "start": "2023-06-04T18:27:59-0300"
     },
     "geom": {
-      "a": [
-        "_hehGvirnK{}Af{BixSpxH{b\\iu@iLqCeC{@yEmKk[ewAdpIq|P|oA_aB`eOuaMj~Drt@toIvuJnwGl`L"
-      ],
       "p": [
-        "kf`iGjdonK"
+        "_fhoGz~jpK"
       ]
     },
     "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Fire",
+      "cluster": false,
+      "cust_a": {
+        "val": 28
+      },
+      "etr": "2023-06-05T18:00:00-0300",
+      "start": "2023-05-28T19:31:41-0300"
+    },
+    "geom": {
+      "a": [
+        "elbpGt`vdKyDn@_OwCuSig@{EmLjp@~w@"
+      ],
+      "p": [
+        "gccpGlmudK"
+      ]
+    },
+    "id": "10",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Fire",
+      "cluster": false,
+      "cust_a": {
+        "val": 16
+      },
+      "etr": "2023-06-05T18:00:00-0300",
+      "start": "2023-05-31T15:50:19-0300"
+    },
+    "geom": {
+      "p": [
+        "_ydpGnxvdK"
+      ]
+    },
+    "id": "11",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Fire",
+      "cluster": false,
+      "cust_a": {
+        "val": 255
+      },
+      "etr": "2023-06-05T17:00:00-0300",
+      "start": "2023-05-30T21:02:00-0300"
+    },
+    "geom": {
+      "a": [
+        "wyciGbmymKaSnkCmtQjiAwfBi|@zFaMp{@omA~oEe_DhsArAdOn@znAnK~}Exj@pShCnO`HzA|KNlK"
+      ],
+      "p": [
+        "ysniGhj{mK"
+      ]
+    },
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -36,7 +94,7 @@
         "mdpsGr}bcK"
       ]
     },
-    "id": "10",
+    "id": "13",
     "title": "Outage Information"
   },
   {
@@ -55,66 +113,6 @@
       ],
       "p": [
         "un_pG~umdK"
-      ]
-    },
-    "id": "11",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Fire",
-      "cluster": false,
-      "cust_a": {
-        "val": 25
-      },
-      "etr": "2023-06-05T18:00:00-0300",
-      "start": "2023-05-28T17:15:09-0300"
-    },
-    "geom": {
-      "a": [
-        "gn}oGry{dK_AjEmCkBgGiGr@gM`LpR"
-      ],
-      "p": [
-        "gv}oGht{dK"
-      ]
-    },
-    "id": "12",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Fire",
-      "cluster": false,
-      "cust_a": {
-        "val": 288
-      },
-      "etr": "2023-06-05T18:00:00-0300",
-      "start": "2023-05-28T18:05:18-0300"
-    },
-    "geom": {
-      "a": [
-        "gp|oGpsrdK}k@p~@yB`DaZ_d@vEg`Cr^f\\jUh_@`N`c@"
-      ],
-      "p": [
-        "e}}oGvhrdK"
-      ]
-    },
-    "id": "13",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 7
-      },
-      "etr": "",
-      "start": "2023-06-04T10:32:50-0300"
-    },
-    "geom": {
-      "p": [
-        "isdyGl{rmJ"
       ]
     },
     "id": "14",
@@ -273,6 +271,48 @@
       "cause": "Fire",
       "cluster": false,
       "cust_a": {
+        "val": 25
+      },
+      "etr": "2023-06-05T18:00:00-0300",
+      "start": "2023-05-28T17:15:09-0300"
+    },
+    "geom": {
+      "a": [
+        "gn}oGry{dK_AjEmCkBgGiGr@gM`LpR"
+      ],
+      "p": [
+        "gv}oGht{dK"
+      ]
+    },
+    "id": "15",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Fire",
+      "cluster": false,
+      "cust_a": {
+        "val": 288
+      },
+      "etr": "2023-06-05T18:00:00-0300",
+      "start": "2023-05-28T18:05:18-0300"
+    },
+    "geom": {
+      "a": [
+        "gp|oGpsrdK}k@p~@yB`DaZ_d@vEg`Cr^f\\jUh_@`N`c@"
+      ],
+      "p": [
+        "e}}oGvhrdK"
+      ]
+    },
+    "id": "16",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Fire",
+      "cluster": false,
+      "cust_a": {
         "val": 686
       },
       "etr": "2023-06-05T18:00:00-0300",
@@ -286,7 +326,26 @@
         "m}}oGnszdK"
       ]
     },
-    "id": "16",
+    "id": "18",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-06-04T23:00:00-0300",
+      "start": "2023-06-04T18:23:00-0300"
+    },
+    "geom": {
+      "p": [
+        "atdhGt{hoK"
+      ]
+    },
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -304,7 +363,7 @@
         "_`cpGrfodK"
       ]
     },
-    "id": "18",
+    "id": "20",
     "title": "Outage Information"
   },
   {
@@ -323,7 +382,7 @@
         "czcpG~_qdK"
       ]
     },
-    "id": "19",
+    "id": "21",
     "title": "Outage Information"
   },
   {
@@ -342,7 +401,7 @@
         "qwfpGdkvdK"
       ]
     },
-    "id": "21",
+    "id": "23",
     "title": "Outage Information"
   },
   {
@@ -361,7 +420,46 @@
         "_xcpGvdsdK"
       ]
     },
-    "id": "24",
+    "id": "26",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "val": 7
+      },
+      "etr": "2023-06-04T20:00:00-0300",
+      "start": "2023-06-04T10:32:50-0300"
+    },
+    "geom": {
+      "p": [
+        "isdyGl{rmJ"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Fire",
+      "cluster": false,
+      "cust_a": {
+        "val": 1203
+      },
+      "etr": "2023-06-06T17:00:00-0300",
+      "start": "2023-05-28T16:45:17-0300"
+    },
+    "geom": {
+      "a": [
+        "_hehGvirnK{}Af{BixSpxH{b\\iu@iLqCeC{@yEmKk[ewAdpIq|P|oA_aB`eOuaMj~Drt@toIvuJnwGl`L"
+      ],
+      "p": [
+        "kf`iGjdonK"
+      ]
+    },
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -380,7 +478,7 @@
         "i}apGbzodK"
       ]
     },
-    "id": "3",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -401,7 +499,7 @@
         "khepGhrvdK"
       ]
     },
-    "id": "5",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -418,66 +516,6 @@
     "geom": {
       "p": [
         "amgpGfovdK"
-      ]
-    },
-    "id": "6",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Fire",
-      "cluster": false,
-      "cust_a": {
-        "val": 28
-      },
-      "etr": "2023-06-05T18:00:00-0300",
-      "start": "2023-05-28T19:31:41-0300"
-    },
-    "geom": {
-      "a": [
-        "elbpGt`vdKyDn@_OwCuSig@{EmLjp@~w@"
-      ],
-      "p": [
-        "gccpGlmudK"
-      ]
-    },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Fire",
-      "cluster": false,
-      "cust_a": {
-        "val": 16
-      },
-      "etr": "2023-06-05T18:00:00-0300",
-      "start": "2023-05-31T15:50:19-0300"
-    },
-    "geom": {
-      "p": [
-        "_ydpGnxvdK"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Fire",
-      "cluster": false,
-      "cust_a": {
-        "val": 255
-      },
-      "etr": "2023-06-05T17:00:00-0300",
-      "start": "2023-05-30T21:02:00-0300"
-    },
-    "geom": {
-      "a": [
-        "wyciGbmymKaSnkCmtQjiAwfBi|@zFaMp{@omA~oEe_DhsArAdOn@znAnK~}Exj@pShCnO`HzA|KNlK"
-      ],
-      "p": [
-        "ysniGhj{mK"
       ]
     },
     "id": "9",
