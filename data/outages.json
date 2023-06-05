@@ -1,20 +1,18 @@
 [
   {
     "desc": {
-      "cause": "Emergency Repair of Lines",
+      "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 3053
+        "masked": true,
+        "val": 4
       },
-      "etr": "2023-06-05T20:30:00-0300",
-      "start": "2023-06-05T13:16:08-0300"
+      "etr": "2023-06-05T23:45:00-0300",
+      "start": "2023-06-05T16:24:00-0300"
     },
     "geom": {
-      "a": [
-        "mbxoGtjfdK_Njh@slKvlNoJ~Fg`ByPec@}aAaHctMrd@mbAfLuHfoMqsEtSlEh[hWnAtlG"
-      ],
       "p": [
-        "ovapGhkidK"
+        "ezfoGv_hcK"
       ]
     },
     "id": "1",
@@ -308,17 +306,20 @@
   },
   {
     "desc": {
-      "cause": "Fire",
+      "cause": "Emergency Repair of Lines",
       "cluster": false,
       "cust_a": {
-        "val": 16
+        "val": 3053
       },
-      "etr": "2023-06-07T18:00:00-0300",
-      "start": "2023-05-31T15:50:19-0300"
+      "etr": "2023-06-05T20:55:00-0300",
+      "start": "2023-06-05T13:16:08-0300"
     },
     "geom": {
+      "a": [
+        "mbxoGtjfdK_Njh@slKvlNoJ~Fg`ByPec@}aAaHctMrd@mbAfLuHfoMqsEtSlEh[hWnAtlG"
+      ],
       "p": [
-        "_ydpGnxvdK"
+        "ovapGhkidK"
       ]
     },
     "id": "2",
@@ -449,6 +450,24 @@
       "cause": "Fire",
       "cluster": false,
       "cust_a": {
+        "val": 16
+      },
+      "etr": "2023-06-07T18:00:00-0300",
+      "start": "2023-05-31T15:50:19-0300"
+    },
+    "geom": {
+      "p": [
+        "_ydpGnxvdK"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Fire",
+      "cluster": false,
+      "cust_a": {
         "val": 28
       },
       "etr": "2023-06-07T18:00:00-0300",
@@ -462,7 +481,7 @@
         "gccpGlmudK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -479,25 +498,6 @@
     "geom": {
       "p": [
         "{lviGltmpK"
-      ]
-    },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "",
-      "start": "2023-06-05T16:24:00-0300"
-    },
-    "geom": {
-      "p": [
-        "ezfoGv_hcK"
       ]
     },
     "id": "5",
