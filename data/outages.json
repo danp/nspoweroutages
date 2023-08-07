@@ -87,9 +87,10 @@
     "desc": {
       "cluster": true,
       "cust_a": {
-        "val": 15
+        "masked": true,
+        "val": 4
       },
-      "n_out": 5,
+      "n_out": 4,
       "outages": [
         {
           "cause": "Cause Being Investigated",
@@ -130,21 +131,12 @@
           },
           "etr": "2023-08-07T12:00:00-0300",
           "start": "2023-08-06T16:07:19-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "val": 11
-          },
-          "etr": "2023-08-07T12:00:00-0300",
-          "start": "2023-08-06T15:28:23-0300"
         }
       ]
     },
     "geom": {
       "p": [
-        "y{sxGh}cnJ"
+        "_}sxGn}cnJ"
       ]
     },
     "id": "14-2",
@@ -203,7 +195,7 @@
         "mlpvGzzycK"
       ]
     },
-    "id": "18",
+    "id": "17",
     "title": "Outage Information"
   },
   {
@@ -220,6 +212,25 @@
     "geom": {
       "p": [
         "ususGt~jjK"
+      ]
+    },
+    "id": "18",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Lightning",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-08-07T12:00:00-0300",
+      "start": "2023-08-06T09:11:19-0300"
+    },
+    "geom": {
+      "p": [
+        "ijctGfisgK"
       ]
     },
     "id": "19",
@@ -252,25 +263,6 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2023-08-07T12:00:00-0300",
-      "start": "2023-08-06T09:11:19-0300"
-    },
-    "geom": {
-      "p": [
-        "ijctGfisgK"
-      ]
-    },
-    "id": "20",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Lightning",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
       "etr": "2023-08-07T11:30:00-0300",
       "start": "2023-08-06T18:45:20-0300"
     },
@@ -279,7 +271,7 @@
         "{uquG|i{`K"
       ]
     },
-    "id": "22",
+    "id": "21",
     "title": "Outage Information"
   },
   {
@@ -298,7 +290,7 @@
         "_v~{Gj{toJ"
       ]
     },
-    "id": "23",
+    "id": "22",
     "title": "Outage Information"
   },
   {
@@ -317,7 +309,7 @@
         "wjknGtrsfK"
       ]
     },
-    "id": "24",
+    "id": "23",
     "title": "Outage Information"
   },
   {
