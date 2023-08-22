@@ -1,41 +1,42 @@
 [
   {
     "desc": {
-      "cause": "Unknown Cause",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2023-08-22T17:00:00-0300",
-      "start": "2023-08-22T12:14:00-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-08-22T17:00:00-0300",
+          "start": "2023-08-22T12:03:38-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-08-22T17:00:00-0300",
+          "start": "2023-08-22T11:30:21-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "sblkG~~urK"
+        "ewgrGl{wwJ"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-08-22T16:15:00-0300",
-      "start": "2023-08-22T11:36:09-0300"
-    },
-    "geom": {
-      "p": [
-        "qhgmGfbjiK"
-      ]
-    },
-    "id": "11",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -81,47 +82,65 @@
         "qdmuGrsjuJ"
       ]
     },
-    "id": "14-1",
+    "id": "14-2",
     "title": "Area Outage"
   },
   {
     "desc": {
-      "cluster": true,
+      "cause": "Cause Being Investigated",
+      "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2023-08-22T16:00:00-0300",
-          "start": "2023-08-22T12:03:38-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2023-08-22T15:30:00-0300",
-          "start": "2023-08-22T11:30:21-0300"
-        }
-      ]
+      "etr": "2023-08-22T17:00:00-0300",
+      "start": "2023-08-22T11:36:09-0300"
     },
     "geom": {
       "p": [
-        "ewgrGl{wwJ"
+        "qhgmGfbjiK"
       ]
     },
-    "id": "14-2",
-    "title": "Area Outage"
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-08-22T17:00:00-0300",
+      "start": "2023-08-22T10:19:52-0300"
+    },
+    "geom": {
+      "p": [
+        "sfyoGnznbK"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Unknown Cause",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-08-22T17:00:00-0300",
+      "start": "2023-08-22T12:14:00-0300"
+    },
+    "geom": {
+      "p": [
+        "sblkG~~urK"
+      ]
+    },
+    "id": "5",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -139,7 +158,7 @@
         "qwgtGliywJ"
       ]
     },
-    "id": "2",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -158,26 +177,7 @@
         "gvcwGbgbvJ"
       ]
     },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-08-22T15:45:00-0300",
-      "start": "2023-08-22T10:19:52-0300"
-    },
-    "geom": {
-      "p": [
-        "sfyoGnznbK"
-      ]
-    },
-    "id": "4",
+    "id": "7",
     "title": "Outage Information"
   }
 ]
