@@ -1,20 +1,18 @@
 [
   {
     "desc": {
-      "cause": "Vehicle Accident",
+      "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 20
+        "masked": true,
+        "val": 4
       },
-      "etr": "2023-08-24T23:45:00-0300",
-      "start": "2023-08-24T18:40:25-0300"
+      "etr": "2023-08-25T00:00:00-0300",
+      "start": "2023-08-24T20:38:30-0300"
     },
     "geom": {
-      "a": [
-        "wohrGj{bbKmk@fLOeEw@mU`R{b@pIvJ`Pnf@"
-      ],
       "p": [
-        "_jirGtlbbK"
+        "ya{oGheucK"
       ]
     },
     "id": "1",
@@ -60,44 +58,6 @@
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "",
-      "start": "2023-08-24T15:18:00-0300"
-    },
-    "geom": {
-      "p": [
-        "kboqGrmskK"
-      ]
-    },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-08-24T23:00:00-0300",
-      "start": "2023-08-24T18:19:00-0300"
-    },
-    "geom": {
-      "p": [
-        "ecsqGty{hK"
-      ]
-    },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
       "cause": "Trees On Line",
       "cluster": false,
       "cust_a": {
@@ -112,7 +72,7 @@
         "sr_oG`}miK"
       ]
     },
-    "id": "6",
+    "id": "4",
     "title": "Outage Information"
   }
 ]
