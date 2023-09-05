@@ -1,43 +1,28 @@
 [
   {
     "desc": {
-      "cluster": true,
+      "cause": "Vehicle Accident",
+      "cluster": false,
       "cust_a": {
-        "val": 224
+        "val": 274
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "val": 90
-          },
-          "etr": "2023-09-05T02:30:00-0300",
-          "start": "2023-09-04T23:34:45-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "val": 134
-          },
-          "etr": "2023-09-05T01:30:00-0300",
-          "start": "2023-09-04T22:54:00-0300"
-        }
-      ]
+      "etr": "2023-09-05T05:45:00-0300",
+      "start": "2023-09-04T23:17:57-0300"
     },
     "geom": {
+      "a": [
+        "apvoGpi~bKoKxb@}Ne[pMot@|CsFtE|Fj@xPZvZ"
+      ],
       "p": [
-        "evvoG`x}bK"
+        "e|voG|`~bK"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "2",
+    "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
+      "cause": "Vehicle Accident",
       "cluster": false,
       "cust_a": {
         "val": 3357
@@ -53,28 +38,7 @@
         "anvoGls~bK"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 50
-      },
-      "etr": "2023-09-05T02:45:00-0300",
-      "start": "2023-09-04T23:17:57-0300"
-    },
-    "geom": {
-      "a": [
-        "apvoGpi~bKsOxXyJeQl[sF"
-      ],
-      "p": [
-        "a_woGtt~bK"
-      ]
-    },
-    "id": "4",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -93,7 +57,7 @@
         "ge`pGlvwaK"
       ]
     },
-    "id": "6",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -112,7 +76,7 @@
         "ibmnGpylfK"
       ]
     },
-    "id": "7",
+    "id": "5",
     "title": "Outage Information"
   }
 ]
