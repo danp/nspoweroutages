@@ -1,23 +1,41 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "val": 73
+        "masked": true,
+        "val": 4
       },
-      "etr": "2023-09-15T05:45:00-0300",
-      "start": "2023-09-15T01:38:33-0300"
-    },
-    "geom": {
-      "a": [
-        "ywnyGto_oJacDmkAnF}RxQsFj`Bkc@jg@jkC"
-      ],
-      "p": [
-        "w`qyGjd}nJ"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-09-15T10:45:00-0300",
+          "start": "2023-09-15T06:00:00-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-09-15T10:45:00-0300",
+          "start": "2023-09-15T06:08:59-0300"
+        }
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
+    "geom": {
+      "p": [
+        "_{{mGvh_iK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   }
 ]
