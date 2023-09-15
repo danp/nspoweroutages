@@ -19,45 +19,6 @@
   },
   {
     "desc": {
-      "cluster": true,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2023-09-15T10:45:00-0300",
-          "start": "2023-09-15T06:00:00-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2023-09-15T10:45:00-0300",
-          "start": "2023-09-15T06:08:59-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "_{{mGvh_iK"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -111,6 +72,25 @@
       ]
     },
     "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-09-15T10:45:00-0300",
+      "start": "2023-09-15T06:08:59-0300"
+    },
+    "geom": {
+      "p": [
+        "ez{mGnl_iK"
+      ]
+    },
+    "id": "5",
     "title": "Outage Information"
   }
 ]
