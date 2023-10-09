@@ -1,18 +1,17 @@
 [
   {
     "desc": {
-      "cause": "Damage to Underground Equipment",
+      "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 6
       },
-      "etr": "2023-10-09T19:30:00-0300",
-      "start": "2023-10-09T13:30:45-0300"
+      "etr": "2023-10-10T00:00:00-0300",
+      "start": "2023-10-09T19:02:17-0300"
     },
     "geom": {
       "p": [
-        "gperGr`xgK"
+        "wyvxGjqgtJ"
       ]
     },
     "id": "1",
@@ -20,17 +19,18 @@
   },
   {
     "desc": {
-      "cause": "Damage to Overhead Equipment",
+      "cause": "Damage to Underground Equipment",
       "cluster": false,
       "cust_a": {
-        "val": 20
+        "masked": true,
+        "val": 4
       },
-      "etr": "2023-10-09T19:15:00-0300",
-      "start": "2023-10-09T15:25:00-0300"
+      "etr": "2023-10-09T23:30:00-0300",
+      "start": "2023-10-09T13:30:45-0300"
     },
     "geom": {
       "p": [
-        "}_goGjqlbK"
+        "gperGr`xgK"
       ]
     },
     "id": "2",
@@ -43,7 +43,7 @@
       "cust_a": {
         "val": 16
       },
-      "etr": "2023-10-09T19:45:00-0300",
+      "etr": "2023-10-09T23:45:00-0300",
       "start": "2023-10-09T14:48:17-0300"
     },
     "geom": {
@@ -52,6 +52,24 @@
       ]
     },
     "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Damage to Overhead Equipment",
+      "cluster": false,
+      "cust_a": {
+        "val": 20
+      },
+      "etr": "2023-10-09T23:15:00-0300",
+      "start": "2023-10-09T15:25:00-0300"
+    },
+    "geom": {
+      "p": [
+        "}_goGjqlbK"
+      ]
+    },
+    "id": "4",
     "title": "Outage Information"
   }
 ]
