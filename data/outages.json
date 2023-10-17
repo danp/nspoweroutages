@@ -1,6 +1,90 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 14
+      },
+      "n_out": 3,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 6
+          },
+          "etr": "2023-10-17T12:30:00-0300",
+          "start": "2023-10-17T07:34:23-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 7
+          },
+          "etr": "2023-10-17T12:30:00-0300",
+          "start": "2023-10-17T07:34:22-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-10-17T12:45:00-0300",
+          "start": "2023-10-17T07:35:18-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "slnyGlqhoJ"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-10-17T11:45:00-0300",
+      "start": "2023-10-17T07:35:07-0300"
+    },
+    "geom": {
+      "p": [
+        "_deyGtksnJ"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-10-17T12:45:00-0300",
+      "start": "2023-10-17T07:30:24-0300"
+    },
+    "geom": {
+      "p": [
+        "kzrwGhnrsJ"
+      ]
+    },
+    "id": "5",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -15,7 +99,7 @@
         "}tvxG`rtpJ"
       ]
     },
-    "id": "1",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -34,7 +118,7 @@
         "{iesGfdxtJ"
       ]
     },
-    "id": "2",
+    "id": "7",
     "title": "Outage Information"
   }
 ]
