@@ -1,82 +1,6 @@
 [
   {
     "desc": {
-      "cause": "Salt Contamination",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-10-31T17:00:00-0300",
-      "start": "2023-10-31T10:12:24-0300"
-    },
-    "geom": {
-      "p": [
-        "uvooGd_aeK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-10-31T17:45:00-0300",
-      "start": "2023-10-31T13:52:00-0300"
-    },
-    "geom": {
-      "p": [
-        "m_buGvtx~J"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Trees On Line",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-10-31T20:00:00-0300",
-      "start": "2023-10-31T03:00:00-0300"
-    },
-    "geom": {
-      "p": [
-        "m}uwGxsgnJ"
-      ]
-    },
-    "id": "12",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-10-31T17:30:00-0300",
-      "start": "2023-10-31T12:47:00-0300"
-    },
-    "geom": {
-      "p": [
-        "{o}rGpwvhK"
-      ]
-    },
-    "id": "13",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -91,26 +15,7 @@
         "ajduGxpc~J"
       ]
     },
-    "id": "14",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-10-31T16:30:00-0300",
-      "start": "2023-10-31T12:28:47-0300"
-    },
-    "geom": {
-      "p": [
-        "oybrG`zshK"
-      ]
-    },
-    "id": "15",
+    "id": "10",
     "title": "Outage Information"
   },
   {
@@ -129,7 +34,7 @@
         "s_gwGxi~lJ"
       ]
     },
-    "id": "16",
+    "id": "11",
     "title": "Outage Information"
   },
   {
@@ -148,7 +53,7 @@
         "wproGv`keK"
       ]
     },
-    "id": "17",
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -167,7 +72,7 @@
         "agqoG|occK"
       ]
     },
-    "id": "18",
+    "id": "13",
     "title": "Outage Information"
   },
   {
@@ -186,27 +91,47 @@
         "eprxG`kpnJ"
       ]
     },
-    "id": "19",
+    "id": "14",
     "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "Unknown Cause",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2023-10-31T17:00:00-0300",
-      "start": "2023-10-31T09:43:34-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-10-31T20:15:00-0300",
+          "start": "2023-10-31T15:29:08-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-10-31T18:45:00-0300",
+          "start": "2023-10-31T14:04:12-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "{z`}Gdo~oJ"
+        "}gbhGffqoK"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -226,49 +151,7 @@
         "y}ulGxsyrK"
       ]
     },
-    "id": "20",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Transmission Interruption",
-      "cluster": false,
-      "cust_a": {
-        "val": 2056
-      },
-      "etr": "2023-10-31T16:00:00-0300",
-      "start": "2023-10-31T13:47:39-0300"
-    },
-    "geom": {
-      "a": [
-        "w`ooGlf}gKkD~MeuNxue@a~H|MeWeq@qnSkqeAvhHwlDztBjD`QtOto`@nfd@"
-      ],
-      "p": [
-        "o|fpG~h}gK"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Transmission Interruption",
-      "cluster": false,
-      "cust_a": {
-        "val": 7386
-      },
-      "etr": "2023-10-31T16:00:00-0300",
-      "start": "2023-10-31T11:56:33-0300"
-    },
-    "geom": {
-      "a": [
-        "eq|pGjxzdKs{Av{_AobHbeLcb@sMsjUkpRhtBqj~@dkByrBjpEpg@roKhgCjjHrjB"
-      ],
-      "p": [
-        "y`nqGdd{eK"
-      ]
-    },
-    "id": "4",
+    "id": "15",
     "title": "Outage Information"
   },
   {
@@ -287,7 +170,7 @@
         "gvhuG|xg}J"
       ]
     },
-    "id": "5",
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -306,7 +189,7 @@
         "_aywGrlgmJ"
       ]
     },
-    "id": "6",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -325,7 +208,7 @@
         "ukknGxelgK"
       ]
     },
-    "id": "7",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -344,6 +227,44 @@
         "c~joGf{hgK"
       ]
     },
+    "id": "5",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-10-31T17:45:00-0300",
+      "start": "2023-10-31T13:52:00-0300"
+    },
+    "geom": {
+      "p": [
+        "m_buGvtx~J"
+      ]
+    },
+    "id": "7",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Trees On Line",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-10-31T20:00:00-0300",
+      "start": "2023-10-31T03:00:00-0300"
+    },
+    "geom": {
+      "p": [
+        "m}uwGxsgnJ"
+      ]
+    },
     "id": "8",
     "title": "Outage Information"
   },
@@ -355,12 +276,12 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2023-10-31T18:45:00-0300",
-      "start": "2023-10-31T14:04:12-0300"
+      "etr": "2023-10-31T17:30:00-0300",
+      "start": "2023-10-31T12:47:00-0300"
     },
     "geom": {
       "p": [
-        "ohbhGhkqoK"
+        "{o}rGpwvhK"
       ]
     },
     "id": "9",
