@@ -1,115 +1,21 @@
 [
   {
     "desc": {
-      "cause": "Planned Maintenance",
+      "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 15
+        "masked": true,
+        "val": 4
       },
-      "etr": "2023-11-01T10:15:00-0300",
-      "start": "2023-11-01T09:23:38-0300"
+      "etr": "2023-11-01T13:30:00-0300",
+      "start": "2023-11-01T09:34:55-0300"
     },
     "geom": {
       "p": [
-        "eotoGva~bK"
+        "c~~sG`{z`K"
       ]
     },
     "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-11-01T15:00:00-0300",
-      "start": "2023-10-31T16:49:42-0300"
-    },
-    "geom": {
-      "p": [
-        "wcfpG~jvcK"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Trees On Line",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-11-01T12:00:00-0300",
-      "start": "2023-10-31T03:00:00-0300"
-    },
-    "geom": {
-      "p": [
-        "m}uwGxsgnJ"
-      ]
-    },
-    "id": "11",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-11-02T16:00:00-0300",
-      "start": "2023-10-31T12:14:55-0300"
-    },
-    "geom": {
-      "p": [
-        "ukknGxelgK"
-      ]
-    },
-    "id": "12",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-11-01T12:45:00-0300",
-      "start": "2023-11-01T09:23:00-0300"
-    },
-    "geom": {
-      "p": [
-        "_|foGzyfcK"
-      ]
-    },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-11-01T14:00:00-0300",
-      "start": "2023-11-01T08:34:20-0300"
-    },
-    "geom": {
-      "p": [
-        "ichxGpohtJ"
-      ]
-    },
-    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -128,7 +34,7 @@
         "afepGdb{`K"
       ]
     },
-    "id": "5",
+    "id": "10",
     "title": "Outage Information"
   },
   {
@@ -147,7 +53,7 @@
         "wremGjbwjK"
       ]
     },
-    "id": "6",
+    "id": "11",
     "title": "Outage Information"
   },
   {
@@ -166,7 +72,7 @@
         "i|qoGxymcK"
       ]
     },
-    "id": "7",
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -185,7 +91,7 @@
         "{o}rGpwvhK"
       ]
     },
-    "id": "8",
+    "id": "13",
     "title": "Outage Information"
   },
   {
@@ -196,12 +102,180 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2023-11-01T10:00:00-0300",
+      "etr": "2023-11-01T15:00:00-0300",
+      "start": "2023-10-31T16:49:42-0300"
+    },
+    "geom": {
+      "p": [
+        "wcfpG~jvcK"
+      ]
+    },
+    "id": "14",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 20
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 7
+          },
+          "etr": "2023-11-01T11:00:00-0300",
+          "start": "2023-11-01T09:26:32-0300"
+        },
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 13
+          },
+          "etr": "2023-11-01T11:00:00-0300",
+          "start": "2023-11-01T09:26:23-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "yuhuGt{j}J"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Trees On Line",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-11-01T12:00:00-0300",
+      "start": "2023-10-31T03:00:00-0300"
+    },
+    "geom": {
+      "p": [
+        "m}uwGxsgnJ"
+      ]
+    },
+    "id": "15",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-11-02T16:00:00-0300",
+      "start": "2023-10-31T12:14:55-0300"
+    },
+    "geom": {
+      "p": [
+        "ukknGxelgK"
+      ]
+    },
+    "id": "16",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-11-01T13:45:00-0300",
+      "start": "2023-11-01T09:23:06-0300"
+    },
+    "geom": {
+      "p": [
+        "clhoGnteeK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-11-01T11:00:00-0300",
       "start": "2023-11-01T06:00:13-0300"
     },
     "geom": {
       "p": [
         "cdntGll|aK"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Planned Maintenance",
+      "cluster": false,
+      "cust_a": {
+        "val": 15
+      },
+      "etr": "2023-11-01T10:15:00-0300",
+      "start": "2023-11-01T09:23:38-0300"
+    },
+    "geom": {
+      "p": [
+        "eotoGva~bK"
+      ]
+    },
+    "id": "6",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-11-01T12:45:00-0300",
+      "start": "2023-11-01T09:23:00-0300"
+    },
+    "geom": {
+      "p": [
+        "_|foGzyfcK"
+      ]
+    },
+    "id": "7",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-11-01T14:00:00-0300",
+      "start": "2023-11-01T08:34:20-0300"
+    },
+    "geom": {
+      "p": [
+        "ichxGpohtJ"
       ]
     },
     "id": "9",
