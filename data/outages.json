@@ -1,22 +1,42 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2023-11-12T23:45:00-0400",
-      "start": "2023-11-12T20:23:29-0400"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-11-13T00:00:00-0400",
+          "start": "2023-11-12T20:29:00-0400"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-11-12T23:45:00-0400",
+          "start": "2023-11-12T20:23:29-0400"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "afonGl|`cK"
+        "oconGty`cK"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -34,7 +54,7 @@
         "uxsrG`sihK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -53,7 +73,7 @@
         "mvtoGf`deK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   }
 ]
