@@ -1,6 +1,25 @@
 [
   {
     "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-11-25T19:45:00-0400",
+      "start": "2023-11-25T14:48:59-0400"
+    },
+    "geom": {
+      "p": [
+        "k|wkGzp~iK"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cluster": true,
       "cust_a": {
         "masked": true,
@@ -40,6 +59,24 @@
   },
   {
     "desc": {
+      "cause": "Planned Maintenance",
+      "cluster": false,
+      "cust_a": {
+        "val": 10
+      },
+      "etr": "2023-11-25T19:15:00-0400",
+      "start": "2023-11-25T18:29:32-0400"
+    },
+    "geom": {
+      "p": [
+        "wkgoG|`icK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -52,44 +89,6 @@
     "geom": {
       "p": [
         "ciojG|kqrK"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-11-25T22:00:00-0400",
-      "start": "2023-11-25T16:58:41-0400"
-    },
-    "geom": {
-      "p": [
-        "qpxwGnbwlJ"
-      ]
-    },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-11-25T19:30:00-0400",
-      "start": "2023-11-25T16:07:09-0400"
-    },
-    "geom": {
-      "p": [
-        "wjgoG~bicK"
       ]
     },
     "id": "5",
@@ -122,25 +121,6 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2023-11-25T18:45:00-0400",
-      "start": "2023-11-25T14:48:59-0400"
-    },
-    "geom": {
-      "p": [
-        "k|wkGzp~iK"
-      ]
-    },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
       "etr": "2023-11-26T19:15:00-0400",
       "start": "2023-11-24T11:57:00-0400"
     },
@@ -149,7 +129,7 @@
         "ur`wGj|`sJ"
       ]
     },
-    "id": "8",
+    "id": "7",
     "title": "Outage Information"
   }
 ]
