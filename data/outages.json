@@ -4,6 +4,67 @@
       "cause": "Heavy Snowfall",
       "cluster": false,
       "cust_a": {
+        "val": 9
+      },
+      "etr": "2023-12-05T05:00:00-0400",
+      "start": "2023-12-04T13:22:40-0400"
+    },
+    "geom": {
+      "a": [
+        "cfhpG|xp_KaGyNvCzEhB|G"
+      ],
+      "p": [
+        "{ihpGtpp_K"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-12-04T18:00:00-0400",
+      "start": "2023-12-04T02:21:38-0400"
+    },
+    "geom": {
+      "p": [
+        "m_pmGxlfhK"
+      ]
+    },
+    "id": "10",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Heavy Snowfall",
+      "cluster": false,
+      "cust_a": {
+        "val": 59
+      },
+      "etr": "2023-12-04T18:00:00-0400",
+      "start": "2023-12-04T03:36:56-0400"
+    },
+    "geom": {
+      "a": [
+        "udtnG~nzhK]fDaXuQke@gq@`d@aW~BnFbO`v@dFdX"
+      ],
+      "p": [
+        "abunGtayhK"
+      ]
+    },
+    "id": "11",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Heavy Snowfall",
+      "cluster": false,
+      "cust_a": {
         "masked": true,
         "val": 4
       },
@@ -15,7 +76,7 @@
         "ip|nGh{rgK"
       ]
     },
-    "id": "10",
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -36,7 +97,7 @@
         "mv{nGjergK"
       ]
     },
-    "id": "11",
+    "id": "13",
     "title": "Outage Information"
   },
   {
@@ -55,85 +116,8 @@
         "seinGbviiK"
       ]
     },
-    "id": "12",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Heavy Snowfall",
-      "cluster": false,
-      "cust_a": {
-        "val": 16
-      },
-      "etr": "2023-12-05T03:30:00-0400",
-      "start": "2023-12-04T15:19:11-0400"
-    },
-    "geom": {
-      "a": [
-        "aeanGphugKaAnLTw\\j@fO"
-      ],
-      "p": [
-        "efanGrgugK"
-      ]
-    },
-    "id": "13",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Heavy Snowfall",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-05T04:00:00-0400",
-      "start": "2023-12-04T11:48:02-0400"
-    },
-    "geom": {
-      "p": [
-        "i`coGlooiK"
-      ]
-    },
     "id": "14",
     "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 146
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Heavy Snowfall",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2023-12-04T22:30:00-0400",
-          "start": "2023-12-04T16:38:44-0400"
-        },
-        {
-          "cause": "Heavy Snowfall",
-          "cluster": false,
-          "cust_a": {
-            "val": 145
-          },
-          "etr": "2023-12-04T18:00:00-0400",
-          "start": "2023-12-04T16:38:44-0400"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "wxcnGzawgK"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
   },
   {
     "desc": {
@@ -169,8 +153,48 @@
         "ap`mGx{ujK"
       ]
     },
-    "id": "14-2",
+    "id": "14-1",
     "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Heavy Snowfall",
+      "cluster": false,
+      "cust_a": {
+        "val": 16
+      },
+      "etr": "2023-12-05T03:30:00-0400",
+      "start": "2023-12-04T15:19:11-0400"
+    },
+    "geom": {
+      "a": [
+        "aeanGphugKaAnLTw\\j@fO"
+      ],
+      "p": [
+        "efanGrgugK"
+      ]
+    },
+    "id": "15",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Heavy Snowfall",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-12-05T04:00:00-0400",
+      "start": "2023-12-04T11:48:02-0400"
+    },
+    "geom": {
+      "p": [
+        "i`coGlooiK"
+      ]
+    },
+    "id": "16",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -188,7 +212,26 @@
         "}ffnGbiciK"
       ]
     },
-    "id": "16",
+    "id": "18",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Heavy Snowfall",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-12-05T09:00:00-0400",
+      "start": "2023-12-04T13:22:26-0400"
+    },
+    "geom": {
+      "p": [
+        "uffpGpbp_K"
+      ]
+    },
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -207,7 +250,7 @@
         "uv_nGryrjK"
       ]
     },
-    "id": "18",
+    "id": "20",
     "title": "Outage Information"
   },
   {
@@ -226,26 +269,7 @@
         "c|jnGp}iiK"
       ]
     },
-    "id": "19",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Heavy Snowfall",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-04T21:00:00-0400",
-      "start": "2023-12-04T16:38:44-0400"
-    },
-    "geom": {
-      "p": [
-        "eoenGb{vgK"
-      ]
-    },
-    "id": "2",
+    "id": "21",
     "title": "Outage Information"
   },
   {
@@ -264,7 +288,7 @@
         "cawqGr{|bK"
       ]
     },
-    "id": "21",
+    "id": "23",
     "title": "Outage Information"
   },
   {
@@ -283,7 +307,7 @@
         "}phpG|d{_K"
       ]
     },
-    "id": "22",
+    "id": "24",
     "title": "Outage Information"
   },
   {
@@ -301,7 +325,7 @@
         "mnhpGlj|_K"
       ]
     },
-    "id": "23",
+    "id": "25",
     "title": "Outage Information"
   },
   {
@@ -322,28 +346,7 @@
         "}xhpGvxx_K"
       ]
     },
-    "id": "24",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Heavy Snowfall",
-      "cluster": false,
-      "cust_a": {
-        "val": 281
-      },
-      "etr": "2023-12-05T04:15:00-0400",
-      "start": "2023-12-04T13:22:26-0400"
-    },
-    "geom": {
-      "a": [
-        "agzoGvkm_Kaq@~y@aLvFyAr@ecDd}A_YzGiPYgOgB{kDso@lFkXbdMoeB~@bH"
-      ],
-      "p": [
-        "eoapG|cp_K"
-      ]
-    },
-    "id": "25",
+    "id": "26",
     "title": "Outage Information"
   },
   {
@@ -360,27 +363,6 @@
     "geom": {
       "p": [
         "ashpGhuu_K"
-      ]
-    },
-    "id": "26",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Heavy Snowfall",
-      "cluster": false,
-      "cust_a": {
-        "val": 806
-      },
-      "etr": "2023-12-05T04:15:00-0400",
-      "start": "2023-12-04T13:28:00-0400"
-    },
-    "geom": {
-      "a": [
-        "qozoGr`p~JcmCb~Ty{Hv~G{gCcsDe|AqxOvlAmhEbuDcxFvk@sj@llIhbB|q@txB"
-      ],
-      "p": [
-        "eqepGnsz~J"
       ]
     },
     "id": "27",
@@ -422,6 +404,27 @@
       ]
     },
     "id": "29",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Heavy Snowfall",
+      "cluster": false,
+      "cust_a": {
+        "val": 311
+      },
+      "etr": "2023-12-05T05:00:00-0400",
+      "start": "2023-12-04T13:28:00-0400"
+    },
+    "geom": {
+      "a": [
+        "qozoGr`p~JcmCb~TqDr@uhErU_[upAbnBybSdsB{mBbbBuK|q@txB"
+      ],
+      "p": [
+        "mm`pGhvy~J"
+      ]
+    },
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -550,25 +553,6 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2023-12-05T06:45:00-0400",
-      "start": "2023-12-04T14:40:49-0400"
-    },
-    "geom": {
-      "p": [
-        "owanG~izgK"
-      ]
-    },
-    "id": "36",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Heavy Snowfall",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
       "etr": "2023-12-05T00:30:00-0400",
       "start": "2023-12-04T08:20:53-0400"
     },
@@ -577,64 +561,7 @@
         "_zrnGrxxhK"
       ]
     },
-    "id": "37",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Heavy Snowfall",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-05T05:45:00-0400",
-      "start": "2023-12-04T08:47:57-0400"
-    },
-    "geom": {
-      "p": [
-        "_yenGt_xgK"
-      ]
-    },
-    "id": "38",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-06T17:00:00-0400",
-      "start": "2023-11-24T09:54:36-0400"
-    },
-    "geom": {
-      "p": [
-        "qlzuG`_i{J"
-      ]
-    },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Heavy Snowfall",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-05T04:45:00-0400",
-      "start": "2023-12-04T12:29:27-0400"
-    },
-    "geom": {
-      "p": [
-        "iwhtGjyqaK"
-      ]
-    },
-    "id": "40",
+    "id": "36",
     "title": "Outage Information"
   },
   {
@@ -653,7 +580,7 @@
         "oxonGrxnhK"
       ]
     },
-    "id": "41",
+    "id": "38",
     "title": "Outage Information"
   },
   {
@@ -672,7 +599,26 @@
         "kjtoGr|zbK"
       ]
     },
-    "id": "42",
+    "id": "39",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Heavy Snowfall",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-12-05T09:00:00-0400",
+      "start": "2023-12-04T13:33:07-0400"
+    },
+    "geom": {
+      "p": [
+        "}{fpGtw`_K"
+      ]
+    },
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -690,7 +636,7 @@
         "k_ymGd|mhK"
       ]
     },
-    "id": "43",
+    "id": "40",
     "title": "Outage Information"
   },
   {
@@ -709,7 +655,7 @@
         "ewxnGngpiK"
       ]
     },
-    "id": "45",
+    "id": "42",
     "title": "Outage Information"
   },
   {
@@ -728,7 +674,47 @@
         "qmjuGpmpuJ"
       ]
     },
-    "id": "46",
+    "id": "43",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Heavy Snowfall",
+      "cluster": false,
+      "cust_a": {
+        "val": 166
+      },
+      "etr": "2023-12-05T05:00:00-0400",
+      "start": "2023-12-04T13:31:30-0400"
+    },
+    "geom": {
+      "a": [
+        "a_bpGdzl~JoqK`lJwGeLfAum@fd@_bCbuDcxFvk@sj@h}@jZzElDtjAvtA"
+      ],
+      "p": [
+        "mvhpGhyo~J"
+      ]
+    },
+    "id": "5",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-12-06T17:00:00-0400",
+      "start": "2023-11-24T09:54:36-0400"
+    },
+    "geom": {
+      "p": [
+        "qlzuG`_i{J"
+      ]
+    },
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -747,7 +733,7 @@
         "axxoGn~jaK"
       ]
     },
-    "id": "5",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -766,7 +752,7 @@
         "k|cpGfb_cK"
       ]
     },
-    "id": "6",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -783,46 +769,6 @@
     "geom": {
       "p": [
         "yzdyGbhnmJ"
-      ]
-    },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-04T18:00:00-0400",
-      "start": "2023-12-04T02:21:38-0400"
-    },
-    "geom": {
-      "p": [
-        "m_pmGxlfhK"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Heavy Snowfall",
-      "cluster": false,
-      "cust_a": {
-        "val": 59
-      },
-      "etr": "2023-12-04T18:00:00-0400",
-      "start": "2023-12-04T03:36:56-0400"
-    },
-    "geom": {
-      "a": [
-        "udtnG~nzhK]fDaXuQke@gq@`d@aW~BnFbO`v@dFdX"
-      ],
-      "p": [
-        "abunGtayhK"
       ]
     },
     "id": "9",
