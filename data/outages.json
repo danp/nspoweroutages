@@ -1,44 +1,6 @@
 [
   {
     "desc": {
-      "cause": "High Winds and Rain",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-19T11:15:00-0400",
-      "start": "2023-12-18T11:05:08-0400"
-    },
-    "geom": {
-      "p": [
-        "ce{nGz`ojK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-19T10:45:00-0400",
-      "start": "2023-12-18T10:16:00-0400"
-    },
-    "geom": {
-      "p": [
-        "iovqGz`vbK"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -53,7 +15,7 @@
         "ulspGviacK"
       ]
     },
-    "id": "11",
+    "id": "10",
     "title": "Outage Information"
   },
   {
@@ -74,7 +36,7 @@
         "yxvqG~subK"
       ]
     },
-    "id": "12",
+    "id": "11",
     "title": "Outage Information"
   },
   {
@@ -93,7 +55,7 @@
         "kewuG`c|uJ"
       ]
     },
-    "id": "13",
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -112,25 +74,62 @@
         "ogjuG|vo|J"
       ]
     },
-    "id": "14",
+    "id": "13",
     "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "High Winds and Rain",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-12-19T11:30:00-0400",
+          "start": "2023-12-18T11:18:47-0400"
+        },
+        {
+          "cause": "High Winds and Rain",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2023-12-19T11:15:00-0400",
+          "start": "2023-12-18T11:05:08-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "ga{nGt|njK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
       "cause": "High Winds and Rain",
       "cluster": false,
       "cust_a": {
-        "val": 30
+        "masked": true,
+        "val": 4
       },
-      "etr": "2023-12-18T23:30:00-0400",
-      "start": "2023-12-18T11:14:00-0400"
+      "etr": "2023-12-19T11:30:00-0400",
+      "start": "2023-12-18T11:22:00-0400"
     },
     "geom": {
-      "a": [
-        "s}drGhtrhKc@~E@kK`@jD"
-      ],
       "p": [
-        "i~drGxtrhK"
+        "muruG|}ubK"
       ]
     },
     "id": "2",
@@ -152,49 +151,7 @@
         "qrrjGvudnK"
       ]
     },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Trees On Line",
-      "cluster": false,
-      "cust_a": {
-        "val": 229
-      },
-      "etr": "2023-12-18T22:45:00-0400",
-      "start": "2023-12-18T08:51:25-0400"
-    },
-    "geom": {
-      "a": [
-        "sdfvG`cl~JiBvyP{B~cGmnD{jCbHytCdYwbHdDec@`Mu_B`_CmtB"
-      ],
-      "p": [
-        "}qhvGjsy~J"
-      ]
-    },
     "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Trees On Line",
-      "cluster": false,
-      "cust_a": {
-        "val": 265
-      },
-      "etr": "2023-12-18T22:45:00-0400",
-      "start": "2023-12-18T08:51:00-0400"
-    },
-    "geom": {
-      "a": [
-        "cggvGj~{~JeuBmf@fO_pKl[}zEfHsk@tCiLlOnh@df@~vF|BxkL"
-      ],
-      "p": [
-        "o~hvGznr~J"
-      ]
-    },
-    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -213,7 +170,7 @@
         "mgpxGrspqJ"
       ]
     },
-    "id": "6",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -232,7 +189,7 @@
         "_a{tGbay`K"
       ]
     },
-    "id": "7",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -251,7 +208,7 @@
         "ucnrGtpd_K"
       ]
     },
-    "id": "8",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -268,6 +225,25 @@
     "geom": {
       "p": [
         "q}vmGjbolK"
+      ]
+    },
+    "id": "8",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-12-19T10:45:00-0400",
+      "start": "2023-12-18T10:16:00-0400"
+    },
+    "geom": {
+      "p": [
+        "iovqGz`vbK"
       ]
     },
     "id": "9",
