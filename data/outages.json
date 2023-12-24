@@ -1,20 +1,21 @@
 [
   {
     "desc": {
-      "cause": "Damage to Overhead Equipment",
+      "cause": "High Winds",
       "cluster": false,
       "cust_a": {
-        "val": 18
+        "masked": true,
+        "val": 4
       },
-      "etr": "2023-12-24T18:00:00-0400",
-      "start": "2023-12-23T22:21:09-0400"
+      "etr": "2023-12-27T23:00:00-0400",
+      "start": "2023-12-22T13:50:50-0400"
     },
     "geom": {
       "p": [
-        "o}loGhu`cK"
+        "ev~xG|wtuJ"
       ]
     },
-    "id": "1",
+    "id": "10",
     "title": "Outage Information"
   },
   {
@@ -33,7 +34,7 @@
         "sz}xGln_mJ"
       ]
     },
-    "id": "10",
+    "id": "11",
     "title": "Outage Information"
   },
   {
@@ -52,7 +53,7 @@
         "uiayGri~lJ"
       ]
     },
-    "id": "11",
+    "id": "12",
     "title": "Outage Information"
   },
   {
@@ -71,7 +72,81 @@
         "yvkwGjyarJ"
       ]
     },
-    "id": "12",
+    "id": "13",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 72
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Damage to Overhead Equipment",
+          "cluster": false,
+          "cust_a": {
+            "val": 54
+          },
+          "etr": "2023-12-24T18:00:00-0400",
+          "start": "2023-12-24T14:44:10-0400"
+        },
+        {
+          "cause": "Damage to Overhead Equipment",
+          "cluster": false,
+          "cust_a": {
+            "val": 18
+          },
+          "etr": "2023-12-24T18:00:00-0400",
+          "start": "2023-12-23T22:21:09-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "i}loG|t`cK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-12-24T19:00:00-0400",
+      "start": "2023-12-24T12:32:31-0400"
+    },
+    "geom": {
+      "p": [
+        "ybuoGxuqbK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-12-24T16:30:00-0400",
+      "start": "2023-12-24T11:44:14-0400"
+    },
+    "geom": {
+      "p": [
+        "cg|tGvauxJ"
+      ]
+    },
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -90,7 +165,7 @@
         "_xsuGjce_K"
       ]
     },
-    "id": "2",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -109,7 +184,7 @@
         "gnyuGpum{J"
       ]
     },
-    "id": "3",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -128,45 +203,7 @@
         "khxqGn`egK"
       ]
     },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-24T16:00:00-0400",
-      "start": "2023-12-24T12:32:31-0400"
-    },
-    "geom": {
-      "p": [
-        "ybuoGxuqbK"
-      ]
-    },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-24T15:30:00-0400",
-      "start": "2023-12-24T11:44:14-0400"
-    },
-    "geom": {
-      "p": [
-        "cg|tGvauxJ"
-      ]
-    },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -185,7 +222,7 @@
         "oqayGf|}lJ"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -202,25 +239,6 @@
     "geom": {
       "p": [
         "gb`yGzw`mJ"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-27T23:00:00-0400",
-      "start": "2023-12-22T13:50:50-0400"
-    },
-    "geom": {
-      "p": [
-        "ev~xG|wtuJ"
       ]
     },
     "id": "9",
