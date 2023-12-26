@@ -1,6 +1,27 @@
 [
   {
     "desc": {
+      "cause": "Vehicle Accident",
+      "cluster": false,
+      "cust_a": {
+        "val": 2426
+      },
+      "etr": "2023-12-26T23:55:00-0400",
+      "start": "2023-12-26T18:14:46-0400"
+    },
+    "geom": {
+      "a": [
+        "{pdoGbglcKgtGkkA]oDz@{RdAwBtf@ec@ht@}a@|eC|w@`Bl@bj@fuB"
+      ],
+      "p": [
+        "izhoGvlicK"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -96,62 +117,6 @@
   },
   {
     "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 1817
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2023-12-26T22:30:00-0400",
-          "start": "2023-12-26T19:05:37-0400"
-        },
-        {
-          "cause": "Vehicle Accident",
-          "cluster": false,
-          "cust_a": {
-            "val": 1816
-          },
-          "etr": "2023-12-26T21:15:00-0400",
-          "start": "2023-12-26T19:04:38-0400"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "gyioGhcgcK"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2023-12-26T23:45:00-0400",
-      "start": "2023-12-26T19:00:32-0400"
-    },
-    "geom": {
-      "p": [
-        "qbmnG|fmfK"
-      ]
-    },
-    "id": "15",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
       "cause": "Damage to Overhead Equipment",
       "cluster": false,
       "cust_a": {
@@ -166,7 +131,7 @@
         "_u}lGzjzgK"
       ]
     },
-    "id": "16",
+    "id": "15",
     "title": "Outage Information"
   },
   {
@@ -185,7 +150,7 @@
         "}jhqGt|c|J"
       ]
     },
-    "id": "17",
+    "id": "16",
     "title": "Outage Information"
   },
   {
@@ -204,7 +169,7 @@
         "_lzwGpe~lJ"
       ]
     },
-    "id": "18",
+    "id": "17",
     "title": "Outage Information"
   },
   {
@@ -223,7 +188,7 @@
         "ev~xG|wtuJ"
       ]
     },
-    "id": "19",
+    "id": "18",
     "title": "Outage Information"
   },
   {
@@ -231,20 +196,39 @@
       "cause": "Vehicle Accident",
       "cluster": false,
       "cust_a": {
-        "val": 2426
+        "val": 1816
       },
-      "etr": "2023-12-26T23:30:00-0400",
-      "start": "2023-12-26T18:14:46-0400"
+      "etr": "2023-12-26T23:55:00-0400",
+      "start": "2023-12-26T19:04:38-0400"
     },
     "geom": {
       "a": [
-        "{pdoGbglcKgtGkkA]oDz@{RdAwBtf@ec@ht@}a@|eC|w@`Bl@bj@fuB"
+        "uhfoGjgdcKAvDg@|C{dAvnB_DzA}_Bdm@{e@}JOk@pT_o@jBiApzCubBdBu@dN}F~Bi@pE@`BtA"
       ],
       "p": [
-        "izhoGvlicK"
+        "otioGfegcK"
       ]
     },
     "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2023-12-27T11:45:00-0400",
+      "start": "2023-12-26T19:00:32-0400"
+    },
+    "geom": {
+      "p": [
+        "qbmnG|fmfK"
+      ]
+    },
+    "id": "3",
     "title": "Outage Information"
   },
   {
