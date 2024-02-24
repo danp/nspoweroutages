@@ -4,17 +4,15 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 1661
+        "masked": true,
+        "val": 4
       },
-      "etr": "2024-02-24T10:15:00-0400",
+      "etr": "2024-02-24T11:45:00-0400",
       "start": "2024-02-24T01:59:37-0400"
     },
     "geom": {
-      "a": [
-        "wozxGhj|lJsExLgcAh}BqcAkWy@mz@hUu|@`Rkr@tCsHzr@qWvT_IdG~DjP|}A"
-      ],
       "p": [
-        "my|xGz~|lJ"
+        "_u{xGpxzlJ"
       ]
     },
     "id": "1",
@@ -122,42 +120,24 @@
   },
   {
     "desc": {
-      "cluster": true,
+      "cause": "Cause Being Investigated",
+      "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 1660
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2024-02-24T11:15:00-0400",
-          "start": "2024-02-24T06:40:00-0400"
-        },
-        {
-          "cause": "Vehicle Accident",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "",
-          "start": "2024-02-24T00:37:18-0400"
-        }
-      ]
+      "etr": "2024-02-24T10:15:00-0400",
+      "start": "2024-02-24T01:59:37-0400"
     },
     "geom": {
+      "a": [
+        "wozxGhj|lJsExLgcAh}BqcAkWy@mz@hUu|@`Rkr@tCsHzr@qWvT_IdG~DjP|}A"
+      ],
       "p": [
-        "wprqGndjkK"
+        "my|xGz~|lJ"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "2",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -174,7 +154,7 @@
         "}ppuGhoh~J"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -193,7 +173,7 @@
         "otewGzk~nJ"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -212,7 +192,7 @@
         "sh|wG`fwmJ"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -251,6 +231,25 @@
       ]
     },
     "id": "8",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Vehicle Accident",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "",
+      "start": "2024-02-24T00:37:18-0400"
+    },
+    "geom": {
+      "p": [
+        "}qrqGfgjkK"
+      ]
+    },
+    "id": "9",
     "title": "Outage Information"
   }
 ]
