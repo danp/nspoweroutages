@@ -4,15 +4,17 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 61
       },
-      "etr": "2024-03-15T11:00:00-0300",
-      "start": "2024-03-15T07:57:00-0300"
+      "etr": "2024-03-15T13:00:00-0300",
+      "start": "2024-03-15T07:52:25-0300"
     },
     "geom": {
+      "a": [
+        "oujuG`nyqJwC|_CaFdEwOy`@vEelAhHaXnK\\"
+      ],
       "p": [
-        "gexuG|xw}J"
+        "mbkuGro{qJ"
       ]
     },
     "id": "1",
@@ -20,59 +22,42 @@
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2024-03-15T13:00:00-0300",
-      "start": "2024-03-15T07:57:44-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-03-15T11:00:00-0300",
+          "start": "2024-03-15T08:00:51-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-03-15T11:00:00-0300",
+          "start": "2024-03-15T07:57:00-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "_fkuGp{{qJ"
+        "sdxuGpxw}J"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 7
-      },
-      "etr": "2024-03-15T12:45:00-0300",
-      "start": "2024-03-15T07:52:25-0300"
-    },
-    "geom": {
-      "p": [
-        "gzjuG~n}qJ"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2024-03-15T13:00:00-0300",
-      "start": "2024-03-15T07:56:50-0300"
-    },
-    "geom": {
-      "p": [
-        "g~juG~l|qJ"
-      ]
-    },
-    "id": "4",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -90,7 +75,7 @@
         "mybpGxy`dK"
       ]
     },
-    "id": "5",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -109,7 +94,7 @@
         "sqloGjbgeK"
       ]
     },
-    "id": "6",
+    "id": "5",
     "title": "Outage Information"
   }
 ]
