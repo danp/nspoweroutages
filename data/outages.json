@@ -7,15 +7,15 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2024-04-04T13:15:00-0300",
-      "start": "2024-04-04T08:37:38-0300"
+      "etr": "2024-04-04T12:00:00-0300",
+      "start": "2024-04-04T06:35:17-0300"
     },
     "geom": {
       "p": [
-        "ayqjGhmurK"
+        "{qcrGrqajK"
       ]
     },
-    "id": "1",
+    "id": "10",
     "title": "Outage Information"
   },
   {
@@ -23,17 +23,18 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 5
+        "masked": true,
+        "val": 4
       },
-      "etr": "2024-04-04T11:45:00-0300",
-      "start": "2024-04-04T06:59:43-0300"
+      "etr": "2024-04-04T12:00:00-0300",
+      "start": "2024-04-04T07:06:53-0300"
     },
     "geom": {
       "p": [
-        "mkqiGdtqpK"
+        "}`niGbsrpK"
       ]
     },
-    "id": "10",
+    "id": "11",
     "title": "Outage Information"
   },
   {
@@ -52,26 +53,45 @@
         "upkuGvrcwJ"
       ]
     },
-    "id": "11",
+    "id": "13",
     "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "val": 8
+        "val": 6
       },
-      "etr": "2024-04-04T12:15:00-0300",
-      "start": "2024-04-04T07:28:19-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-04-04T14:00:00-0300",
+          "start": "2024-04-04T09:23:36-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 5
+          },
+          "etr": "2024-04-04T11:45:00-0300",
+          "start": "2024-04-04T06:59:43-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "it|hGvtnnK"
+        "wnqiGvvqpK"
       ]
     },
-    "id": "13",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -107,8 +127,26 @@
         "_tnhGf{rnK"
       ]
     },
-    "id": "14-1",
+    "id": "14-2",
     "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "val": 8
+      },
+      "etr": "2024-04-04T12:15:00-0300",
+      "start": "2024-04-04T07:28:19-0300"
+    },
+    "geom": {
+      "p": [
+        "it|hGvtnnK"
+      ]
+    },
+    "id": "15",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -126,7 +164,7 @@
         "cgniGbqhmK"
       ]
     },
-    "id": "16",
+    "id": "18",
     "title": "Outage Information"
   },
   {
@@ -145,7 +183,26 @@
         "oktiG`ttmK"
       ]
     },
-    "id": "17",
+    "id": "19",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2024-04-04T14:00:00-0300",
+      "start": "2024-04-04T09:12:00-0300"
+    },
+    "geom": {
+      "p": [
+        "qfxhGbkknK"
+      ]
+    },
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -164,7 +221,7 @@
         "iqvwGd`~mJ"
       ]
     },
-    "id": "18",
+    "id": "20",
     "title": "Outage Information"
   },
   {
@@ -183,26 +240,7 @@
         "ympoGptdcK"
       ]
     },
-    "id": "19",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Planned Maintenance",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2024-04-04T11:00:00-0300",
-      "start": "2024-04-04T08:57:57-0300"
-    },
-    "geom": {
-      "p": [
-        "w__mGnddiK"
-      ]
-    },
-    "id": "2",
+    "id": "21",
     "title": "Outage Information"
   },
   {
@@ -223,7 +261,45 @@
         "qqanGtc~pK"
       ]
     },
-    "id": "20",
+    "id": "22",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2024-04-04T13:15:00-0300",
+      "start": "2024-04-04T08:37:38-0300"
+    },
+    "geom": {
+      "p": [
+        "ayqjGhmurK"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Planned Maintenance",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2024-04-04T11:00:00-0300",
+      "start": "2024-04-04T08:57:57-0300"
+    },
+    "geom": {
+      "p": [
+        "w__mGnddiK"
+      ]
+    },
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -241,7 +317,7 @@
         "cvdhG|isoK"
       ]
     },
-    "id": "3",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -260,7 +336,7 @@
         "geihGxmeoK"
       ]
     },
-    "id": "4",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -279,7 +355,7 @@
         "gfpxGtaplJ"
       ]
     },
-    "id": "5",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -298,7 +374,7 @@
         "wr_pGjgn~J"
       ]
     },
-    "id": "6",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -317,44 +393,6 @@
       ],
       "p": [
         "an~gGvfooK"
-      ]
-    },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2024-04-04T12:00:00-0300",
-      "start": "2024-04-04T06:35:17-0300"
-    },
-    "geom": {
-      "p": [
-        "{qcrGrqajK"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2024-04-04T12:00:00-0300",
-      "start": "2024-04-04T07:06:53-0300"
-    },
-    "geom": {
-      "p": [
-        "}`niGbsrpK"
       ]
     },
     "id": "9",
