@@ -1,33 +1,70 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 23
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Vehicle Accident",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-04-06T03:30:00-0300",
+          "start": "2024-04-06T00:55:01-0300"
+        },
+        {
+          "cause": "Vehicle Accident",
+          "cluster": false,
+          "cust_a": {
+            "val": 22
+          },
+          "etr": "2024-04-06T10:00:00-0300",
+          "start": "2024-04-06T02:09:58-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "ywymGhgphK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Vehicle Accident",
       "cluster": false,
       "cust_a": {
-        "val": 784
+        "val": 762
       },
       "etr": "2024-04-06T03:30:00-0300",
-      "start": "2024-04-06T00:44:57-0300"
+      "start": "2024-04-06T00:44:58-0300"
     },
     "geom": {
       "a": [
-        "ezxmGdgrhKsBxl@m@zFkHrq@q\\~|@edCsj@mAw_B~|@u`AraBef@~Q|mA"
+        "ezxmGdgrhKsBxl@m@zFkHrq@q\\~|@edCsj@mAw_B~|@u`AtdAuRhPzMr]pk@"
       ],
       "p": [
-        "qn{mGdwshK"
+        "iq{mGh|shK"
       ]
     },
-    "id": "1",
+    "id": "2",
     "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
+      "cause": "Vehicle Accident",
       "cluster": false,
       "cust_a": {
         "val": 514
       },
-      "etr": "2024-04-06T04:45:00-0300",
+      "etr": "2024-04-06T10:00:00-0300",
       "start": "2024-04-06T02:08:20-0300"
     },
     "geom": {
@@ -38,7 +75,7 @@
         "egxmGrnghK"
       ]
     },
-    "id": "2",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -57,26 +94,7 @@
         "ka|kGpb|pK"
       ]
     },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Vehicle Accident",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2024-04-06T03:00:00-0300",
-      "start": "2024-04-06T00:55:01-0300"
-    },
-    "geom": {
-      "p": [
-        "c{ymGtjphK"
-      ]
-    },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -95,7 +113,7 @@
         "iqvwGd`~mJ"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -116,7 +134,7 @@
         "qqanGtc~pK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   }
 ]
