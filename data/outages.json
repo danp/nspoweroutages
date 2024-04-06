@@ -1,40 +1,40 @@
 [
   {
     "desc": {
-      "cluster": true,
+      "cause": "Vehicle Accident",
+      "cluster": false,
       "cust_a": {
-        "val": 23
+        "val": 20
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Vehicle Accident",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2024-04-06T10:00:00-0300",
-          "start": "2024-04-06T00:55:01-0300"
-        },
-        {
-          "cause": "Vehicle Accident",
-          "cluster": false,
-          "cust_a": {
-            "val": 22
-          },
-          "etr": "2024-04-06T10:00:00-0300",
-          "start": "2024-04-06T02:09:58-0300"
-        }
-      ]
+      "etr": "2024-04-06T10:00:00-0300",
+      "start": "2024-04-06T02:09:58-0300"
     },
     "geom": {
       "p": [
-        "ywymGhgphK"
+        "{qymGl`phK"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Vehicle Accident",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2024-04-06T10:00:00-0300",
+      "start": "2024-04-06T00:55:01-0300"
+    },
+    "geom": {
+      "p": [
+        "c{ymGtjphK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
   },
   {
     "desc": {
