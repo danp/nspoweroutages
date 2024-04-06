@@ -1,40 +1,24 @@
 [
   {
     "desc": {
-      "cluster": true,
+      "cause": "Cause Being Investigated",
+      "cluster": false,
       "cust_a": {
-        "val": 114
+        "val": 112
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "val": 112
-          },
-          "etr": "2024-04-06T21:30:00-0300",
-          "start": "2024-04-06T17:07:15-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2024-04-06T21:30:00-0300",
-          "start": "2024-04-06T17:11:55-0300"
-        }
-      ]
+      "etr": "2024-04-06T21:30:00-0300",
+      "start": "2024-04-06T17:07:15-0300"
     },
     "geom": {
+      "a": [
+        "{mqqGnjlfKk[pIgCgFvC{D`DuAxRu@~A|E"
+      ],
       "p": [
-        "uyqqGpjlfK"
+        "c_rqG`klfK"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "1",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -70,7 +54,7 @@
         "}mojGz~prK"
       ]
     },
-    "id": "14-2",
+    "id": "14-1",
     "title": "Area Outage"
   },
   {
@@ -89,7 +73,7 @@
         "ygesGpxttJ"
       ]
     },
-    "id": "5",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -110,7 +94,7 @@
         "qqanGtc~pK"
       ]
     },
-    "id": "7",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -129,7 +113,7 @@
         "iqvwGd`~mJ"
       ]
     },
-    "id": "8",
+    "id": "7",
     "title": "Outage Information"
   }
 ]
