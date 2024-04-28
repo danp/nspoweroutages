@@ -1,21 +1,39 @@
 [
   {
     "desc": {
-      "cause": "Planned Maintenance",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "val": 13
+        "val": 28
       },
-      "etr": "2024-04-28T13:00:00-0300",
-      "start": "2024-04-28T08:59:34-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 15
+          },
+          "etr": "2024-04-28T13:00:00-0300",
+          "start": "2024-04-28T09:00:36-0300"
+        },
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 13
+          },
+          "etr": "2024-04-28T13:00:00-0300",
+          "start": "2024-04-28T08:59:34-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "swfpGpeqcK"
+        "mtfpGfcqcK"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -32,7 +50,7 @@
         "qzvpGjat|J"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -53,7 +71,7 @@
         "kbrqGlij|J"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -72,7 +90,7 @@
         "}b_sGjsruJ"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -91,7 +109,7 @@
         "mawvGxfeuJ"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -110,7 +128,7 @@
         "yemmGpjckK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   }
 ]
