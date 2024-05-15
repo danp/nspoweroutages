@@ -1,25 +1,42 @@
 [
   {
     "desc": {
-      "cause": "Transmission Interruption",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2024-05-15T19:30:00-0300",
-      "start": "2024-05-15T15:08:33-0300"
-    },
-    "geom": {
-      "a": [
-        "g~`rGlmtfKoJ^nHgAt@AHh@"
-      ],
-      "p": [
-        "gbarGfmtfK"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-05-15T17:30:00-0300",
+          "start": "2024-05-15T15:08:33-0300"
+        },
+        {
+          "cause": "Transmission Interruption",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-05-15T19:30:00-0300",
+          "start": "2024-05-15T15:08:33-0300"
+        }
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
+    "geom": {
+      "p": [
+        "iharGxktfK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -39,7 +56,7 @@
         "}o|sGtg_bK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -58,27 +75,6 @@
       ],
       "p": [
         "gz}qGt~_gK"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Planned Maintenance",
-      "cluster": false,
-      "cust_a": {
-        "val": 6
-      },
-      "etr": "2024-05-15T15:30:00-0300",
-      "start": "2024-05-15T14:16:19-0300"
-    },
-    "geom": {
-      "a": [
-        "kiznGh|fiKmCfD{GtEhL}J"
-      ],
-      "p": [
-        "goznG~agiK"
       ]
     },
     "id": "4",
