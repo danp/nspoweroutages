@@ -1,30 +1,22 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "val": 9
       },
-      "etr": "2024-05-19T12:00:00-0300",
-      "start": "2024-05-19T08:24:00-0300"
-    },
-    "geom": {
-      "p": [
-        "maruGpq|wJ"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 5
-      },
-      "n_out": 2,
+      "n_out": 3,
       "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-05-19T15:45:00-0300",
+          "start": "2024-05-19T09:39:22-0300"
+        },
         {
           "cause": "Vehicle Accident",
           "cluster": false,
@@ -49,11 +41,29 @@
     },
     "geom": {
       "p": [
-        "u}soGrmbcK"
+        "k}soGtmbcK"
       ]
     },
     "id": "14-1",
     "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "val": 9
+      },
+      "etr": "2024-05-19T12:00:00-0300",
+      "start": "2024-05-19T08:24:00-0300"
+    },
+    "geom": {
+      "p": [
+        "maruGpq|wJ"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -71,7 +81,7 @@
         "gb}uGz{lfK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -90,7 +100,7 @@
         "kfatG~oeeK"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -109,7 +119,7 @@
         "{fgqGhf{iK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   }
 ]
