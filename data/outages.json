@@ -1,6 +1,25 @@
 [
   {
     "desc": {
+      "cause": "Planned Maintenance",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2024-06-15T17:00:00-0300",
+      "start": "2024-06-15T09:16:38-0300"
+    },
+    "geom": {
+      "p": [
+        "wdpoGr|_cK"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -35,42 +54,6 @@
     },
     "id": "14",
     "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 223
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "val": 176
-          },
-          "etr": "2024-06-15T11:00:00-0300",
-          "start": "2024-06-15T06:56:48-0300"
-        },
-        {
-          "cause": "Damage to Underground Equipment",
-          "cluster": false,
-          "cust_a": {
-            "val": 47
-          },
-          "etr": "2024-06-15T13:00:00-0300",
-          "start": "2024-06-15T06:56:48-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "wrroGrv~bK"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
   },
   {
     "desc": {
@@ -118,7 +101,7 @@
         "karlGb|siK"
       ]
     },
-    "id": "14-2",
+    "id": "14-1",
     "title": "Area Outage"
   },
   {
@@ -176,6 +159,24 @@
       ]
     },
     "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Damage to Underground Equipment",
+      "cluster": false,
+      "cust_a": {
+        "val": 47
+      },
+      "etr": "2024-06-15T13:00:00-0300",
+      "start": "2024-06-15T06:56:48-0300"
+    },
+    "geom": {
+      "p": [
+        "grroGzp~bK"
+      ]
+    },
+    "id": "3",
     "title": "Outage Information"
   },
   {
