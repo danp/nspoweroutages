@@ -4,25 +4,6 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2024-06-15T12:00:00-0300",
-      "start": "2024-06-15T03:01:17-0300"
-    },
-    "geom": {
-      "p": [
-        "apcrGhvxgK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
         "val": 5
       },
       "etr": "2024-06-15T12:00:00-0300",
@@ -59,10 +40,19 @@
     "desc": {
       "cluster": true,
       "cust_a": {
-        "val": 1490
+        "val": 223
       },
       "n_out": 2,
       "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 176
+          },
+          "etr": "2024-06-15T11:00:00-0300",
+          "start": "2024-06-15T06:56:48-0300"
+        },
         {
           "cause": "Damage to Underground Equipment",
           "cluster": false,
@@ -71,21 +61,12 @@
           },
           "etr": "2024-06-15T13:00:00-0300",
           "start": "2024-06-15T06:56:48-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "val": 1443
-          },
-          "etr": "2024-06-15T11:00:00-0300",
-          "start": "2024-06-15T06:56:48-0300"
         }
       ]
     },
     "geom": {
       "p": [
-        "}vroGbm~bK"
+        "wrroGrv~bK"
       ]
     },
     "id": "14-1",
@@ -176,6 +157,25 @@
       ]
     },
     "id": "16",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2024-06-15T12:00:00-0300",
+      "start": "2024-06-15T03:01:17-0300"
+    },
+    "geom": {
+      "p": [
+        "apcrGhvxgK"
+      ]
+    },
+    "id": "2",
     "title": "Outage Information"
   },
   {
