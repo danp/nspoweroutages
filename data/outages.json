@@ -1,6 +1,80 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 7
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-06-26T04:00:00-0300",
+          "start": "2024-06-25T23:19:38-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 6
+          },
+          "etr": "2024-06-26T03:30:00-0300",
+          "start": "2024-06-25T22:50:19-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "eu}oGhzunK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2024-06-26T00:00:00-0300",
+      "start": "2024-06-25T09:45:16-0300"
+    },
+    "geom": {
+      "p": [
+        "{jupG|ha}J"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Damage to Overhead Equipment",
+      "cluster": false,
+      "cust_a": {
+        "val": 5
+      },
+      "etr": "2024-06-26T00:00:00-0300",
+      "start": "2024-06-25T19:22:19-0300"
+    },
+    "geom": {
+      "p": [
+        "qdjoGhkbbK"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -15,63 +89,7 @@
         "ah~oGl~unK"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2024-06-26T00:30:00-0300",
-      "start": "2024-06-25T19:25:04-0300"
-    },
-    "geom": {
-      "p": [
-        "_~|uGlzxsJ"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2024-06-26T18:00:00-0300",
-      "start": "2024-06-24T17:46:27-0300"
-    },
-    "geom": {
-      "p": [
-        "_wluGvwrtJ"
-      ]
-    },
-    "id": "11",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 7
-      },
-      "etr": "2024-06-26T03:30:00-0300",
-      "start": "2024-06-25T22:50:19-0300"
-    },
-    "geom": {
-      "p": [
-        "us}oGrxunK"
-      ]
-    },
-    "id": "2",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -92,7 +110,7 @@
         "atdoGlpdcK"
       ]
     },
-    "id": "3",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -111,45 +129,7 @@
         "_hiwGjrdqJ"
       ]
     },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "",
-      "start": "2024-06-25T09:45:16-0300"
-    },
-    "geom": {
-      "p": [
-        "{jupG|ha}J"
-      ]
-    },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "",
-      "start": "2024-06-25T13:54:42-0300"
-    },
-    "geom": {
-      "p": [
-        "{ovwG`ineK"
-      ]
-    },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -166,24 +146,6 @@
     "geom": {
       "p": [
         "grvsGpju`K"
-      ]
-    },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Overhead Equipment",
-      "cluster": false,
-      "cust_a": {
-        "val": 5
-      },
-      "etr": "",
-      "start": "2024-06-25T19:22:19-0300"
-    },
-    "geom": {
-      "p": [
-        "qdjoGhkbbK"
       ]
     },
     "id": "8",
