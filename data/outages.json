@@ -20,41 +20,42 @@
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2024-08-26T21:45:00-0300",
-      "start": "2024-08-26T18:28:32-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-08-26T21:45:00-0300",
+          "start": "2024-08-26T18:28:32-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-08-26T22:00:00-0300",
+          "start": "2024-08-26T18:31:45-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "orhoGtygbK"
+        "mohoGxxgbK"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2024-08-27T00:30:00-0300",
-      "start": "2024-08-26T18:18:10-0300"
-    },
-    "geom": {
-      "p": [
-        "elooG~xdcK"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
