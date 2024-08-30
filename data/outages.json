@@ -1,6 +1,61 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 51
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Damage to Underground Equipment",
+          "cluster": false,
+          "cust_a": {
+            "val": 43
+          },
+          "etr": "2024-08-30T15:00:00-0300",
+          "start": "2024-08-30T03:22:47-0300"
+        },
+        {
+          "cause": "Damage to Underground Equipment",
+          "cluster": false,
+          "cust_a": {
+            "val": 8
+          },
+          "etr": "2024-08-30T15:00:00-0300",
+          "start": "2024-08-30T03:22:47-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "ggtoGbwsbK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2024-08-30T18:30:00-0300",
+      "start": "2024-08-30T13:49:46-0300"
+    },
+    "geom": {
+      "p": [
+        "mn|nG|tigK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -15,43 +70,7 @@
         "kztoGlezbK"
       ]
     },
-    "id": "1",
+    "id": "3",
     "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 51
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Damage to Underground Equipment",
-          "cluster": false,
-          "cust_a": {
-            "val": 8
-          },
-          "etr": "2024-08-30T15:00:00-0300",
-          "start": "2024-08-30T03:22:47-0300"
-        },
-        {
-          "cause": "Damage to Underground Equipment",
-          "cluster": false,
-          "cust_a": {
-            "val": 43
-          },
-          "etr": "2024-08-30T15:00:00-0300",
-          "start": "2024-08-30T03:22:47-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "ggtoGbwsbK"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
   }
 ]
