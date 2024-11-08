@@ -1,21 +1,57 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 11
       },
-      "etr": "2024-11-08T15:15:00-0400",
-      "start": "2024-11-08T11:47:12-0400"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 10
+          },
+          "etr": "2024-11-08T13:15:00-0400",
+          "start": "2024-11-08T11:48:18-0400"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-11-08T16:00:00-0400",
+          "start": "2024-11-08T11:59:00-0400"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "ko_pGpqocK"
+        "q`evGtdr`K"
       ]
     },
-    "id": "1",
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Planned Maintenance",
+      "cluster": false,
+      "cust_a": {
+        "val": 18
+      },
+      "etr": "2024-11-08T14:45:00-0400",
+      "start": "2024-11-08T11:57:45-0400"
+    },
+    "geom": {
+      "p": [
+        "ih_pGbiocK"
+      ]
+    },
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -34,7 +70,7 @@
         "iljqGl_ldK"
       ]
     },
-    "id": "2",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -53,7 +89,7 @@
         "qj_pGpf~aK"
       ]
     },
-    "id": "3",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -72,7 +108,7 @@
         "_dspGpef|J"
       ]
     },
-    "id": "4",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -91,7 +127,7 @@
         "i~roG|zegK"
       ]
     },
-    "id": "5",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -110,7 +146,7 @@
         "ynnuG~wawJ"
       ]
     },
-    "id": "6",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -129,7 +165,7 @@
         "}`owG|}dvJ"
       ]
     },
-    "id": "7",
+    "id": "9",
     "title": "Outage Information"
   }
 ]
