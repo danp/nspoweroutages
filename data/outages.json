@@ -8,15 +8,6 @@
       "n_out": 2,
       "outages": [
         {
-          "cause": "Planned Maintenance",
-          "cluster": false,
-          "cust_a": {
-            "val": 10
-          },
-          "etr": "2024-11-08T13:15:00-0400",
-          "start": "2024-11-08T11:48:18-0400"
-        },
-        {
           "cause": "Cause Being Investigated",
           "cluster": false,
           "cust_a": {
@@ -25,6 +16,15 @@
           },
           "etr": "2024-11-08T16:00:00-0400",
           "start": "2024-11-08T11:59:00-0400"
+        },
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 10
+          },
+          "etr": "2024-11-08T13:15:00-0400",
+          "start": "2024-11-08T11:48:18-0400"
         }
       ]
     },
