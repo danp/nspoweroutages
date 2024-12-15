@@ -1,6 +1,42 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 39
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 34
+          },
+          "etr": "2024-12-15T11:00:00-0400",
+          "start": "2024-12-15T06:13:58-0400"
+        },
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 5
+          },
+          "etr": "2024-12-15T11:00:00-0400",
+          "start": "2024-12-15T06:16:31-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "id_vGflhaK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -15,7 +51,7 @@
         "{kgpGrwscK"
       ]
     },
-    "id": "1",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -34,7 +70,7 @@
         "cxvqG|tcbK"
       ]
     },
-    "id": "2",
+    "id": "4",
     "title": "Outage Information"
   }
 ]
