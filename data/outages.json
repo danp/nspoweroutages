@@ -3,10 +3,19 @@
     "desc": {
       "cluster": true,
       "cust_a": {
-        "val": 39
+        "val": 46
       },
-      "n_out": 2,
+      "n_out": 3,
       "outages": [
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 7
+          },
+          "etr": "2024-12-15T10:00:00-0400",
+          "start": "2024-12-15T06:26:00-0400"
+        },
         {
           "cause": "Planned Maintenance",
           "cluster": false,
@@ -29,7 +38,7 @@
     },
     "geom": {
       "p": [
-        "id_vGflhaK"
+        "ib_vGlihaK"
       ]
     },
     "id": "14-1",
@@ -51,7 +60,7 @@
         "{kgpGrwscK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -70,7 +79,7 @@
         "cxvqG|tcbK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   }
 ]
