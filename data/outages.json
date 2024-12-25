@@ -1,6 +1,102 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 10
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 9
+          },
+          "etr": "2024-12-25T16:30:00-0400",
+          "start": "2024-12-25T11:36:02-0400"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2024-12-25T16:45:00-0400",
+          "start": "2024-12-25T11:37:53-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "o~kuG~louJ"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "val": 30
+      },
+      "etr": "2024-12-25T16:45:00-0400",
+      "start": "2024-12-25T11:36:49-0400"
+    },
+    "geom": {
+      "a": [
+        "}xluG~kpuJaDtOmCPgCwA~D{E|B{BxBwB"
+      ],
+      "p": [
+        "o_muGtvpuJ"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2024-12-25T16:45:00-0400",
+      "start": "2024-12-25T11:37:35-0400"
+    },
+    "geom": {
+      "p": [
+        "m~luGxyouJ"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2024-12-25T16:45:00-0400",
+      "start": "2024-12-25T11:38:25-0400"
+    },
+    "geom": {
+      "p": [
+        "_jmuG`dpuJ"
+      ]
+    },
+    "id": "5",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -17,7 +113,7 @@
         "m{wsG|xn`K"
       ]
     },
-    "id": "1",
+    "id": "6",
     "title": "Outage Information"
   }
 ]
