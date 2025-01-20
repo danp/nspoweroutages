@@ -4,25 +4,6 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-01-20T16:30:00-0400",
-      "start": "2025-01-20T12:42:03-0400"
-    },
-    "geom": {
-      "p": [
-        "wgxsGjadyJ"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
         "val": 98
       },
       "etr": "2025-01-20T14:45:00-0400",
@@ -117,6 +98,45 @@
   },
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-01-20T16:45:00-0400",
+          "start": "2025-01-20T12:47:40-0400"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-01-20T16:30:00-0400",
+          "start": "2025-01-20T12:42:03-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "wexsGlddyJ"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -131,7 +151,7 @@
         "}xuyGln`oJ"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -150,7 +170,7 @@
         "miv{GzjhsJ"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -169,7 +189,7 @@
         "oxuyGhgfoJ"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -188,7 +208,7 @@
         "utlxGvfonJ"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -205,24 +225,6 @@
     "geom": {
       "p": [
         "asxtG|iztJ"
-      ]
-    },
-    "id": "6",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 11
-      },
-      "etr": "2025-01-20T13:45:00-0400",
-      "start": "2025-01-20T07:51:58-0400"
-    },
-    "geom": {
-      "p": [
-        "areoGffibK"
       ]
     },
     "id": "7",
