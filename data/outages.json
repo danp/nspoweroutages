@@ -1,6 +1,44 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 6
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-02-06T18:00:00-0400",
+          "start": "2025-02-06T14:53:33-0400"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-02-06T17:45:00-0400",
+          "start": "2025-02-06T14:41:17-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "m{~oG~madK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -13,25 +51,6 @@
     "geom": {
       "p": [
         "s}ihGtxkoK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-02-06T17:45:00-0400",
-      "start": "2025-02-06T14:41:17-0400"
-    },
-    "geom": {
-      "p": [
-        "kz~oGtjadK"
       ]
     },
     "id": "2",
@@ -53,7 +72,7 @@
         "gctoGrpsbK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -72,7 +91,7 @@
         "unusGhujaK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -91,7 +110,7 @@
         "{bayG|~{pJ"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -110,7 +129,7 @@
         "k_emGnb{gK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -132,7 +151,7 @@
         "ef`pGpexbK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   }
 ]
