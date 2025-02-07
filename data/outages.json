@@ -7,25 +7,6 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2025-02-07T11:45:00-0400",
-      "start": "2025-02-07T07:06:48-0400"
-    },
-    "geom": {
-      "p": [
-        "k~wmGhmviK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
       "etr": "2025-02-09T20:00:00-0400",
       "start": "2025-02-06T10:37:00-0400"
     },
@@ -80,6 +61,64 @@
   },
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-02-07T14:30:00-0400",
+          "start": "2025-02-07T09:22:00-0400"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-02-07T11:45:00-0400",
+          "start": "2025-02-07T06:40:28-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "seeyGtjcuJ"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-02-07T11:45:00-0400",
+      "start": "2025-02-07T07:06:48-0400"
+    },
+    "geom": {
+      "p": [
+        "k~wmGhmviK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -94,7 +133,7 @@
         "y|foGtidcK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -115,45 +154,7 @@
         "e|moGra_cK"
       ]
     },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-02-07T11:45:00-0400",
-      "start": "2025-02-07T06:40:28-0400"
-    },
-    "geom": {
-      "p": [
-        "qeeyG`ocuJ"
-      ]
-    },
     "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-02-07T12:45:00-0400",
-      "start": "2025-02-07T07:26:24-0400"
-    },
-    "geom": {
-      "p": [
-        "inv{GnafsJ"
-      ]
-    },
-    "id": "5",
     "title": "Outage Information"
   },
   {
