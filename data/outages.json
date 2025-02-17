@@ -3,10 +3,20 @@
     "desc": {
       "cluster": true,
       "cust_a": {
-        "val": 12
+        "val": 15
       },
       "n_out": 3,
       "outages": [
+        {
+          "cause": "High Winds",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-02-17T12:30:00-0400",
+          "start": "2025-02-16T20:15:00-0400"
+        },
         {
           "cause": "High Winds",
           "cluster": false,
@@ -25,22 +35,12 @@
           },
           "etr": "2025-02-17T08:30:00-0400",
           "start": "2025-02-16T20:16:00-0400"
-        },
-        {
-          "cause": "High Winds",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-02-17T12:30:00-0400",
-          "start": "2025-02-16T20:15:00-0400"
         }
       ]
     },
     "geom": {
       "p": [
-        "oxdhG~dsoK"
+        "gxdhGlesoK"
       ]
     },
     "id": "14-1",
