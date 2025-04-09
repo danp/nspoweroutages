@@ -1,85 +1,6 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-04-09T13:30:00-0300",
-      "start": "2025-04-09T08:53:30-0300"
-    },
-    "geom": {
-      "p": [
-        "y{smGxlpjK"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Planned Maintenance",
-      "cluster": false,
-      "cust_a": {
-        "val": 32
-      },
-      "etr": "2025-04-09T17:30:00-0300",
-      "start": "2025-04-09T09:09:48-0300"
-    },
-    "geom": {
-      "a": [
-        "{rkwGp_ydKmDjAsOWrDgJlOrH"
-      ],
-      "p": [
-        "c_lwGn}xdK"
-      ]
-    },
-    "id": "11",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Planned Maintenance",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-04-09T13:00:00-0300",
-          "start": "2025-04-09T11:18:14-0300"
-        },
-        {
-          "cause": "Planned Maintenance",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-04-09T12:45:00-0300",
-          "start": "2025-04-09T09:44:51-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "s|~wGl}_mJ"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
       "cause": "Planned Maintenance",
       "cluster": false,
       "cust_a": {
@@ -93,26 +14,7 @@
         "cppuGnccsJ"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Overhead Equipment",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-04-09T15:30:00-0300",
-      "start": "2025-04-09T04:33:25-0300"
-    },
-    "geom": {
-      "p": [
-        "ks_rGz}kiK"
-      ]
-    },
-    "id": "3",
+    "id": "1",
     "title": "Outage Information"
   },
   {
@@ -133,7 +35,7 @@
         "mi_uGpzbsJ"
       ]
     },
-    "id": "4",
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -152,7 +54,7 @@
         "ewgnGryurK"
       ]
     },
-    "id": "5",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -171,7 +73,7 @@
         "{s~oGxftcK"
       ]
     },
-    "id": "6",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -190,7 +92,7 @@
         "wfgoG|feeK"
       ]
     },
-    "id": "7",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -208,7 +110,66 @@
         "gjewGbpodK"
       ]
     },
+    "id": "6",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Planned Maintenance",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-04-09T12:45:00-0300",
+      "start": "2025-04-09T09:44:51-0300"
+    },
+    "geom": {
+      "p": [
+        "o~~wGf{_mJ"
+      ]
+    },
+    "id": "7",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-04-09T13:30:00-0300",
+      "start": "2025-04-09T08:53:30-0300"
+    },
+    "geom": {
+      "p": [
+        "y{smGxlpjK"
+      ]
+    },
     "id": "8",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Planned Maintenance",
+      "cluster": false,
+      "cust_a": {
+        "val": 32
+      },
+      "etr": "2025-04-09T17:30:00-0300",
+      "start": "2025-04-09T09:09:48-0300"
+    },
+    "geom": {
+      "a": [
+        "{rkwGp_ydKmDjAsOWrDgJlOrH"
+      ],
+      "p": [
+        "c_lwGn}xdK"
+      ]
+    },
+    "id": "9",
     "title": "Outage Information"
   }
 ]
