@@ -8,6 +8,15 @@
       "n_out": 3,
       "outages": [
         {
+          "cause": "Damage to Underground Equipment",
+          "cluster": false,
+          "cust_a": {
+            "val": 10
+          },
+          "etr": "2025-04-16T17:35:00-0300",
+          "start": "2025-04-16T11:43:51-0300"
+        },
+        {
           "cause": "Cause Being Investigated",
           "cluster": false,
           "cust_a": {
@@ -26,15 +35,6 @@
           },
           "etr": "2025-04-16T16:45:00-0300",
           "start": "2025-04-16T13:28:31-0300"
-        },
-        {
-          "cause": "Damage to Underground Equipment",
-          "cluster": false,
-          "cust_a": {
-            "val": 10
-          },
-          "etr": "2025-04-16T16:30:00-0300",
-          "start": "2025-04-16T11:43:51-0300"
         }
       ]
     },
@@ -54,12 +54,12 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2025-04-16T18:45:00-0300",
-      "start": "2025-04-16T15:16:50-0300"
+      "etr": "2025-04-16T18:00:00-0300",
+      "start": "2025-04-16T10:17:24-0300"
     },
     "geom": {
       "p": [
-        "getoGzhbaK"
+        "m|_pGrcrcK"
       ]
     },
     "id": "2",
@@ -73,15 +73,15 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2025-04-16T18:00:00-0300",
-      "start": "2025-04-16T10:17:24-0300"
+      "etr": "2025-04-16T18:45:00-0300",
+      "start": "2025-04-16T15:16:50-0300"
     },
     "geom": {
       "p": [
-        "m|_pGrcrcK"
+        "getoGzhbaK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -100,7 +100,7 @@
         "keiwGbpjpJ"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -117,24 +117,6 @@
     "geom": {
       "p": [
         "y|syGzg}nJ"
-      ]
-    },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 55
-      },
-      "etr": "",
-      "start": "2025-04-16T10:33:34-0300"
-    },
-    "geom": {
-      "p": [
-        "wfdrGlcxgK"
       ]
     },
     "id": "6",
