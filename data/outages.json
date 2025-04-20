@@ -4,17 +4,17 @@
       "cause": "High Winds",
       "cluster": false,
       "cust_a": {
-        "val": 75
+        "val": 63
       },
-      "etr": "2025-04-21T08:00:00-0300",
-      "start": "2025-04-20T18:11:14-0300"
+      "etr": "2025-04-21T06:00:00-0300",
+      "start": "2025-04-20T17:29:35-0300"
     },
     "geom": {
       "a": [
-        "g`lqGxd~gKikEx\\gOgjDtuB~L~WnMzkA|oB"
+        "wm_nGxkehKqa@zjBcf@~kAoAvBcp@lDjIy~@fw@u|Gty@lzC"
       ],
       "p": [
-        "{apqG~o|gK"
+        "{kanG`ufhK"
       ]
     },
     "id": "1",
@@ -28,12 +28,33 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2025-04-21T19:00:00-0300",
-      "start": "2025-04-20T18:55:28-0300"
+      "etr": "2025-04-21T11:45:00-0300",
+      "start": "2025-04-20T19:38:24-0300"
     },
     "geom": {
       "p": [
-        "gxeqG~xwbK"
+        "qkpoGdyecK"
+      ]
+    },
+    "id": "10",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds",
+      "cluster": false,
+      "cust_a": {
+        "val": 14
+      },
+      "etr": "2025-04-21T07:45:00-0300",
+      "start": "2025-04-20T19:25:54-0300"
+    },
+    "geom": {
+      "a": [
+        "spyuGzs|fKaVy_@{Kw[gPck@wLkqA|aA`{D"
+      ],
+      "p": [
+        "yuzuGf|yfK"
       ]
     },
     "id": "11",
@@ -47,35 +68,53 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2025-04-21T18:00:00-0300",
-      "start": "2025-04-20T13:53:10-0300"
+      "etr": "2025-04-21T17:45:00-0300",
+      "start": "2025-04-20T17:36:00-0300"
     },
     "geom": {
       "p": [
-        "ugspGjapcK"
+        "gpcrGpeohK"
       ]
     },
-    "id": "12",
+    "id": "14",
     "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 10
       },
-      "etr": "2025-04-21T15:30:00-0300",
-      "start": "2025-04-20T12:59:35-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "High Winds",
+          "cluster": false,
+          "cust_a": {
+            "val": 9
+          },
+          "etr": "2025-04-21T08:00:00-0300",
+          "start": "2025-04-20T19:37:00-0300"
+        },
+        {
+          "cause": "High Winds",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-04-21T19:15:00-0300",
+          "start": "2025-04-20T19:08:56-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "klmqGxjccK"
+        "otqnGhwzdK"
       ]
     },
-    "id": "13",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -111,45 +150,6 @@
     "geom": {
       "p": [
         "}{ruGrq`gK"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "High Winds",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-04-21T19:45:00-0300",
-          "start": "2025-04-20T19:37:00-0300"
-        },
-        {
-          "cause": "High Winds",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-04-21T19:15:00-0300",
-          "start": "2025-04-20T19:08:56-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "_tqnGhvzdK"
       ]
     },
     "id": "14-2",
@@ -277,14 +277,15 @@
       "cause": "High Winds",
       "cluster": false,
       "cust_a": {
-        "val": 9
+        "masked": true,
+        "val": 4
       },
-      "etr": "2025-04-21T19:45:00-0300",
-      "start": "2025-04-20T19:29:44-0300"
+      "etr": "2025-04-21T19:00:00-0300",
+      "start": "2025-04-20T18:55:28-0300"
     },
     "geom": {
       "p": [
-        "{uiuGh{ayJ"
+        "gxeqG~xwbK"
       ]
     },
     "id": "16",
@@ -298,15 +299,71 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2025-04-21T19:45:00-0300",
-      "start": "2025-04-20T19:27:00-0300"
+      "etr": "2025-04-21T18:00:00-0300",
+      "start": "2025-04-20T13:53:10-0300"
     },
     "geom": {
       "p": [
-        "udmqGdq~gK"
+        "ugspGjapcK"
       ]
     },
     "id": "17",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-04-21T15:30:00-0300",
+      "start": "2025-04-20T12:59:35-0300"
+    },
+    "geom": {
+      "p": [
+        "klmqGxjccK"
+      ]
+    },
+    "id": "18",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-04-21T18:00:00-0300",
+      "start": "2025-04-20T17:42:59-0300"
+    },
+    "geom": {
+      "p": [
+        "wakmGnteiK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds",
+      "cluster": false,
+      "cust_a": {
+        "val": 9
+      },
+      "etr": "2025-04-21T19:45:00-0300",
+      "start": "2025-04-20T19:29:44-0300"
+    },
+    "geom": {
+      "p": [
+        "{uiuGh{ayJ"
+      ]
+    },
+    "id": "21",
     "title": "Outage Information"
   },
   {
@@ -325,7 +382,7 @@
         "_hvuGhp~fK"
       ]
     },
-    "id": "18",
+    "id": "23",
     "title": "Outage Information"
   },
   {
@@ -344,26 +401,7 @@
         "a_erGjjjfK"
       ]
     },
-    "id": "19",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-04-21T19:30:00-0300",
-      "start": "2025-04-20T19:20:54-0300"
-    },
-    "geom": {
-      "p": [
-        "ek`tG~gsgK"
-      ]
-    },
-    "id": "20",
+    "id": "24",
     "title": "Outage Information"
   },
   {
@@ -384,7 +422,7 @@
         "_wdrGjyygK"
       ]
     },
-    "id": "21",
+    "id": "25",
     "title": "Outage Information"
   },
   {
@@ -403,26 +441,7 @@
         "{|bnGb}_mK"
       ]
     },
-    "id": "22",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-04-21T18:15:00-0300",
-      "start": "2025-04-20T18:10:23-0300"
-    },
-    "geom": {
-      "p": [
-        "audoGpnaiK"
-      ]
-    },
-    "id": "23",
+    "id": "26",
     "title": "Outage Information"
   },
   {
@@ -441,7 +460,26 @@
         "mavsGhcjsJ"
       ]
     },
-    "id": "25",
+    "id": "28",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-04-21T20:00:00-0300",
+      "start": "2025-04-20T19:54:15-0300"
+    },
+    "geom": {
+      "p": [
+        "wuwoG~n~bK"
+      ]
+    },
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -460,7 +498,7 @@
         "muioGz|{jK"
       ]
     },
-    "id": "27",
+    "id": "30",
     "title": "Outage Information"
   },
   {
@@ -479,7 +517,7 @@
         "qytoGhatbK"
       ]
     },
-    "id": "28",
+    "id": "31",
     "title": "Outage Information"
   },
   {
@@ -498,26 +536,7 @@
         "avfoG|jlbK"
       ]
     },
-    "id": "29",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-04-21T11:45:00-0300",
-      "start": "2025-04-20T19:38:24-0300"
-    },
-    "geom": {
-      "p": [
-        "qkpoGdyecK"
-      ]
-    },
-    "id": "3",
+    "id": "32",
     "title": "Outage Information"
   },
   {
@@ -536,7 +555,7 @@
         "gx~sG`iivJ"
       ]
     },
-    "id": "30",
+    "id": "33",
     "title": "Outage Information"
   },
   {
@@ -555,7 +574,7 @@
         "myzoGvdviK"
       ]
     },
-    "id": "31",
+    "id": "34",
     "title": "Outage Information"
   },
   {
@@ -574,7 +593,7 @@
         "}upuG~aesJ"
       ]
     },
-    "id": "32",
+    "id": "35",
     "title": "Outage Information"
   },
   {
@@ -593,7 +612,7 @@
         "ejwxG~yinJ"
       ]
     },
-    "id": "33",
+    "id": "36",
     "title": "Outage Information"
   },
   {
@@ -614,7 +633,7 @@
         "qibqGlixhK"
       ]
     },
-    "id": "34",
+    "id": "37",
     "title": "Outage Information"
   },
   {
@@ -633,7 +652,7 @@
         "sutnGxpxhK"
       ]
     },
-    "id": "35",
+    "id": "38",
     "title": "Outage Information"
   },
   {
@@ -654,28 +673,7 @@
         "_wjnGpeflK"
       ]
     },
-    "id": "36",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds",
-      "cluster": false,
-      "cust_a": {
-        "val": 63
-      },
-      "etr": "2025-04-21T06:00:00-0300",
-      "start": "2025-04-20T17:29:35-0300"
-    },
-    "geom": {
-      "a": [
-        "wm_nGxkehKqa@zjBcf@~kAoAvBcp@lDjIy~@fw@u|Gty@lzC"
-      ],
-      "p": [
-        "{kanG`ufhK"
-      ]
-    },
-    "id": "37",
+    "id": "39",
     "title": "Outage Information"
   },
   {
@@ -694,7 +692,7 @@
         "wzsnG`tzhK"
       ]
     },
-    "id": "38",
+    "id": "40",
     "title": "Outage Information"
   },
   {
@@ -713,28 +711,7 @@
         "skmoGhm~hK"
       ]
     },
-    "id": "39",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds",
-      "cluster": false,
-      "cust_a": {
-        "val": 14
-      },
-      "etr": "2025-04-21T07:45:00-0300",
-      "start": "2025-04-20T19:25:54-0300"
-    },
-    "geom": {
-      "a": [
-        "spyuGzs|fKaVy_@{Kw[gPck@wLkqA|aA`{D"
-      ],
-      "p": [
-        "yuzuGf|yfK"
-      ]
-    },
-    "id": "4",
+    "id": "41",
     "title": "Outage Information"
   },
   {
@@ -755,26 +732,7 @@
         "irlqGphybK"
       ]
     },
-    "id": "40",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-04-21T18:00:00-0300",
-      "start": "2025-04-20T17:42:59-0300"
-    },
-    "geom": {
-      "p": [
-        "wakmGnteiK"
-      ]
-    },
-    "id": "41",
+    "id": "42",
     "title": "Outage Information"
   },
   {
@@ -793,7 +751,7 @@
         "kponG|mfiK"
       ]
     },
-    "id": "42",
+    "id": "43",
     "title": "Outage Information"
   },
   {
@@ -812,7 +770,7 @@
         "cq}oGfe~iK"
       ]
     },
-    "id": "43",
+    "id": "44",
     "title": "Outage Information"
   },
   {
@@ -833,7 +791,7 @@
         "afwpGbtviK"
       ]
     },
-    "id": "44",
+    "id": "45",
     "title": "Outage Information"
   },
   {
@@ -852,7 +810,7 @@
         "{wtnG|~whK"
       ]
     },
-    "id": "45",
+    "id": "46",
     "title": "Outage Information"
   },
   {
@@ -871,7 +829,28 @@
         "adpoGnyakK"
       ]
     },
-    "id": "46",
+    "id": "47",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds",
+      "cluster": false,
+      "cust_a": {
+        "val": 96
+      },
+      "etr": "2025-04-21T08:00:00-0300",
+      "start": "2025-04-20T18:11:14-0300"
+    },
+    "geom": {
+      "a": [
+        "a_lqGxn_hKolEeKgOgjDtuB~L~WnMzkA|oBd@~h@"
+      ],
+      "p": [
+        "}xoqGb{|gK"
+      ]
+    },
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -890,7 +869,7 @@
         "_b~oGh|ajK"
       ]
     },
-    "id": "49",
+    "id": "50",
     "title": "Outage Information"
   },
   {
@@ -909,7 +888,7 @@
         "megpGnafhK"
       ]
     },
-    "id": "50",
+    "id": "51",
     "title": "Outage Information"
   },
   {
@@ -928,7 +907,7 @@
         "gfpqGhaqkK"
       ]
     },
-    "id": "51",
+    "id": "52",
     "title": "Outage Information"
   },
   {
@@ -947,7 +926,7 @@
         "{csoGxnjgK"
       ]
     },
-    "id": "52",
+    "id": "53",
     "title": "Outage Information"
   },
   {
@@ -968,7 +947,7 @@
         "oixqGpu`hK"
       ]
     },
-    "id": "54",
+    "id": "55",
     "title": "Outage Information"
   },
   {
@@ -987,7 +966,7 @@
         "cw_qGnyzhK"
       ]
     },
-    "id": "55",
+    "id": "56",
     "title": "Outage Information"
   },
   {
@@ -1006,7 +985,7 @@
         "agemGhtghK"
       ]
     },
-    "id": "57",
+    "id": "58",
     "title": "Outage Information"
   },
   {
@@ -1027,7 +1006,26 @@
         "yq`pGt_~kK"
       ]
     },
-    "id": "58",
+    "id": "59",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-04-21T20:00:00-0300",
+      "start": "2025-04-20T19:56:56-0300"
+    },
+    "geom": {
+      "p": [
+        "awunGvgeiK"
+      ]
+    },
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -1046,26 +1044,7 @@
         "_wywGhbiqJ"
       ]
     },
-    "id": "59",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "High Winds",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-04-21T19:45:00-0300",
-      "start": "2025-04-20T19:37:32-0300"
-    },
-    "geom": {
-      "p": [
-        "m{kqGdh_hK"
-      ]
-    },
-    "id": "6",
+    "id": "60",
     "title": "Outage Information"
   },
   {
@@ -1084,7 +1063,7 @@
         "yq`rG~~xgK"
       ]
     },
-    "id": "60",
+    "id": "61",
     "title": "Outage Information"
   },
   {
@@ -1103,7 +1082,7 @@
         "cntnGrsfeK"
       ]
     },
-    "id": "61",
+    "id": "62",
     "title": "Outage Information"
   },
   {
@@ -1122,7 +1101,7 @@
         "wh{mGbhyhK"
       ]
     },
-    "id": "62",
+    "id": "63",
     "title": "Outage Information"
   },
   {
@@ -1133,15 +1112,34 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2025-04-21T17:45:00-0300",
-      "start": "2025-04-20T17:36:00-0300"
+      "etr": "2025-04-21T20:00:00-0300",
+      "start": "2025-04-20T18:10:23-0300"
     },
     "geom": {
       "p": [
-        "gpcrGpeohK"
+        "gudoG|saiK"
       ]
     },
-    "id": "9",
+    "id": "7",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "High Winds",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-04-21T08:00:00-0300",
+      "start": "2025-04-20T19:50:19-0300"
+    },
+    "geom": {
+      "p": [
+        "_udoGdqbeK"
+      ]
+    },
+    "id": "8",
     "title": "Outage Information"
   }
 ]
