@@ -1,37 +1,59 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2025-05-03T19:45:00-0300",
-      "start": "2025-05-03T13:23:09-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-05-03T19:15:00-0300",
+          "start": "2025-05-03T16:06:57-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-05-03T19:00:00-0300",
+          "start": "2025-05-03T15:48:00-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "q{ytGldsyJ"
+        "slkuGxsh}J"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
+      "cause": "Transmission Interruption",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 3542
       },
-      "etr": "2025-05-03T19:00:00-0300",
-      "start": "2025-05-03T15:48:00-0300"
+      "etr": "2025-05-03T20:00:00-0300",
+      "start": "2025-05-03T13:23:09-0300"
     },
     "geom": {
+      "a": [
+        "{lctGrcayJyEpBsvf@x~Emy@~@kmIwdRiPwa@dMadDjrDwwb@xBiHfwDk{Kr|GauBxJgChlAfgBdc\\twbA"
+      ],
       "p": [
-        "_lkuG|th}J"
+        "a~auG|dgxJ"
       ]
     },
     "id": "3",
