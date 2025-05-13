@@ -1,45 +1,6 @@
 [
   {
     "desc": {
-      "cluster": true,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-05-13T11:45:00-0300",
-          "start": "2025-05-13T06:52:05-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-05-13T12:00:00-0300",
-          "start": "2025-05-13T06:55:13-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "cub{G|~qsJ"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -54,7 +15,26 @@
         "kh`oG|ykcK"
       ]
     },
-    "id": "3",
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-05-13T11:45:00-0300",
+      "start": "2025-05-13T06:52:05-0300"
+    },
+    "geom": {
+      "p": [
+        "crb{G~~qsJ"
+      ]
+    },
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -73,7 +53,7 @@
         "ykajGtleqK"
       ]
     },
-    "id": "4",
+    "id": "3",
     "title": "Outage Information"
   }
 ]
