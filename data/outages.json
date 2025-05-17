@@ -1,40 +1,84 @@
 [
   {
     "desc": {
-      "cluster": true,
+      "cause": "Cause Being Investigated",
+      "cluster": false,
       "cust_a": {
-        "val": 35
+        "val": 145
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Planned Maintenance",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-05-17T07:00:00-0300",
-          "start": "2025-05-17T00:53:23-0300"
-        },
-        {
-          "cause": "Planned Maintenance",
-          "cluster": false,
-          "cust_a": {
-            "val": 34
-          },
-          "etr": "2025-05-17T02:00:00-0300",
-          "start": "2025-05-17T00:53:23-0300"
-        }
+      "etr": "2025-05-17T03:45:00-0300",
+      "start": "2025-05-17T01:17:00-0300"
+    },
+    "geom": {
+      "a": [
+        "coeoG~}gcK}NwGwDkD_AyChF}DzD`FnIxP"
+      ],
+      "p": [
+        "k|eoGrpgcK"
       ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Planned Maintenance",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-05-19T19:00:00-0300",
+      "start": "2025-05-17T00:53:23-0300"
+    },
+    "geom": {
+      "a": [
+        "{wloGbyccK{NsFaAeGOaAwH{o@hRjUzGjk@"
+      ],
+      "p": [
+        "semoG|zbcK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-05-17T04:45:00-0300",
+      "start": "2025-05-17T01:24:00-0300"
     },
     "geom": {
       "p": [
-        "ujmoGnvbcK"
+        "o~eoGt|fcK"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-05-17T06:30:00-0300",
+      "start": "2025-05-17T01:11:00-0300"
+    },
+    "geom": {
+      "p": [
+        "i}zwG`|pmJ"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -52,7 +96,7 @@
         "s`oqGp~mhK"
       ]
     },
-    "id": "3",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -71,7 +115,7 @@
         "kqpoGzy}gK"
       ]
     },
-    "id": "4",
+    "id": "6",
     "title": "Outage Information"
   }
 ]
