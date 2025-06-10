@@ -7,46 +7,6 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2025-06-11T00:00:00-0300",
-      "start": "2025-06-10T19:18:53-0300"
-    },
-    "geom": {
-      "p": [
-        "eldqGpwtiK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Underground Equipment",
-      "cluster": false,
-      "cust_a": {
-        "val": 32
-      },
-      "etr": "2025-06-10T21:30:00-0300",
-      "start": "2025-06-10T15:43:20-0300"
-    },
-    "geom": {
-      "a": [
-        "q|auGbpn}Jy`@pJzB_TnDTlWvG"
-      ],
-      "p": [
-        "sqbuGnpn}J"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
       "etr": "2025-06-10T22:00:00-0300",
       "start": "2025-06-10T17:07:10-0300"
     },
@@ -55,46 +15,47 @@
         "g|euGt{esJ"
       ]
     },
-    "id": "11",
+    "id": "10",
     "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2025-06-10T23:15:00-0300",
-      "start": "2025-06-10T19:16:59-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-06-10T23:30:00-0300",
+          "start": "2025-06-10T19:44:05-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-06-10T23:15:00-0300",
+          "start": "2025-06-10T19:16:59-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "sgjvGdwt~J"
+        "{ijvGnwt~J"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-06-10T22:15:00-0300",
-      "start": "2025-06-10T18:58:30-0300"
-    },
-    "geom": {
-      "p": [
-        "k{toG|rpcK"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -113,6 +74,25 @@
       ]
     },
     "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-06-10T23:00:00-0300",
+      "start": "2025-06-10T16:51:15-0300"
+    },
+    "geom": {
+      "p": [
+        "ipguGvyj}J"
+      ]
+    },
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -158,25 +138,6 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "",
-      "start": "2025-06-10T09:59:42-0300"
-    },
-    "geom": {
-      "p": [
-        "cwmoG||acK"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
         "val": 2299
       },
       "etr": "2025-06-10T20:15:00-0300",
@@ -188,6 +149,27 @@
       ],
       "p": [
         "ki`uGlfp~J"
+      ]
+    },
+    "id": "8",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Damage to Underground Equipment",
+      "cluster": false,
+      "cust_a": {
+        "val": 32
+      },
+      "etr": "2025-06-10T21:30:00-0300",
+      "start": "2025-06-10T15:43:20-0300"
+    },
+    "geom": {
+      "a": [
+        "q|auGbpn}Jy`@pJzB_TnDTlWvG"
+      ],
+      "p": [
+        "sqbuGnpn}J"
       ]
     },
     "id": "9",
