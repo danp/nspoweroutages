@@ -1,40 +1,24 @@
 [
   {
     "desc": {
-      "cluster": true,
+      "cause": "Damage to Underground Equipment",
+      "cluster": false,
       "cust_a": {
-        "val": 40
+        "val": 39
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-06-13T08:30:00-0300",
-          "start": "2025-06-13T04:42:52-0300"
-        },
-        {
-          "cause": "Damage to Underground Equipment",
-          "cluster": false,
-          "cust_a": {
-            "val": 39
-          },
-          "etr": "2025-06-13T12:30:00-0300",
-          "start": "2025-06-13T01:25:00-0300"
-        }
-      ]
+      "etr": "2025-06-13T12:30:00-0300",
+      "start": "2025-06-13T01:25:00-0300"
     },
     "geom": {
+      "a": [
+        "yobrGjmyhKOzFwG{P~Ew@fAvJ"
+      ],
       "p": [
-        "wobrGrnyhK"
+        "isbrGdiyhK"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "1",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -52,7 +36,7 @@
         "{~utG~xh{J"
       ]
     },
-    "id": "3",
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -71,7 +55,7 @@
         "gm`yGvwvnJ"
       ]
     },
-    "id": "4",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -92,7 +76,7 @@
         "qtjuGb}{bK"
       ]
     },
-    "id": "5",
+    "id": "4",
     "title": "Outage Information"
   }
 ]
