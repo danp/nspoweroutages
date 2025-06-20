@@ -7,12 +7,12 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2025-06-20T10:30:00-0300",
-      "start": "2025-06-20T06:37:36-0300"
+      "etr": "2025-06-20T12:00:00-0300",
+      "start": "2025-06-20T08:35:15-0300"
     },
     "geom": {
       "p": [
-        "gwquGrmnxJ"
+        "}f{oGzitcK"
       ]
     },
     "id": "1",
@@ -20,21 +20,40 @@
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "val": 7
+        "val": 8
       },
-      "etr": "2025-06-20T13:00:00-0300",
-      "start": "2025-06-20T06:53:41-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-06-20T14:45:00-0300",
+          "start": "2025-06-20T08:34:00-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 7
+          },
+          "etr": "2025-06-20T13:00:00-0300",
+          "start": "2025-06-20T06:53:41-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "icooGl{fcK"
+        "cdooGxxfcK"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -52,7 +71,45 @@
         "}~nnGfewhK"
       ]
     },
-    "id": "3",
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-06-20T12:30:00-0300",
+      "start": "2025-06-20T08:38:32-0300"
+    },
+    "geom": {
+      "p": [
+        "}vfrGhubhK"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-06-20T10:30:00-0300",
+      "start": "2025-06-20T06:37:36-0300"
+    },
+    "geom": {
+      "p": [
+        "gwquGrmnxJ"
+      ]
+    },
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -70,7 +127,7 @@
         "kfwnGdthdK"
       ]
     },
-    "id": "4",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -88,7 +145,7 @@
         "q||qGd{l`K"
       ]
     },
-    "id": "5",
+    "id": "8",
     "title": "Outage Information"
   }
 ]
