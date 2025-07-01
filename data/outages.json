@@ -1,6 +1,64 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-07-01T12:00:00-0300",
+          "start": "2025-07-01T08:01:00-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-07-01T12:00:00-0300",
+          "start": "2025-07-01T08:01:11-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "_gvkGbjyiK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-07-01T12:00:00-0300",
+      "start": "2025-07-01T08:01:04-0300"
+    },
+    "geom": {
+      "p": [
+        "u{btGdve{J"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -14,7 +72,7 @@
         "qdxuGfla~J"
       ]
     },
-    "id": "1",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -33,7 +91,7 @@
         "uoowGplapJ"
       ]
     },
-    "id": "2",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -51,7 +109,7 @@
         "{}ooGf_ccK"
       ]
     },
-    "id": "3",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -69,7 +127,7 @@
         "c`woGtgacK"
       ]
     },
-    "id": "4",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -87,7 +145,7 @@
         "iauvGtzxfK"
       ]
     },
-    "id": "5",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -108,7 +166,7 @@
         "ob_tG~~deK"
       ]
     },
-    "id": "6",
+    "id": "9",
     "title": "Outage Information"
   }
 ]
