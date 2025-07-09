@@ -79,7 +79,7 @@
     "desc": {
       "cluster": true,
       "cust_a": {
-        "val": 5
+        "val": 9
       },
       "n_out": 2,
       "outages": [
@@ -97,8 +97,7 @@
           "cause": "Cause Being Investigated",
           "cluster": false,
           "cust_a": {
-            "masked": true,
-            "val": 4
+            "val": 5
           },
           "etr": "2025-07-09T20:30:00-0300",
           "start": "2025-07-09T16:30:00-0300"
@@ -107,11 +106,30 @@
     },
     "geom": {
       "p": [
-        "i{`tGlw}cK"
+        "e|`tG~w}cK"
       ]
     },
     "id": "14-1",
     "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-07-09T20:45:00-0300",
+      "start": "2025-07-09T16:43:00-0300"
+    },
+    "geom": {
+      "p": [
+        "_qpvGxszfK"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
   },
   {
     "desc": {
