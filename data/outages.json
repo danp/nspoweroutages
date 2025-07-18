@@ -1,40 +1,40 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "val": 15
+        "val": 16
       },
-      "etr": "2025-07-18T12:15:00-0300",
-      "start": "2025-07-18T07:34:00-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-07-18T14:15:00-0300",
+          "start": "2025-07-18T08:04:14-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 15
+          },
+          "etr": "2025-07-18T12:15:00-0300",
+          "start": "2025-07-18T07:34:00-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "ozloGjj_cK"
+        "uzloGpi_cK"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "",
-      "start": "2025-07-17T21:13:37-0300"
-    },
-    "geom": {
-      "p": [
-        "}`pmG~nbkK"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -72,7 +72,7 @@
         "q`moG~ygcK"
       ]
     },
-    "id": "14-1",
+    "id": "14-2",
     "title": "Area Outage"
   },
   {
@@ -93,7 +93,7 @@
         "_vtoG~mrcK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -111,7 +111,7 @@
         "_nzqGlmbjK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -129,24 +129,6 @@
         "snjoGr}hbK"
       ]
     },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 6
-      },
-      "etr": "2025-07-18T10:45:00-0300",
-      "start": "2025-07-18T06:38:33-0300"
-    },
-    "geom": {
-      "p": [
-        "ghivGvyr`K"
-      ]
-    },
     "id": "8",
     "title": "Outage Information"
   },
@@ -158,12 +140,12 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2025-07-18T11:15:00-0300",
-      "start": "2025-07-18T06:16:57-0300"
+      "etr": "",
+      "start": "2025-07-17T21:13:37-0300"
     },
     "geom": {
       "p": [
-        "knluGjenuJ"
+        "}`pmG~nbkK"
       ]
     },
     "id": "9",
