@@ -1,6 +1,27 @@
 [
   {
     "desc": {
+      "cause": "Vehicle Accident",
+      "cluster": false,
+      "cust_a": {
+        "val": 105
+      },
+      "etr": "2025-09-13T09:00:00-0300",
+      "start": "2025-09-13T02:24:01-0300"
+    },
+    "geom": {
+      "a": [
+        "opppGft~cKiRbV__@k]g@aFTuIPeFfU?zJJdPx^"
+      ],
+      "p": [
+        "wkqpGdk~cK"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Fire",
       "cluster": false,
       "cust_a": {
@@ -15,27 +36,6 @@
       ],
       "p": [
         "afwpGbtviK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Vehicle Accident",
-      "cluster": false,
-      "cust_a": {
-        "val": 401
-      },
-      "etr": "2025-09-13T04:45:00-0300",
-      "start": "2025-09-13T00:15:37-0300"
-    },
-    "geom": {
-      "a": [
-        "g~mpGnmadK}FvIaBdAsj@`QqGaA_I}FqWag@yb@mlAg@aFTuIPeFfU?zJJl^dX~bAz~A"
-      ],
-      "p": [
-        "yeppGna`dK"
       ]
     },
     "id": "2",
@@ -62,25 +62,6 @@
   },
   {
     "desc": {
-      "cause": "Vehicle Accident",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-09-13T04:45:00-0300",
-      "start": "2025-09-13T00:21:07-0300"
-    },
-    "geom": {
-      "p": [
-        "_|ppG~e`dK"
-      ]
-    },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
       "cause": "Emergency outage for public safety",
       "cluster": false,
       "cust_a": {
@@ -97,7 +78,7 @@
         "gq}oGlgzlK"
       ]
     },
-    "id": "5",
+    "id": "4",
     "title": "Outage Information"
   }
 ]
