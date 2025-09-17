@@ -105,7 +105,7 @@
           {
             "area_name": "HALIFAX",
             "cust_a": {
-              "val": 42
+              "val": 0
             },
             "etr": ""
           },
@@ -175,7 +175,7 @@
           {
             "area_name": "SHELBURNE",
             "cust_a": {
-              "val": 50
+              "val": 0
             },
             "etr": ""
           },
@@ -189,14 +189,16 @@
           {
             "area_name": "STELLARTON",
             "cust_a": {
-              "val": 0
+              "masked": true,
+              "val": 4
             },
             "etr": ""
           },
           {
             "area_name": "SYDNEY",
             "cust_a": {
-              "val": 0
+              "masked": true,
+              "val": 4
             },
             "etr": ""
           },
@@ -237,7 +239,7 @@
           }
         ],
         "cust_a": {
-          "val": 203
+          "val": 113
         },
         "etr": ""
       }
