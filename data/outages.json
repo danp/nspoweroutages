@@ -1,23 +1,42 @@
 [
   {
     "desc": {
-      "cause": "Vehicle Accident",
+      "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 5082
+        "masked": true,
+        "val": 4
       },
-      "etr": "2025-09-18T21:00:00-0300",
-      "start": "2025-09-18T15:34:39-0300"
+      "etr": "2025-09-19T01:15:00-0300",
+      "start": "2025-09-18T18:10:17-0300"
     },
     "geom": {
-      "a": [
-        "avhpGxn{cKgoD|vJstGhwEaiI|{EswChz@iW_b@qfGs`LqFuKl}@wwCtFiHd`@{e@~iZc`GzImAlZmBpzD~[xZvZ"
-      ],
       "p": [
-        "q~|pGpwfdK"
+        "oi_pG~to_K"
       ]
     },
     "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Emergency outage for public safety",
+      "cluster": false,
+      "cust_a": {
+        "val": 90
+      },
+      "etr": "2025-09-19T18:00:00-0300",
+      "start": "2025-09-09T12:54:17-0300"
+    },
+    "geom": {
+      "a": [
+        "shwoGxtrlKcgDvvTsvF}pKbmAwiE~I{OhkCumDr]uDtzCdiB"
+      ],
+      "p": [
+        "gq}oGlgzlK"
+      ]
+    },
+    "id": "10",
     "title": "Outage Information"
   },
   {
@@ -58,6 +77,27 @@
   },
   {
     "desc": {
+      "cause": "Vehicle Accident",
+      "cluster": false,
+      "cust_a": {
+        "val": 5082
+      },
+      "etr": "2025-09-18T21:00:00-0300",
+      "start": "2025-09-18T15:34:39-0300"
+    },
+    "geom": {
+      "a": [
+        "avhpGxn{cKgoD|vJstGhwEaiI|{EswChz@iW_b@qfGs`LqFuKl}@wwCtFiHd`@{e@~iZc`GzImAlZmBpzD~[xZvZ"
+      ],
+      "p": [
+        "q~|pGpwfdK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -72,7 +112,7 @@
         "gptnGvcpgK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -91,7 +131,7 @@
         "o`exGnudqJ"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -110,7 +150,7 @@
         "ozotG~s`yJ"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -129,7 +169,7 @@
         "_ytpGn~idK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -146,27 +186,6 @@
     "geom": {
       "p": [
         "of}wG~orvJ"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Emergency outage for public safety",
-      "cluster": false,
-      "cust_a": {
-        "val": 90
-      },
-      "etr": "2025-09-19T18:00:00-0300",
-      "start": "2025-09-09T12:54:17-0300"
-    },
-    "geom": {
-      "a": [
-        "shwoGxtrlKcgDvvTsvF}pKbmAwiE~I{OhkCumDr]uDtzCdiB"
-      ],
-      "p": [
-        "gq}oGlgzlK"
       ]
     },
     "id": "9",
