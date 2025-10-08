@@ -4,17 +4,17 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 811
+        "val": 25
       },
-      "etr": "2025-10-08T23:45:00-0300",
-      "start": "2025-10-08T19:30:17-0300"
+      "etr": "2025-10-09T00:15:00-0300",
+      "start": "2025-10-08T19:29:07-0300"
     },
     "geom": {
       "a": [
-        "osvqGhipjKanOzoW{d@dC{g@wdAwqA_dDas@i~BkH}UoOso@oMiz@yU{qGp{I}xHj`IcpFvDnBvlAz|Cjq@lsJ"
+        "w{roGltzbKWzCNkBFo@"
       ],
       "p": [
-        "qjcrGfpsjK"
+        "a|roGpvzbK"
       ]
     },
     "id": "1",
@@ -41,42 +41,24 @@
   },
   {
     "desc": {
-      "cluster": true,
+      "cause": "Cause Being Investigated",
+      "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 811
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-10-09T00:15:00-0300",
-          "start": "2025-10-08T19:29:07-0300"
-        },
-        {
-          "cause": "Vehicle Accident",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-10-08T20:00:00-0300",
-          "start": "2025-10-08T13:53:02-0300"
-        }
-      ]
+      "etr": "2025-10-08T23:45:00-0300",
+      "start": "2025-10-08T19:30:17-0300"
     },
     "geom": {
+      "a": [
+        "osvqGhipjKanOzoW{d@dC{g@wdAwqA_dDas@i~BkH}UoOso@oMiz@yU{qGp{I}xHj`IcpFvDnBvlAz|Cjq@lsJ"
+      ],
       "p": [
-        "orsoGnb{bK"
+        "qjcrGfpsjK"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "2",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -94,7 +76,7 @@
         "yuoqG||ylK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -132,6 +114,25 @@
       ]
     },
     "id": "5",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Vehicle Accident",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-10-08T20:00:00-0300",
+      "start": "2025-10-08T13:53:02-0300"
+    },
+    "geom": {
+      "p": [
+        "orsoGnb{bK"
+      ]
+    },
+    "id": "6",
     "title": "Outage Information"
   },
   {
