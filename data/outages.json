@@ -1,25 +1,6 @@
 [
   {
     "desc": {
-      "cause": "Damage to Overhead Equipment",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-10-26T22:00:00-0300",
-      "start": "2025-10-17T10:45:00-0300"
-    },
-    "geom": {
-      "p": [
-        "wy|rG~glvJ"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
       "cluster": true,
       "cust_a": {
         "masked": true,
@@ -55,43 +36,6 @@
       ]
     },
     "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 18
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Planned Maintenance",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-10-25T17:00:00-0300",
-          "start": "2025-10-25T10:41:11-0300"
-        },
-        {
-          "cause": "Planned Maintenance",
-          "cluster": false,
-          "cust_a": {
-            "val": 16
-          },
-          "etr": "2025-10-25T17:00:00-0300",
-          "start": "2025-10-25T10:42:02-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "imsoG`aacK"
-      ]
-    },
-    "id": "14-2",
     "title": "Area Outage"
   },
   {
@@ -188,6 +132,25 @@
     "geom": {
       "p": [
         "ottxG~fasJ"
+      ]
+    },
+    "id": "7",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Damage to Overhead Equipment",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-10-26T22:00:00-0300",
+      "start": "2025-10-17T10:45:00-0300"
+    },
+    "geom": {
+      "p": [
+        "wy|rG~glvJ"
       ]
     },
     "id": "8",
