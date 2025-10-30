@@ -1,21 +1,59 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
+      "cause": "Damage to Underground Equipment",
       "cluster": false,
       "cust_a": {
-        "val": 6
+        "masked": true,
+        "val": 4
       },
-      "etr": "2025-10-30T14:30:00-0300",
-      "start": "2025-10-30T00:00:00-0300"
+      "etr": "2025-10-31T18:30:00-0300",
+      "start": "2025-10-22T11:42:21-0300"
     },
     "geom": {
       "p": [
-        "qm}oG|aa`K"
+        "_ucrG~sthK"
       ]
     },
-    "id": "1",
+    "id": "10",
     "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 10
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2025-10-30T14:30:00-0300",
+          "start": "0000-12-31T19:49:34-0414"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 6
+          },
+          "etr": "2025-10-30T14:30:00-0300",
+          "start": "2025-10-30T00:00:00-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "_l}oGlba`K"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -33,7 +71,7 @@
         "_tqoG~qpcK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -51,7 +89,7 @@
         "sesoGhrlcK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -70,7 +108,7 @@
         "_lymGvy`hK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -88,7 +126,7 @@
         "mvmpGrepcK"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -107,7 +145,7 @@
         "{~dmG|v_iK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -126,7 +164,7 @@
         "ejpxGppinJ"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -143,25 +181,6 @@
     "geom": {
       "p": [
         "ozotG~ol~J"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Underground Equipment",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-10-31T18:30:00-0300",
-      "start": "2025-10-22T11:42:21-0300"
-    },
-    "geom": {
-      "p": [
-        "_ucrG~sthK"
       ]
     },
     "id": "9",
