@@ -20,43 +20,6 @@
   },
   {
     "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 10
-      },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2025-10-30T14:30:00-0300",
-          "start": "0000-12-31T19:49:34-0414"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "val": 6
-          },
-          "etr": "2025-10-30T14:30:00-0300",
-          "start": "2025-10-30T00:00:00-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "_l}oGlba`K"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
       "cause": "Planned Maintenance",
       "cluster": false,
       "cust_a": {
@@ -81,25 +44,6 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2025-10-30T17:15:00-0300",
-      "start": "2025-10-30T11:06:00-0300"
-    },
-    "geom": {
-      "p": [
-        "aaurG|pghK"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
       "etr": "2025-10-30T15:30:00-0300",
       "start": "2025-10-30T09:44:00-0300"
     },
@@ -108,7 +52,7 @@
         "_tqoGnsncK"
       ]
     },
-    "id": "4",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -125,6 +69,25 @@
     "geom": {
       "p": [
         "gbhuGthztJ"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Damage to Underground Equipment",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2025-10-31T18:30:00-0300",
+      "start": "2025-10-22T11:42:21-0300"
+    },
+    "geom": {
+      "p": [
+        "_ucrG~sthK"
       ]
     },
     "id": "5",
