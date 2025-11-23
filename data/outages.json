@@ -1,20 +1,18 @@
 [
   {
     "desc": {
-      "cause": "Vehicle Accident",
+      "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 134
+        "masked": true,
+        "val": 4
       },
-      "etr": "2025-11-23T14:30:00-0400",
-      "start": "2025-11-23T09:22:37-0400"
+      "etr": "2025-11-23T13:15:00-0400",
+      "start": "2025-11-23T04:03:35-0400"
     },
     "geom": {
-      "a": [
-        "ip`xGddumJoO~lBuz@vuA}eBxeBohFgkXt`Bb`B|yHp~K"
-      ],
       "p": [
-        "enfxG`csmJ"
+        "_jhqGnieeK"
       ]
     },
     "id": "1",
@@ -55,25 +53,6 @@
       ]
     },
     "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2025-11-23T11:15:00-0400",
-      "start": "2025-11-23T04:03:35-0400"
-    },
-    "geom": {
-      "p": [
-        "_jhqGnieeK"
-      ]
-    },
-    "id": "4",
     "title": "Outage Information"
   }
 ]
