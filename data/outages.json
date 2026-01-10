@@ -1,6 +1,43 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 270
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Vehicle Accident",
+          "cluster": false,
+          "cust_a": {
+            "val": 269
+          },
+          "etr": "2026-01-10T08:00:00-0400",
+          "start": "2026-01-10T02:38:19-0400"
+        },
+        {
+          "cause": "Vehicle Accident",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-01-10T08:00:00-0400",
+          "start": "2026-01-10T02:38:19-0400"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "ij|sGvchaK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Damage to Overhead Equipment",
       "cluster": false,
       "cust_a": {
@@ -15,27 +52,6 @@
       ],
       "p": [
         "q{miGb`tpK"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Vehicle Accident",
-      "cluster": false,
-      "cust_a": {
-        "val": 3218
-      },
-      "etr": "2026-01-10T08:00:00-0400",
-      "start": "2026-01-10T02:38:19-0400"
-    },
-    "geom": {
-      "a": [
-        "sqtsG~ja`KmfDfnf@{u@bpCkHnFsA_CsD}JsPkiBcfCez`@rfCs`ErTcCljFsK"
-      ],
-      "p": [
-        "g}zsGfnr`K"
       ]
     },
     "id": "2",
