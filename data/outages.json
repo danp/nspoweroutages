@@ -1,20 +1,18 @@
 [
   {
     "desc": {
-      "cause": "Planned Maintenance",
+      "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 406
+        "masked": true,
+        "val": 4
       },
-      "etr": "2026-01-10T12:15:00-0400",
-      "start": "2026-01-10T10:32:02-0400"
+      "etr": "2026-01-10T18:15:00-0400",
+      "start": "2026-01-10T11:01:28-0400"
     },
     "geom": {
-      "a": [
-        "sqbtGprbvJwbAjwAulDz`BawC}fBkgVy~OoIwe@`G}WrD_KllKkpVdfAer@zlAvCnnDvv@`]jIn{Bh|G`aApwCtmDtdTjPhzC"
-      ],
       "p": [
-        "y`stGztpuJ"
+        "ejuyGxcwtJ"
       ]
     },
     "id": "1",
@@ -100,76 +98,23 @@
   },
   {
     "desc": {
-      "cluster": true,
+      "cause": "Vehicle Accident",
+      "cluster": false,
       "cust_a": {
         "val": 270
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Vehicle Accident",
-          "cluster": false,
-          "cust_a": {
-            "val": 269
-          },
-          "etr": "2026-01-10T12:15:00-0400",
-          "start": "2026-01-10T02:38:19-0400"
-        },
-        {
-          "cause": "Vehicle Accident",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2026-01-10T12:15:00-0400",
-          "start": "2026-01-10T02:38:19-0400"
-        }
-      ]
+      "etr": "2026-01-10T12:15:00-0400",
+      "start": "2026-01-10T02:38:19-0400"
     },
     "geom": {
+      "a": [
+        "}~{sGrtgaKgEfYsAvAaClAeJ__@SgFvWxF"
+      ],
       "p": [
-        "ij|sGvchaK"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 11
-      },
-      "etr": "2026-01-10T12:00:00-0400",
-      "start": "2026-01-10T06:11:02-0400"
-    },
-    "geom": {
-      "p": [
-        "c}nxGv{lnJ"
+        "ck|sG`~gaK"
       ]
     },
     "id": "2",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2026-01-10T12:15:00-0400",
-      "start": "2026-01-10T02:49:16-0400"
-    },
-    "geom": {
-      "p": [
-        "_{~mGltwqK"
-      ]
-    },
-    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -188,7 +133,65 @@
         "o{dsG~rebK"
       ]
     },
+    "id": "3",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Planned Maintenance",
+      "cluster": false,
+      "cust_a": {
+        "val": 406
+      },
+      "etr": "2026-01-10T12:15:00-0400",
+      "start": "2026-01-10T10:32:02-0400"
+    },
+    "geom": {
+      "a": [
+        "sqbtGprbvJwbAjwAulDz`BawC}fBkgVy~OoIwe@`G}WrD_KllKkpVdfAer@zlAvCnnDvv@`]jIn{Bh|G`aApwCtmDtdTjPhzC"
+      ],
+      "p": [
+        "y`stGztpuJ"
+      ]
+    },
     "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "val": 11
+      },
+      "etr": "2026-01-10T12:00:00-0400",
+      "start": "2026-01-10T06:11:02-0400"
+    },
+    "geom": {
+      "p": [
+        "c}nxGv{lnJ"
+      ]
+    },
+    "id": "5",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-01-10T12:15:00-0400",
+      "start": "2026-01-10T02:49:16-0400"
+    },
+    "geom": {
+      "p": [
+        "_{~mGltwqK"
+      ]
+    },
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -207,7 +210,7 @@
         "o~fkG~lgjK"
       ]
     },
-    "id": "5",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -226,7 +229,7 @@
         "_anyG~fasJ"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
