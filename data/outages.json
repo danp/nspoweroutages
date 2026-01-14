@@ -1,6 +1,25 @@
 [
   {
     "desc": {
+      "cause": "Vehicle Accident",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-01-13T23:00:00-0400",
+      "start": "2026-01-12T09:14:26-0400"
+    },
+    "geom": {
+      "p": [
+        "_svxGntrnJ"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -13,46 +32,6 @@
     "geom": {
       "p": [
         "o{dsGn|e_K"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "val": 20
-      },
-      "etr": "2026-01-23T00:00:00-0400",
-      "start": "2025-12-21T09:17:00-0400"
-    },
-    "geom": {
-      "a": [
-        "abgnGjcngKc|@ndA}M{_A~Ck[db@yJzb@pb@"
-      ],
-      "p": [
-        "snhnG`lngK"
-      ]
-    },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2026-01-13T23:00:00-0400",
-      "start": "2026-01-12T09:14:26-0400"
-    },
-    "geom": {
-      "p": [
-        "_svxGntrnJ"
       ]
     },
     "id": "2",
@@ -123,12 +102,12 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2026-01-13T21:30:00-0400",
-      "start": "2026-01-13T14:19:59-0400"
+      "etr": "",
+      "start": "2026-01-13T13:43:13-0400"
     },
     "geom": {
       "p": [
-        "_h~sGnofyJ"
+        "o|yqG~jlyJ"
       ]
     },
     "id": "6",
@@ -150,7 +129,7 @@
         "ixz}Gvi~oJ"
       ]
     },
-    "id": "8",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -167,6 +146,27 @@
     "geom": {
       "p": [
         "ywfyGlgcuJ"
+      ]
+    },
+    "id": "8",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "val": 20
+      },
+      "etr": "2026-01-23T00:00:00-0400",
+      "start": "2025-12-21T09:17:00-0400"
+    },
+    "geom": {
+      "a": [
+        "abgnGjcngKc|@ndA}M{_A~Ck[db@yJzb@pb@"
+      ],
+      "p": [
+        "snhnG`lngK"
       ]
     },
     "id": "9",
