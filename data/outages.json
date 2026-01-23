@@ -1,13 +1,51 @@
 [
   {
     "desc": {
+      "cause": "Heavy Snowfall",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-01-23T10:00:00-0400",
+      "start": "2026-01-22T04:49:13-0400"
+    },
+    "geom": {
+      "p": [
+        "cldmGlaciK"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "",
+      "etr": "2026-01-23T10:00:00-0400",
+      "start": "2026-01-22T22:29:20-0400"
+    },
+    "geom": {
+      "p": [
+        "_zioGnnkbK"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-01-23T10:00:00-0400",
       "start": "2026-01-22T17:09:48-0400"
     },
     "geom": {
@@ -15,102 +53,7 @@
         "_xbnGli_mK"
       ]
     },
-    "id": "10",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Heavy Snowfall",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2026-01-23T16:00:00-0400",
-      "start": "2026-01-22T09:04:00-0400"
-    },
-    "geom": {
-      "p": [
-        "_c`nGn`fmK"
-      ]
-    },
-    "id": "12",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 9
-      },
-      "n_out": 4,
-      "outages": [
-        {
-          "cause": "Damage to Overhead Equipment",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2026-01-23T10:30:00-0400",
-          "start": "2026-01-21T16:41:42-0400"
-        },
-        {
-          "cause": "Damage to Overhead Equipment",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2026-01-23T10:30:00-0400",
-          "start": "2026-01-21T16:41:42-0400"
-        },
-        {
-          "cause": "Damage to Overhead Equipment",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2026-01-23T10:30:00-0400",
-          "start": "2026-01-21T16:41:42-0400"
-        },
-        {
-          "cause": "Heavy Snowfall",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "",
-          "start": "2026-01-22T04:49:13-0400"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "aqdmGxmciK"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Overhead Equipment",
-      "cluster": false,
-      "cust_a": {
-        "val": 9
-      },
-      "etr": "2026-01-23T10:30:00-0400",
-      "start": "2026-01-21T16:41:42-0400"
-    },
-    "geom": {
-      "p": [
-        "m{dmGp~ciK"
-      ]
-    },
-    "id": "4",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -129,26 +72,7 @@
         "aoxqGnd}kK"
       ]
     },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "",
-      "start": "2026-01-22T22:29:20-0400"
-    },
-    "geom": {
-      "p": [
-        "_zioGnnkbK"
-      ]
-    },
-    "id": "6",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -167,7 +91,7 @@
         "owvpG|zagK"
       ]
     },
-    "id": "7",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -186,7 +110,7 @@
         "ovarGnnejK"
       ]
     },
-    "id": "8",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -205,7 +129,26 @@
         "_}eoGn||jK"
       ]
     },
-    "id": "9",
+    "id": "7",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Heavy Snowfall",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-01-23T16:00:00-0400",
+      "start": "2026-01-22T09:04:00-0400"
+    },
+    "geom": {
+      "p": [
+        "_c`nGn`fmK"
+      ]
+    },
+    "id": "8",
     "title": "Outage Information"
   }
 ]
