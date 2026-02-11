@@ -4,15 +4,17 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 35
       },
-      "etr": "2026-02-11T16:15:00-0400",
+      "etr": "2026-02-11T15:15:00-0400",
       "start": "2026-02-11T10:37:19-0400"
     },
     "geom": {
+      "a": [
+        "umdqG|krdKo@zIgeAp{Ao@\\?ir@fGaF|a@e[`]yP"
+      ],
       "p": [
-        "okfqG~vsdK"
+        "mzeqG~|sdK"
       ]
     },
     "id": "1",
@@ -79,22 +81,40 @@
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 8
       },
-      "etr": "2026-02-11T16:15:00-0400",
-      "start": "2026-02-11T10:38:10-0400"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-02-11T17:15:00-0400",
+          "start": "2026-02-11T10:40:16-0400"
+        },
+        {
+          "cause": "Damage to Overhead Equipment",
+          "cluster": false,
+          "cust_a": {
+            "val": 7
+          },
+          "etr": "2026-02-11T15:45:00-0400",
+          "start": "2026-02-11T08:30:00-0400"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "_mdqG~vsdK"
+        "_h`yGfz_mJ"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -134,24 +154,6 @@
       ]
     },
     "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Overhead Equipment",
-      "cluster": false,
-      "cust_a": {
-        "val": 7
-      },
-      "etr": "2026-02-11T15:45:00-0400",
-      "start": "2026-02-11T08:30:00-0400"
-    },
-    "geom": {
-      "p": [
-        "qd`yG`y_mJ"
-      ]
-    },
-    "id": "5",
     "title": "Outage Information"
   },
   {
