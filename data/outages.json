@@ -1,6 +1,25 @@
 [
   {
     "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-03-05T14:45:00-0400",
+      "start": "2026-03-05T09:07:13-0400"
+    },
+    "geom": {
+      "p": [
+        "_rgrG~iqbK"
+      ]
+    },
+    "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Planned Maintenance",
       "cluster": false,
       "cust_a": {
@@ -28,25 +47,6 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2026-03-05T13:15:00-0400",
-      "start": "2026-03-05T08:10:00-0400"
-    },
-    "geom": {
-      "p": [
-        "_tqoGnvjcK"
-      ]
-    },
-    "id": "3",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
       "etr": "2026-03-05T13:45:00-0400",
       "start": "2026-03-05T06:36:26-0400"
     },
@@ -55,7 +55,7 @@
         "oi|sGntlvJ"
       ]
     },
-    "id": "4",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -74,7 +74,7 @@
         "qvcyGxbitJ"
       ]
     },
-    "id": "5",
+    "id": "4",
     "title": "Outage Information"
   }
 ]
