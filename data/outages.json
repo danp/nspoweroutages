@@ -8,6 +8,15 @@
       "n_out": 2,
       "outages": [
         {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 16
+          },
+          "etr": "2026-04-19T12:00:00-0300",
+          "start": "2026-04-19T09:45:09-0300"
+        },
+        {
           "cause": "Cause Being Investigated",
           "cluster": false,
           "cust_a": {
@@ -16,15 +25,6 @@
           },
           "etr": "2026-04-19T14:00:00-0300",
           "start": "2026-04-19T09:38:30-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "val": 16
-          },
-          "etr": "2026-04-19T13:45:00-0300",
-          "start": "2026-04-19T09:30:42-0300"
         }
       ]
     },
@@ -44,15 +44,15 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2026-04-19T14:30:00-0300",
-      "start": "2026-04-19T08:23:11-0300"
+      "etr": "2026-04-19T11:15:00-0300",
+      "start": "2026-04-18T23:03:24-0300"
     },
     "geom": {
       "p": [
-        "usdkGlptqK"
+        "_pzxG~hnlJ"
       ]
     },
-    "id": "3",
+    "id": "2",
     "title": "Outage Information"
   },
   {
@@ -63,12 +63,12 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2026-04-19T10:15:00-0300",
-      "start": "2026-04-18T23:03:24-0300"
+      "etr": "2026-04-19T14:30:00-0300",
+      "start": "2026-04-19T08:23:11-0300"
     },
     "geom": {
       "p": [
-        "_pzxG~hnlJ"
+        "usdkGlptqK"
       ]
     },
     "id": "4",
