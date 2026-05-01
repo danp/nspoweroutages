@@ -1,24 +1,6 @@
 [
   {
     "desc": {
-      "cause": "Damage to Overhead Equipment",
-      "cluster": false,
-      "cust_a": {
-        "val": 16
-      },
-      "etr": "2026-05-01T22:30:00-0300",
-      "start": "2026-04-30T21:01:05-0300"
-    },
-    "geom": {
-      "p": [
-        "{ueyGrlpnJ"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -97,6 +79,24 @@
   },
   {
     "desc": {
+      "cause": "Damage to Overhead Equipment",
+      "cluster": false,
+      "cust_a": {
+        "val": 16
+      },
+      "etr": "2026-05-01T22:30:00-0300",
+      "start": "2026-04-30T21:01:05-0300"
+    },
+    "geom": {
+      "p": [
+        "{ueyGrlpnJ"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Transmission Interruption",
       "cluster": false,
       "cust_a": {
@@ -162,7 +162,7 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2026-04-30T21:30:00-0300",
+      "etr": "",
       "start": "2026-04-30T12:27:47-0300"
     },
     "geom": {
