@@ -4,27 +4,6 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 45
-      },
-      "etr": "2026-05-03T20:45:00-0300",
-      "start": "2026-05-03T14:45:19-0300"
-    },
-    "geom": {
-      "a": [
-        "wppuGhurvJcQrZazAaHyZax@jzAgLxLAx^xr@"
-      ],
-      "p": [
-        "_rruG`irvJ"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
         "masked": true,
         "val": 4
       },
@@ -60,39 +39,59 @@
   },
   {
     "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 18
       },
-      "etr": "2026-05-03T20:15:00-0300",
-      "start": "2026-05-03T14:34:17-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 10
+          },
+          "etr": "2026-05-03T19:30:00-0300",
+          "start": "2026-05-03T14:34:17-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 8
+          },
+          "etr": "2026-05-03T19:15:00-0300",
+          "start": "2026-05-03T14:29:34-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
-        "_tqoGnkobK"
+        "qgroGlvnbK"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 8
+        "val": 45
       },
-      "etr": "2026-05-03T19:15:00-0300",
-      "start": "2026-05-03T14:29:34-0300"
+      "etr": "2026-05-03T20:45:00-0300",
+      "start": "2026-05-03T14:45:19-0300"
     },
     "geom": {
+      "a": [
+        "wppuGhurvJcQrZazAaHyZax@jzAgLxLAx^xr@"
+      ],
       "p": [
-        "qhroG`{nbK"
+        "_rruG`irvJ"
       ]
     },
-    "id": "3",
+    "id": "2",
     "title": "Outage Information"
   },
   {
