@@ -1,22 +1,61 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
+      "cause": "Partial Power",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2026-05-09T16:00:00-0300",
-      "start": "2026-05-09T11:16:23-0300"
+      "etr": "2026-05-10T17:30:00-0300",
+      "start": "2026-04-24T08:25:00-0300"
+    },
+    "geom": {
+      "p": [
+        "okliGnn_rK"
+      ]
+    },
+    "id": "10",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Emergency Repair of Lines",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-05-09T13:30:00-0300",
+          "start": "2026-05-09T11:20:46-0300"
+        },
+        {
+          "cause": "Emergency Repair of Lines",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-05-09T13:30:00-0300",
+          "start": "2026-05-09T11:16:23-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
         "_wmoG~}`cK"
       ]
     },
-    "id": "1",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -34,7 +73,7 @@
         "ozxhGn{dpK"
       ]
     },
-    "id": "2",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -53,7 +92,7 @@
         "_gfyG~scuJ"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -72,7 +111,7 @@
         "qxrmG`g~hK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -90,7 +129,7 @@
         "wnooGxyqoK"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -109,7 +148,7 @@
         "qi`yG~nypJ"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -128,7 +167,7 @@
         "o`kpG~zdcK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -145,25 +184,6 @@
     "geom": {
       "p": [
         "oi_pG~it~J"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Partial Power",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2026-05-10T17:30:00-0300",
-      "start": "2026-04-24T08:25:00-0300"
-    },
-    "geom": {
-      "p": [
-        "okliGnn_rK"
       ]
     },
     "id": "9",
