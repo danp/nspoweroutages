@@ -1,6 +1,42 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 14
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 6
+          },
+          "etr": "2026-05-13T16:00:00-0300",
+          "start": "2026-05-13T12:42:50-0300"
+        },
+        {
+          "cause": "Planned Maintenance",
+          "cluster": false,
+          "cust_a": {
+            "val": 8
+          },
+          "etr": "2026-05-13T16:00:00-0300",
+          "start": "2026-05-13T12:43:09-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "seykG~y_jK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -15,7 +51,7 @@
         "on|xGnuauJ"
       ]
     },
-    "id": "1",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -34,7 +70,7 @@
         "q}xjGhwsqK"
       ]
     },
-    "id": "2",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -53,7 +89,7 @@
         "qouuGz~x|J"
       ]
     },
-    "id": "3",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -74,7 +110,7 @@
         "e`xtG~pkgK"
       ]
     },
-    "id": "4",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -95,7 +131,7 @@
         "gvruG~uk|J"
       ]
     },
-    "id": "5",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -114,7 +150,7 @@
         "okliGnn_rK"
       ]
     },
-    "id": "6",
+    "id": "8",
     "title": "Outage Information"
   }
 ]
