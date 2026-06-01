@@ -1,20 +1,18 @@
 [
   {
     "desc": {
-      "cause": "Planned Maintenance",
+      "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "val": 19
+        "masked": true,
+        "val": 4
       },
-      "etr": "2026-06-01T16:00:00-0300",
-      "start": "2026-06-01T10:00:48-0300"
+      "etr": "2026-06-01T16:15:00-0300",
+      "start": "2026-06-01T10:14:58-0300"
     },
     "geom": {
-      "a": [
-        "slsuGran|Jo@cJd@sDHvO"
-      ],
       "p": [
-        "emsuGhxm|J"
+        "o||mG~pxhK"
       ]
     },
     "id": "1",
@@ -97,42 +95,45 @@
   },
   {
     "desc": {
-      "cluster": true,
+      "cause": "Planned Maintenance",
+      "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 35
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2026-06-01T17:00:00-0300",
-          "start": "2026-06-01T09:49:35-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2026-06-01T17:00:00-0300",
-          "start": "2026-06-01T09:50:07-0300"
-        }
-      ]
+      "etr": "2026-06-01T12:00:00-0300",
+      "start": "2026-06-01T10:14:49-0300"
     },
     "geom": {
+      "a": [
+        "_aj{G|xhsJmT|TvH_YtJ`C"
+      ],
       "p": [
-        "orj{G~`isJ"
+        "_lj{Gz~hsJ"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Planned Maintenance",
+      "cluster": false,
+      "cust_a": {
+        "val": 19
+      },
+      "etr": "2026-06-01T16:00:00-0300",
+      "start": "2026-06-01T10:00:48-0300"
+    },
+    "geom": {
+      "a": [
+        "slsuGran|Jo@cJd@sDHvO"
+      ],
+      "p": [
+        "emsuGhxm|J"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -150,7 +151,7 @@
         "_giuGnfxqJ"
       ]
     },
-    "id": "2",
+    "id": "4",
     "title": "Outage Information"
   },
   {
