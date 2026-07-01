@@ -1,18 +1,57 @@
 [
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-07-01T18:30:00-0300",
+          "start": "2026-07-01T14:23:42-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-07-01T18:45:00-0300",
+          "start": "2026-07-01T13:39:17-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "u|hsGnhhaK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2026-07-01T19:30:00-0300",
-      "start": "2026-07-01T13:49:00-0300"
+      "etr": "2026-07-01T21:30:00-0300",
+      "start": "2026-07-01T14:27:47-0300"
     },
     "geom": {
       "p": [
-        "q|bpGr`jbK"
+        "o`exG~l|nJ"
       ]
     },
     "id": "2",
@@ -26,12 +65,12 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2026-07-01T19:00:00-0300",
-      "start": "2026-07-01T13:46:25-0300"
+      "etr": "2026-07-01T16:00:00-0300",
+      "start": "2026-07-01T07:17:57-0300"
     },
     "geom": {
       "p": [
-        "_bvnGlwbdK"
+        "qfqrGtnyaK"
       ]
     },
     "id": "3",
@@ -53,7 +92,7 @@
         "cxorGb~txJ"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -72,7 +111,7 @@
         "uv~iGhk~lK"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -91,7 +130,7 @@
         "oluwGns}oJ"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   }
 ]
