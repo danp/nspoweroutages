@@ -1,61 +1,23 @@
 [
   {
     "desc": {
-      "cause": "Cause Being Investigated",
+      "cause": "Planned Maintenance",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 133
       },
-      "etr": "2026-07-29T18:15:00-0300",
-      "start": "2026-07-29T10:56:00-0300"
-    },
-    "geom": {
-      "p": [
-        "owstGnk{rJ"
-      ]
-    },
-    "id": "1",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2026-07-29T12:30:00-0300",
-      "start": "2026-07-29T05:27:55-0300"
-    },
-    "geom": {
-      "p": [
-        "__gxGnnwrJ"
-      ]
-    },
-    "id": "11",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Vehicle Accident",
-      "cluster": false,
-      "cust_a": {
-        "val": 619
-      },
-      "etr": "2026-07-29T12:15:00-0300",
-      "start": "2026-07-29T07:00:52-0300"
+      "etr": "2026-07-29T11:45:00-0300",
+      "start": "2026-07-29T09:13:21-0300"
     },
     "geom": {
       "a": [
-        "awwwGtlfsJuClAqkAoGemYktCllAijLhcAghExFkFv~HytD~}Ll|ZbFvnA"
+        "clvqG`cqhKuMjcAyJjYgjEibA}J_i@vFoN|eE}Zz^np@bBnG"
       ],
       "p": [
-        "ekgxGjiyrJ"
+        "svyqGjmqhK"
       ]
     },
-    "id": "12",
+    "id": "10",
     "title": "Outage Information"
   },
   {
@@ -76,6 +38,42 @@
     },
     "id": "13",
     "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "val": 21
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Vehicle Accident",
+          "cluster": false,
+          "cust_a": {
+            "val": 13
+          },
+          "etr": "2026-07-29T17:15:00-0300",
+          "start": "2026-07-29T11:18:06-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 8
+          },
+          "etr": "2026-07-29T17:30:00-0300",
+          "start": "2026-07-29T05:27:55-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "segxG`~wrJ"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -113,8 +111,27 @@
         "u~fxGrn|nJ"
       ]
     },
-    "id": "14-1",
+    "id": "14-2",
     "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-07-29T18:15:00-0300",
+      "start": "2026-07-29T10:56:00-0300"
+    },
+    "geom": {
+      "p": [
+        "owstGnk{rJ"
+      ]
+    },
+    "id": "3",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -132,7 +149,7 @@
         "o~zzGnvvsJ"
       ]
     },
-    "id": "2",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -151,7 +168,7 @@
         "gxhuG~jusJ"
       ]
     },
-    "id": "3",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -170,7 +187,7 @@
         "_nyoGnguoK"
       ]
     },
-    "id": "4",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -180,7 +197,7 @@
       "cust_a": {
         "val": 15
       },
-      "etr": "2026-07-29T11:15:00-0300",
+      "etr": "",
       "start": "2026-07-29T10:13:20-0300"
     },
     "geom": {
@@ -188,7 +205,7 @@
         "m|_yGtu|lJ"
       ]
     },
-    "id": "5",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -209,7 +226,7 @@
         "gmwmGl}ihK"
       ]
     },
-    "id": "6",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -227,28 +244,7 @@
         "}wlnG~gnrK"
       ]
     },
-    "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Planned Maintenance",
-      "cluster": false,
-      "cust_a": {
-        "val": 133
-      },
-      "etr": "2026-07-29T11:45:00-0300",
-      "start": "2026-07-29T09:13:21-0300"
-    },
-    "geom": {
-      "a": [
-        "clvqG`cqhKuMjcAyJjYgjEibA}J_i@vFoN|eE}Zz^np@bBnG"
-      ],
-      "p": [
-        "svyqGjmqhK"
-      ]
-    },
-    "id": "8",
+    "id": "9",
     "title": "Outage Information"
   }
 ]
