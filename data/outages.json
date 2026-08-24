@@ -22,40 +22,24 @@
   },
   {
     "desc": {
-      "cluster": true,
+      "cause": "Fire",
+      "cluster": false,
       "cust_a": {
-        "val": 2530
+        "val": 2529
       },
-      "n_out": 2,
-      "outages": [
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "2026-08-24T10:45:00-0300",
-          "start": "2026-08-24T05:34:40-0300"
-        },
-        {
-          "cause": "Fire",
-          "cluster": false,
-          "cust_a": {
-            "val": 2529
-          },
-          "etr": "2026-08-24T07:45:00-0300",
-          "start": "2026-08-24T05:30:53-0300"
-        }
-      ]
+      "etr": "2026-08-24T07:45:00-0300",
+      "start": "2026-08-24T05:30:53-0300"
     },
     "geom": {
+      "a": [
+        "ucnoG|~`cK{Iz\\eaB|wBgAz@wAoa@rAsEfw@ikBxh@wi@tBdAtHhd@"
+      ],
       "p": [
-        "_xooGlvbcK"
+        "qzooGjpbcK"
       ]
     },
-    "id": "14-1",
-    "title": "Area Outage"
+    "id": "2",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -75,7 +59,7 @@
         "ay`lG|ipjK"
       ]
     },
-    "id": "4",
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -94,7 +78,7 @@
         "ovarG|ylhK"
       ]
     },
-    "id": "5",
+    "id": "4",
     "title": "Outage Information"
   }
 ]
