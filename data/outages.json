@@ -20,54 +20,6 @@
   },
   {
     "desc": {
-      "cluster": true,
-      "cust_a": {
-        "val": 5
-      },
-      "n_out": 3,
-      "outages": [
-        {
-          "cause": "Lightning",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "",
-          "start": "2026-08-26T15:16:11-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "",
-          "start": "2026-08-26T16:10:54-0300"
-        },
-        {
-          "cause": "Cause Being Investigated",
-          "cluster": false,
-          "cust_a": {
-            "masked": true,
-            "val": 4
-          },
-          "etr": "",
-          "start": "2026-08-26T15:12:00-0300"
-        }
-      ]
-    },
-    "geom": {
-      "p": [
-        "_ynxG~jrqJ"
-      ]
-    },
-    "id": "14-1",
-    "title": "Area Outage"
-  },
-  {
-    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -106,6 +58,25 @@
   },
   {
     "desc": {
+      "cause": "Lightning",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "",
+      "start": "2026-08-26T15:16:11-0300"
+    },
+    "geom": {
+      "p": [
+        "_ynxG~jrqJ"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -138,7 +109,7 @@
         "aiooGbe`cK"
       ]
     },
-    "id": "8",
+    "id": "6",
     "title": "Outage Information"
   }
 ]
