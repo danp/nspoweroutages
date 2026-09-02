@@ -1,23 +1,76 @@
 [
   {
     "desc": {
-      "cause": "Vehicle Accident",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
-        "val": 895
+        "val": 1074
       },
-      "etr": "2026-09-03T04:00:00-0300",
-      "start": "2026-09-02T14:42:36-0300"
-    },
-    "geom": {
-      "a": [
-        "qrloGlf`cKwAv@s@\\{Ds@yGaChBoHxC@dHrEv@xD"
-      ],
-      "p": [
-        "e|loGta`cK"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "val": 179
+          },
+          "etr": "2026-09-03T04:00:00-0300",
+          "start": "2026-09-02T14:41:12-0300"
+        },
+        {
+          "cause": "Vehicle Accident",
+          "cluster": false,
+          "cust_a": {
+            "val": 895
+          },
+          "etr": "2026-09-03T04:00:00-0300",
+          "start": "2026-09-02T14:42:36-0300"
+        }
       ]
     },
-    "id": "1",
+    "geom": {
+      "p": [
+        "_|loGz~_cK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-09-03T00:30:00-0300",
+      "start": "2026-09-02T17:18:51-0300"
+    },
+    "geom": {
+      "p": [
+        "oekuG~wqwJ"
+      ]
+    },
+    "id": "2",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-09-03T00:30:00-0300",
+      "start": "2026-09-02T17:17:32-0300"
+    },
+    "geom": {
+      "p": [
+        "ctjuGpprwJ"
+      ]
+    },
+    "id": "3",
     "title": "Outage Information"
   },
   {
@@ -36,7 +89,7 @@
         "s~oxGnplnJ"
       ]
     },
-    "id": "2",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -55,7 +108,7 @@
         "_nswGnxcmJ"
       ]
     },
-    "id": "3",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -76,47 +129,7 @@
         "e``mGlmvgK"
       ]
     },
-    "id": "5",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Vehicle Accident",
-      "cluster": false,
-      "cust_a": {
-        "val": 546
-      },
-      "etr": "2026-09-02T18:45:00-0300",
-      "start": "2026-09-02T14:41:12-0300"
-    },
-    "geom": {
-      "a": [
-        "gkloGnfccKoFiKeJic@@yy@~@{EdKp`@DRfCboA"
-      ],
-      "p": [
-        "muloGrlacK"
-      ]
-    },
-    "id": "6",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2026-09-02T20:45:00-0300",
-      "start": "2026-09-02T13:30:31-0300"
-    },
-    "geom": {
-      "p": [
-        "__gxG~gsuJ"
-      ]
-    },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -135,7 +148,7 @@
         "o_suG~`fwJ"
       ]
     },
-    "id": "8",
+    "id": "9",
     "title": "Outage Information"
   }
 ]
