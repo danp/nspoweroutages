@@ -7,16 +7,116 @@
         "masked": true,
         "val": 4
       },
-      "etr": "2026-09-05T01:00:00-0300",
-      "start": "2026-09-04T16:20:00-0300"
+      "etr": "2026-09-05T06:30:00-0300",
+      "start": "2026-09-04T23:25:47-0300"
     },
     "geom": {
       "p": [
-        "_dpqGnetfK"
+        "_giuGnitqJ"
       ]
     },
     "id": "1",
     "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Transmission Interruption",
+      "cluster": false,
+      "cust_a": {
+        "val": 435
+      },
+      "etr": "2026-09-05T04:00:00-0300",
+      "start": "2026-09-04T20:50:27-0300"
+    },
+    "geom": {
+      "a": [
+        "iitsGxrisJgWt`AgCpBy_@mXaEyZ|C_p@j[_qAtUo^jJnqC"
+      ],
+      "p": [
+        "shusGlxhsJ"
+      ]
+    },
+    "id": "10",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Cause Being Investigated",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-09-05T02:00:00-0300",
+      "start": "2026-09-04T20:09:00-0300"
+    },
+    "geom": {
+      "p": [
+        "ekyrGfeouJ"
+      ]
+    },
+    "id": "11",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Damage to Underground Equipment",
+      "cluster": false,
+      "cust_a": {
+        "val": 14
+      },
+      "etr": "2026-09-11T16:45:00-0300",
+      "start": "2026-08-28T09:35:59-0300"
+    },
+    "geom": {
+      "a": [
+        "wb_mGj{pgK]tc@aMlqBm_@pyCsM_B`}@umH"
+      ],
+      "p": [
+        "e``mGlmvgK"
+      ]
+    },
+    "id": "12",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-09-05T06:45:00-0300",
+          "start": "2026-09-04T23:27:01-0300"
+        },
+        {
+          "cause": "Trees On Line",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-09-05T13:00:00-0300",
+          "start": "2026-09-04T21:38:57-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "_dmuG~jouJ"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -54,8 +154,27 @@
         "cwfyGdlcuJ"
       ]
     },
-    "id": "14-1",
+    "id": "14-2",
     "title": "Area Outage"
+  },
+  {
+    "desc": {
+      "cause": "Trees On Line",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-09-05T13:00:00-0300",
+      "start": "2026-09-04T16:20:00-0300"
+    },
+    "geom": {
+      "p": [
+        "_dpqGnetfK"
+      ]
+    },
+    "id": "4",
+    "title": "Outage Information"
   },
   {
     "desc": {
@@ -72,7 +191,7 @@
         "_l}oGxf{dK"
       ]
     },
-    "id": "2",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -91,7 +210,7 @@
         "_{uyG~i`oJ"
       ]
     },
-    "id": "3",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -110,68 +229,7 @@
         "}mgrG~j~`K"
       ]
     },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Transmission Interruption",
-      "cluster": false,
-      "cust_a": {
-        "val": 435
-      },
-      "etr": "2026-09-05T04:00:00-0300",
-      "start": "2026-09-04T20:50:27-0300"
-    },
-    "geom": {
-      "a": [
-        "iitsGxrisJgWt`AgCpBy_@mXaEyZ|C_p@j[_qAtUo^jJnqC"
-      ],
-      "p": [
-        "shusGlxhsJ"
-      ]
-    },
     "id": "7",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2026-09-05T02:00:00-0300",
-      "start": "2026-09-04T20:09:00-0300"
-    },
-    "geom": {
-      "p": [
-        "ekyrGfeouJ"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Damage to Underground Equipment",
-      "cluster": false,
-      "cust_a": {
-        "val": 14
-      },
-      "etr": "2026-09-11T16:45:00-0300",
-      "start": "2026-08-28T09:35:59-0300"
-    },
-    "geom": {
-      "a": [
-        "wb_mGj{pgK]tc@aMlqBm_@pyCsM_B`}@umH"
-      ],
-      "p": [
-        "e``mGlmvgK"
-      ]
-    },
-    "id": "9",
     "title": "Outage Information"
   }
 ]
