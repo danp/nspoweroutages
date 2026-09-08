@@ -4,18 +4,36 @@
       "cause": "High Winds and Rain",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 7
       },
-      "etr": "2026-09-08T21:15:00-0300",
+      "etr": "2026-09-08T09:15:00-0300",
       "start": "2026-09-07T21:05:12-0300"
     },
     "geom": {
       "p": [
-        "_gfyG~jumJ"
+        "aafyGtvtmJ"
       ]
     },
     "id": "1",
+    "title": "Outage Information"
+  },
+  {
+    "desc": {
+      "cause": "Trees On Line",
+      "cluster": false,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "etr": "2026-09-08T12:15:00-0300",
+      "start": "2026-09-07T12:00:47-0300"
+    },
+    "geom": {
+      "p": [
+        "av{xGzpftJ"
+      ]
+    },
+    "id": "10",
     "title": "Outage Information"
   },
   {
@@ -34,7 +52,7 @@
         "oejoGn`|hK"
       ]
     },
-    "id": "10",
+    "id": "11",
     "title": "Outage Information"
   },
   {
@@ -55,27 +73,47 @@
         "e``mGlmvgK"
       ]
     },
-    "id": "11",
+    "id": "12",
     "title": "Outage Information"
   },
   {
     "desc": {
-      "cause": "High Winds and Rain",
-      "cluster": false,
+      "cluster": true,
       "cust_a": {
         "masked": true,
         "val": 4
       },
-      "etr": "2026-09-08T21:15:00-0300",
-      "start": "2026-09-07T20:59:56-0300"
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "High Winds and Rain",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-09-08T21:15:00-0300",
+          "start": "2026-09-07T21:11:21-0300"
+        },
+        {
+          "cause": "High Winds and Rain",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-09-08T21:15:00-0300",
+          "start": "2026-09-07T20:59:56-0300"
+        }
+      ]
     },
     "geom": {
       "p": [
         "o`exG~xlnJ"
       ]
     },
-    "id": "2",
-    "title": "Outage Information"
+    "id": "14-1",
+    "title": "Area Outage"
   },
   {
     "desc": {
@@ -93,7 +131,7 @@
         "wufpGfnmcK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -111,7 +149,7 @@
         "oqhoGdhjbK"
       ]
     },
-    "id": "4",
+    "id": "5",
     "title": "Outage Information"
   },
   {
@@ -130,7 +168,7 @@
         "kd`uGl`f~J"
       ]
     },
-    "id": "5",
+    "id": "6",
     "title": "Outage Information"
   },
   {
@@ -149,7 +187,7 @@
         "_dmuG~ji}J"
       ]
     },
-    "id": "6",
+    "id": "7",
     "title": "Outage Information"
   },
   {
@@ -168,7 +206,7 @@
         "odvvG~}}fK"
       ]
     },
-    "id": "7",
+    "id": "8",
     "title": "Outage Information"
   },
   {
@@ -185,25 +223,6 @@
     "geom": {
       "p": [
         "qqjwGpnrrJ"
-      ]
-    },
-    "id": "8",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Trees On Line",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2026-09-08T12:15:00-0300",
-      "start": "2026-09-07T12:00:47-0300"
-    },
-    "geom": {
-      "p": [
-        "av{xGzpftJ"
       ]
     },
     "id": "9",
