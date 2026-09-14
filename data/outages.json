@@ -4,10 +4,9 @@
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
-        "masked": true,
-        "val": 4
+        "val": 8
       },
-      "etr": "2026-09-15T00:15:00-0300",
+      "etr": "2026-09-14T23:45:00-0300",
       "start": "2026-09-14T19:09:58-0300"
     },
     "geom": {
@@ -60,6 +59,45 @@
   },
   {
     "desc": {
+      "cluster": true,
+      "cust_a": {
+        "masked": true,
+        "val": 4
+      },
+      "n_out": 2,
+      "outages": [
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-09-15T02:30:00-0300",
+          "start": "2026-09-14T19:20:15-0300"
+        },
+        {
+          "cause": "Cause Being Investigated",
+          "cluster": false,
+          "cust_a": {
+            "masked": true,
+            "val": 4
+          },
+          "etr": "2026-09-15T00:45:00-0300",
+          "start": "2026-09-14T17:36:04-0300"
+        }
+      ]
+    },
+    "geom": {
+      "p": [
+        "o|yqG~xwiK"
+      ]
+    },
+    "id": "14-1",
+    "title": "Area Outage"
+  },
+  {
+    "desc": {
       "cause": "Cause Being Investigated",
       "cluster": false,
       "cust_a": {
@@ -74,7 +112,7 @@
         "_quoGno}dK"
       ]
     },
-    "id": "3",
+    "id": "4",
     "title": "Outage Information"
   },
   {
@@ -95,25 +133,6 @@
         "}gnkGdu`jK"
       ]
     },
-    "id": "4",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2026-09-15T00:45:00-0300",
-      "start": "2026-09-14T17:36:04-0300"
-    },
-    "geom": {
-      "p": [
-        "o|yqG~xwiK"
-      ]
-    },
     "id": "5",
     "title": "Outage Information"
   },
@@ -131,25 +150,6 @@
     "geom": {
       "p": [
         "gkcuGddgzJ"
-      ]
-    },
-    "id": "6",
-    "title": "Outage Information"
-  },
-  {
-    "desc": {
-      "cause": "Cause Being Investigated",
-      "cluster": false,
-      "cust_a": {
-        "masked": true,
-        "val": 4
-      },
-      "etr": "2026-09-14T23:15:00-0300",
-      "start": "2026-09-14T17:34:00-0300"
-    },
-    "geom": {
-      "p": [
-        "_tqoG~fubK"
       ]
     },
     "id": "7",
