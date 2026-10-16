@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bytes"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -37,61 +36,54 @@ type update struct {
 }
 
 func do() (update, error) {
-	loc, err := time.LoadLocation("America/Halifax")
-	if err != nil {
-		return update{}, fmt.Errorf("load location: %w", err)
-	}
-
 	resp, err := http.Get("https://resourcesprd-nspower.aws.silvertech.net/oasis/current_report.shtml")
 	if err != nil {
 		return update{}, fmt.Errorf("get: %w", err)
 	}
 	defer resp.Body.Close()
 
-	b, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return update{}, fmt.Errorf("get: %w", err)
+	if resp.StatusCode != http.StatusOK {
+		return update{}, fmt.Errorf("get: unexpected status %s", resp.Status)
 	}
 
-	// html body table.standard tbody tr td
+	return parseReport(resp.Body)
+}
 
-	doc, err := goquery.NewDocumentFromReader(bytes.NewReader(b))
+func parseReport(r io.Reader) (update, error) {
+	loc, err := time.LoadLocation("America/Halifax")
+	if err != nil {
+		return update{}, fmt.Errorf("load location: %w", err)
+	}
+
+	doc, err := goquery.NewDocumentFromReader(r)
 	if err != nil {
 		return update{}, fmt.Errorf("new document: %w", err)
 	}
 
 	var up update
 
-	var findErr error
-	var done bool
-	doc.Find("html body table.standard tbody tr").Each(func(_ int, sel *goquery.Selection) {
-		if done {
-			return
-		}
+	// The current conditions timestamp is outside the table. Later sections
+	// have their own timestamps and tables, which must not be included.
+	ts := strings.TrimSpace(doc.Find(".updated-header span").First().Text())
+	ts = strings.TrimSpace(strings.TrimPrefix(ts, "Last Updated:"))
+	if ts == "" {
+		return update{}, fmt.Errorf("no time found")
+	}
+	t, err := time.ParseInLocation("02-Jan-06 15:04", ts, loc)
+	if err != nil {
+		return update{}, fmt.Errorf("bad time %q: %w", ts, err)
+	}
+	up.Time = t.UTC()
 
+	var findErr error
+	doc.Find("table.two-col").First().Find("tbody tr").Each(func(_ int, sel *goquery.Selection) {
 		tds := sel.Find("td")
-		if strings.Contains(tds.Text(), "Five Day Historic") {
-			done = true
-			return
-		}
 		if tds.Length() != 2 {
 			return
 		}
 
 		key := strings.TrimSpace(tds.First().Text())
 		val := strings.TrimSpace(tds.Next().Text())
-
-		// Last Updated: 28-Sep-21 19:32:05
-		if strings.HasPrefix(key, "Last Updated: ") {
-			ts := strings.TrimPrefix(key, "Last Updated: ")
-			t, err := time.ParseInLocation("02-Jan-06 15:04:05", ts, loc)
-			if err != nil {
-				findErr = fmt.Errorf("bad time %q: %w", ts, err)
-				return
-			}
-			up.Time = t.UTC()
-			return
-		}
 
 		fv, err := strconv.ParseFloat(val, 64)
 		if err != nil {
@@ -105,8 +97,8 @@ func do() (update, error) {
 		return update{}, fmt.Errorf("scraping: %w", findErr)
 	}
 
-	if up.Time.IsZero() {
-		return update{}, fmt.Errorf("no time found")
+	if len(up.Points) == 0 {
+		return update{}, fmt.Errorf("no current system conditions found")
 	}
 
 	sort.Slice(up.Points, func(i, j int) bool {
